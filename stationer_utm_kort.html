@@ -1,0 +1,3830 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_39ce4e552b96b7f60c6296db16708bfc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_39ce4e552b96b7f60c6296db16708bfc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_39ce4e552b96b7f60c6296db16708bfc = L.map(
+                "map_39ce4e552b96b7f60c6296db16708bfc",
+                {
+                    center: [55.430346941741746, 10.365928941703629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e12373456cb1358a1d3c975ec38b6886 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+            var marker_bac14ed5ea8180246be782058c930a15 = L.marker(
+                [55.0603999504376, 10.6213989574227],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6c14d182970824bedd8e6404ba8aeb86 = L.popup({"maxWidth": 300});
+
+        
+            var html_168bc83fd78dcf920140c79d2036346c = $(`<div id="html_168bc83fd78dcf920140c79d2036346c" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 27000<br>     <b>Name:</b> SVENDBORG HAVN<br>     <b>Start:</b> 01.02.2018<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.0603999504376<br>     <b>Long:</b> 10.6213989574227<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_6c14d182970824bedd8e6404ba8aeb86.setContent(html_168bc83fd78dcf920140c79d2036346c);
+        
+
+        marker_bac14ed5ea8180246be782058c930a15.bindPopup(popup_6c14d182970824bedd8e6404ba8aeb86)
+        ;
+
+        
+    
+    
+            var marker_0a53f08c420dc3e8a2bee397b08c5da3 = L.marker(
+                [55.0331977752989, 10.540200532091],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_53d4da45980b235bfa1bfcbd5defc29a = L.popup({"maxWidth": 300});
+
+        
+            var html_f048d2223e170206ceab52beb12dc90b = $(`<div id="html_f048d2223e170206ceab52beb12dc90b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 27003<br>     <b>Name:</b> RANTZAUSMINDE LYSTBÅDEHAVN<br>     <b>Start:</b> 01.05.2025<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.0331977752989<br>     <b>Long:</b> 10.540200532091<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_53d4da45980b235bfa1bfcbd5defc29a.setContent(html_f048d2223e170206ceab52beb12dc90b);
+        
+
+        marker_0a53f08c420dc3e8a2bee397b08c5da3.bindPopup(popup_53d4da45980b235bfa1bfcbd5defc29a)
+        ;
+
+        
+    
+    
+            var marker_ea44b158f3e431459ee710ba6efb58a9 = L.marker(
+                [55.0316019107567, 10.6681003700192],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_5bf74a8c30f66c35a944eb51baae0e1a = L.popup({"maxWidth": 300});
+
+        
+            var html_1f126f32d926e1764040663b328a516b = $(`<div id="html_1f126f32d926e1764040663b328a516b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 27004<br>     <b>Name:</b> THURØ GRASTEN<br>     <b>Start:</b> 01.05.2025<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.0316019107567<br>     <b>Long:</b> 10.6681003700192<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_5bf74a8c30f66c35a944eb51baae0e1a.setContent(html_1f126f32d926e1764040663b328a516b);
+        
+
+        marker_ea44b158f3e431459ee710ba6efb58a9.bindPopup(popup_5bf74a8c30f66c35a944eb51baae0e1a)
+        ;
+
+        
+    
+    
+            var marker_39ddf0ab21415b041e098346c1b91e36 = L.marker(
+                [55.5663039042414, 10.0799974285589],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_9178096c510fab9a1b1a04ee2dc3e727 = L.popup({"maxWidth": 300});
+
+        
+            var html_1f18e394b2e27b60869e3941e5ccb2b2 = $(`<div id="html_1f18e394b2e27b60869e3941e5ccb2b2" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28003<br>     <b>Name:</b> BOGENSE HAVN I<br>     <b>Start:</b> 29.11.2000<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.5663039042414<br>     <b>Long:</b> 10.0799974285589<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_9178096c510fab9a1b1a04ee2dc3e727.setContent(html_1f18e394b2e27b60869e3941e5ccb2b2);
+        
+
+        marker_39ddf0ab21415b041e098346c1b91e36.bindPopup(popup_9178096c510fab9a1b1a04ee2dc3e727)
+        ;
+
+        
+    
+    
+            var marker_42de9accc04ca0c20afb60c3c9dcfb0b = L.marker(
+                [55.5663039042414, 10.0799974285589],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_f0a9cf035d84cd4eeb20ccfcfcc567c0 = L.popup({"maxWidth": 300});
+
+        
+            var html_f24f7c81545e3bed478a902b8cc84aac = $(`<div id="html_f24f7c81545e3bed478a902b8cc84aac" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28004<br>     <b>Name:</b> BOGENSE HAVN II<br>     <b>Start:</b> 29.11.2000<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.5663039042414<br>     <b>Long:</b> 10.0799974285589<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_f0a9cf035d84cd4eeb20ccfcfcc567c0.setContent(html_f24f7c81545e3bed478a902b8cc84aac);
+        
+
+        marker_42de9accc04ca0c20afb60c3c9dcfb0b.bindPopup(popup_f0a9cf035d84cd4eeb20ccfcfcc567c0)
+        ;
+
+        
+    
+    
+            var marker_f49b45387866a76365b156f3c8a9f41a = L.marker(
+                [55.5680052916758, 10.0978689649667],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_32886d1766326dad2f02442124c7c774 = L.popup({"maxWidth": 300});
+
+        
+            var html_fb9e73f1fec20032521ce02f206831fa = $(`<div id="html_fb9e73f1fec20032521ce02f206831fa" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28005<br>     <b>Name:</b> BOGENSE RENSEANLÆG<br>     <b>Start:</b> 29.05.2012<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.5680052916758<br>     <b>Long:</b> 10.0978689649667<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_32886d1766326dad2f02442124c7c774.setContent(html_fb9e73f1fec20032521ce02f206831fa);
+        
+
+        marker_f49b45387866a76365b156f3c8a9f41a.bindPopup(popup_32886d1766326dad2f02442124c7c774)
+        ;
+
+        
+    
+    
+            var marker_e83550581a596c68a868ea7e6399ac3f = L.marker(
+                [55.5656590012919, 10.0939501648464],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_67c32c657d75d7beea012d0c8787316e = L.popup({"maxWidth": 300});
+
+        
+            var html_1cbfca74dc541687a702f78857449bc0 = $(`<div id="html_1cbfca74dc541687a702f78857449bc0" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 01.09.1912<br>     <b>End:</b> 31.05.1935<br>     <b>Lat:</b> 55.5656590012919<br>     <b>Long:</b> 10.0939501648464<br>     <b>Height:</b> 5<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_67c32c657d75d7beea012d0c8787316e.setContent(html_1cbfca74dc541687a702f78857449bc0);
+        
+
+        marker_e83550581a596c68a868ea7e6399ac3f.bindPopup(popup_67c32c657d75d7beea012d0c8787316e)
+        ;
+
+        
+    
+    
+            var marker_b4a2a417a8ce85e0724242a78f851180 = L.marker(
+                [55.5671933332092, 10.0931998970189],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_46d4174b91ef811c75448f65fcd10e58 = L.popup({"maxWidth": 300});
+
+        
+            var html_66870699e9aaa888ff4a785c9eb5e249 = $(`<div id="html_66870699e9aaa888ff4a785c9eb5e249" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 01.06.1935<br>     <b>End:</b> 31.05.1966<br>     <b>Lat:</b> 55.5671933332092<br>     <b>Long:</b> 10.0931998970189<br>     <b>Height:</b> 7<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_46d4174b91ef811c75448f65fcd10e58.setContent(html_66870699e9aaa888ff4a785c9eb5e249);
+        
+
+        marker_b4a2a417a8ce85e0724242a78f851180.bindPopup(popup_46d4174b91ef811c75448f65fcd10e58)
+        ;
+
+        
+    
+    
+            var marker_3a895a1f42b723145492d2e6baf861c5 = L.marker(
+                [55.5666443991213, 10.0942947047971],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_72c1ef75beec553a1e0b13ae2de23e5e = L.popup({"maxWidth": 300});
+
+        
+            var html_9065c2505803599954a93bef3df0fa6e = $(`<div id="html_9065c2505803599954a93bef3df0fa6e" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 01.06.1966<br>     <b>End:</b> 30.04.1971<br>     <b>Lat:</b> 55.5666443991213<br>     <b>Long:</b> 10.0942947047971<br>     <b>Height:</b> 7<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_72c1ef75beec553a1e0b13ae2de23e5e.setContent(html_9065c2505803599954a93bef3df0fa6e);
+        
+
+        marker_3a895a1f42b723145492d2e6baf861c5.bindPopup(popup_72c1ef75beec553a1e0b13ae2de23e5e)
+        ;
+
+        
+    
+    
+            var marker_068066585b823888bdfc445665525ca6 = L.marker(
+                [55.5661994491477, 10.0938066057265],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_2a040d1b7cba96e49c411c306bfd8c4b = L.popup({"maxWidth": 300});
+
+        
+            var html_b911686e6ee393f0fb346b1fd2ca6a4b = $(`<div id="html_b911686e6ee393f0fb346b1fd2ca6a4b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 01.05.1971<br>     <b>End:</b> 31.12.1973<br>     <b>Lat:</b> 55.5661994491477<br>     <b>Long:</b> 10.0938066057265<br>     <b>Height:</b> 8<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_2a040d1b7cba96e49c411c306bfd8c4b.setContent(html_b911686e6ee393f0fb346b1fd2ca6a4b);
+        
+
+        marker_068066585b823888bdfc445665525ca6.bindPopup(popup_2a040d1b7cba96e49c411c306bfd8c4b)
+        ;
+
+        
+    
+    
+            var marker_2f7d7432a63c8b348f0bceac19085b85 = L.marker(
+                [55.5561840342964, 10.0882967158847],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_e8db0738241971587480bd45e230ae46 = L.popup({"maxWidth": 300});
+
+        
+            var html_e4ee4507ed4dfed9c347f743f5032b1a = $(`<div id="html_e4ee4507ed4dfed9c347f743f5032b1a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 01.08.1975<br>     <b>End:</b> 28.02.1982<br>     <b>Lat:</b> 55.5561840342964<br>     <b>Long:</b> 10.0882967158847<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_e8db0738241971587480bd45e230ae46.setContent(html_e4ee4507ed4dfed9c347f743f5032b1a);
+        
+
+        marker_2f7d7432a63c8b348f0bceac19085b85.bindPopup(popup_e8db0738241971587480bd45e230ae46)
+        ;
+
+        
+    
+    
+            var marker_1bcc034403a9e4a309b2e3aa7a2993f7 = L.marker(
+                [55.5444718114493, 10.0505697719754],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_448c9f1217759120649a89f7e8c74577 = L.popup({"maxWidth": 300});
+
+        
+            var html_0d94fbbe72178822d0e253c878fdf62a = $(`<div id="html_0d94fbbe72178822d0e253c878fdf62a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 01.08.1987<br>     <b>End:</b> 01.10.2000<br>     <b>Lat:</b> 55.5444718114493<br>     <b>Long:</b> 10.0505697719754<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_448c9f1217759120649a89f7e8c74577.setContent(html_0d94fbbe72178822d0e253c878fdf62a);
+        
+
+        marker_1bcc034403a9e4a309b2e3aa7a2993f7.bindPopup(popup_448c9f1217759120649a89f7e8c74577)
+        ;
+
+        
+    
+    
+            var marker_d3ebb48fb3a1e738dced07ed83704032 = L.marker(
+                [55.5538116956774, 10.0822071412796],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c7601865e8dd300ae0c94d6b0d754236 = L.popup({"maxWidth": 300});
+
+        
+            var html_dd7f969114777990e0d461baacb1fa43 = $(`<div id="html_dd7f969114777990e0d461baacb1fa43" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 02.02.2001<br>     <b>End:</b> 21.05.2003<br>     <b>Lat:</b> 55.5538116956774<br>     <b>Long:</b> 10.0822071412796<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_c7601865e8dd300ae0c94d6b0d754236.setContent(html_dd7f969114777990e0d461baacb1fa43);
+        
+
+        marker_d3ebb48fb3a1e738dced07ed83704032.bindPopup(popup_c7601865e8dd300ae0c94d6b0d754236)
+        ;
+
+        
+    
+    
+            var marker_caa1357860f8c5e59ab08f9a9b99f0d9 = L.marker(
+                [55.5518488790183, 10.0724201547541],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_d1c92ea567a8bf0650942368a08fb7fa = L.popup({"maxWidth": 300});
+
+        
+            var html_2331ed24950737479d30d5fc18acbcb9 = $(`<div id="html_2331ed24950737479d30d5fc18acbcb9" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 22.05.2003<br>     <b>End:</b> 04.06.2003<br>     <b>Lat:</b> 55.5518488790183<br>     <b>Long:</b> 10.0724201547541<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_d1c92ea567a8bf0650942368a08fb7fa.setContent(html_2331ed24950737479d30d5fc18acbcb9);
+        
+
+        marker_caa1357860f8c5e59ab08f9a9b99f0d9.bindPopup(popup_d1c92ea567a8bf0650942368a08fb7fa)
+        ;
+
+        
+    
+    
+            var marker_55329a759290d5e4018982dc90b96a4f = L.marker(
+                [55.5476879758662, 10.0745100628516],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_a34cf6b62c1254bf32603958e572a9e4 = L.popup({"maxWidth": 300});
+
+        
+            var html_2f294cabed3ce3f7b55e83bef5620e31 = $(`<div id="html_2f294cabed3ce3f7b55e83bef5620e31" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28010<br>     <b>Name:</b> BOGENSE<br>     <b>Start:</b> 05.06.2003<br>     <b>End:</b> 01.01.2007<br>     <b>Lat:</b> 55.5476879758662<br>     <b>Long:</b> 10.0745100628516<br>     <b>Height:</b> 4<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_a34cf6b62c1254bf32603958e572a9e4.setContent(html_2f294cabed3ce3f7b55e83bef5620e31);
+        
+
+        marker_55329a759290d5e4018982dc90b96a4f.bindPopup(popup_a34cf6b62c1254bf32603958e572a9e4)
+        ;
+
+        
+    
+    
+            var marker_df976b84fedb94d68a46a6e4773c9dbd = L.marker(
+                [55.5247128791084, 10.0387962050707],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c95312b8f4dd78c5ab6a4cafdf20ca23 = L.popup({"maxWidth": 300});
+
+        
+            var html_cac496f956ecfaeddefd1d58c62423d1 = $(`<div id="html_cac496f956ecfaeddefd1d58c62423d1" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28015<br>     <b>Name:</b> GRYDHØJ<br>     <b>Start:</b> 01.07.1982<br>     <b>End:</b> 31.07.1988<br>     <b>Lat:</b> 55.5247128791084<br>     <b>Long:</b> 10.0387962050707<br>     <b>Height:</b> 32<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_c95312b8f4dd78c5ab6a4cafdf20ca23.setContent(html_cac496f956ecfaeddefd1d58c62423d1);
+        
+
+        marker_df976b84fedb94d68a46a6e4773c9dbd.bindPopup(popup_c95312b8f4dd78c5ab6a4cafdf20ca23)
+        ;
+
+        
+    
+    
+            var marker_f71e7f65d68d88be1989aca18b9887d3 = L.marker(
+                [55.6456253284718, 10.163391888477],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_ef272a8597cee8f7f024dccdac75d68e = L.popup({"maxWidth": 300});
+
+        
+            var html_aa040a6208f1ca7b24b3b399ad6aa272 = $(`<div id="html_aa040a6208f1ca7b24b3b399ad6aa272" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28020<br>     <b>Name:</b> ÆBELØ FYR<br>     <b>Start:</b> 01.07.1889<br>     <b>End:</b> 30.04.1966<br>     <b>Lat:</b> 55.6456253284718<br>     <b>Long:</b> 10.163391888477<br>     <b>Height:</b> 8<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_ef272a8597cee8f7f024dccdac75d68e.setContent(html_aa040a6208f1ca7b24b3b399ad6aa272);
+        
+
+        marker_f71e7f65d68d88be1989aca18b9887d3.bindPopup(popup_ef272a8597cee8f7f024dccdac75d68e)
+        ;
+
+        
+    
+    
+            var marker_c785f160df30eb365e84fc24e2c9e8a1 = L.marker(
+                [55.6456253284718, 10.163391888477],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_cd9d5e0828e871eac843bd549b5a9b87 = L.popup({"maxWidth": 300});
+
+        
+            var html_74f907d6f3f7acf8dbf1b50fc84fb9fa = $(`<div id="html_74f907d6f3f7acf8dbf1b50fc84fb9fa" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28020<br>     <b>Name:</b> ÆBELØ FYR<br>     <b>Start:</b> 01.01.1969<br>     <b>End:</b> 31.05.1969<br>     <b>Lat:</b> 55.6456253284718<br>     <b>Long:</b> 10.163391888477<br>     <b>Height:</b> 8<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_cd9d5e0828e871eac843bd549b5a9b87.setContent(html_74f907d6f3f7acf8dbf1b50fc84fb9fa);
+        
+
+        marker_c785f160df30eb365e84fc24e2c9e8a1.bindPopup(popup_cd9d5e0828e871eac843bd549b5a9b87)
+        ;
+
+        
+    
+    
+            var marker_ec5dcce6814f860c2fa7fae87985d9bf = L.marker(
+                [55.6028328671009, 10.3494243441341],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_b2d6893dfe53f1169a4bdc0a44d4ad60 = L.popup({"maxWidth": 300});
+
+        
+            var html_d3ce30fe665067c4e9746ad51c3ea329 = $(`<div id="html_d3ce30fe665067c4e9746ad51c3ea329" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28030<br>     <b>Name:</b> EGEBJERGGÅRD<br>     <b>Start:</b> 01.08.1887<br>     <b>End:</b> 31.03.1964<br>     <b>Lat:</b> 55.6028328671009<br>     <b>Long:</b> 10.3494243441341<br>     <b>Height:</b> 8<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_b2d6893dfe53f1169a4bdc0a44d4ad60.setContent(html_d3ce30fe665067c4e9746ad51c3ea329);
+        
+
+        marker_ec5dcce6814f860c2fa7fae87985d9bf.bindPopup(popup_b2d6893dfe53f1169a4bdc0a44d4ad60)
+        ;
+
+        
+    
+    
+            var marker_8035ae1ae83b2b5dabb5886f9d96e71f = L.marker(
+                [55.6006063115872, 10.347601983546],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_1f4005f73353a402fe44d1b7c4e3815e = L.popup({"maxWidth": 300});
+
+        
+            var html_31b5a9002f50a9c966fb039ad46ed42b = $(`<div id="html_31b5a9002f50a9c966fb039ad46ed42b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28030<br>     <b>Name:</b> EGEBJERGGÅRD<br>     <b>Start:</b> 01.12.1964<br>     <b>End:</b> 31.01.1965<br>     <b>Lat:</b> 55.6006063115872<br>     <b>Long:</b> 10.347601983546<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_1f4005f73353a402fe44d1b7c4e3815e.setContent(html_31b5a9002f50a9c966fb039ad46ed42b);
+        
+
+        marker_8035ae1ae83b2b5dabb5886f9d96e71f.bindPopup(popup_1f4005f73353a402fe44d1b7c4e3815e)
+        ;
+
+        
+    
+    
+            var marker_6bf62c68784f0090329f092c74445920 = L.marker(
+                [55.6006063115872, 10.347601983546],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_278c19a9c66e2e75277429f5a5f7fa03 = L.popup({"maxWidth": 300});
+
+        
+            var html_e326c4332c0476a958b19c0475167c54 = $(`<div id="html_e326c4332c0476a958b19c0475167c54" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28030<br>     <b>Name:</b> EGEBJERGGÅRD<br>     <b>Start:</b> 01.07.1966<br>     <b>End:</b> 31.10.1973<br>     <b>Lat:</b> 55.6006063115872<br>     <b>Long:</b> 10.347601983546<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_278c19a9c66e2e75277429f5a5f7fa03.setContent(html_e326c4332c0476a958b19c0475167c54);
+        
+
+        marker_6bf62c68784f0090329f092c74445920.bindPopup(popup_278c19a9c66e2e75277429f5a5f7fa03)
+        ;
+
+        
+    
+    
+            var marker_273ab085c199e964f41ecbeeecab878d = L.marker(
+                [55.6009708604414, 10.3471383120268],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_905821edd7bfa7ada5a3cbfba5dc45a3 = L.popup({"maxWidth": 300});
+
+        
+            var html_f89bcdbed2293b114e2453bba3082b28 = $(`<div id="html_f89bcdbed2293b114e2453bba3082b28" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28030<br>     <b>Name:</b> EGEBJERGGÅRD<br>     <b>Start:</b> 01.04.1976<br>     <b>End:</b> 20.05.2003<br>     <b>Lat:</b> 55.6009708604414<br>     <b>Long:</b> 10.3471383120268<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_905821edd7bfa7ada5a3cbfba5dc45a3.setContent(html_f89bcdbed2293b114e2453bba3082b28);
+        
+
+        marker_273ab085c199e964f41ecbeeecab878d.bindPopup(popup_905821edd7bfa7ada5a3cbfba5dc45a3)
+        ;
+
+        
+    
+    
+            var marker_9f5807cb3a97bf2b6af534428fabbd6c = L.marker(
+                [55.5941591944437, 10.3569186140219],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_a018dba8a8be67445b39577cbeed2410 = L.popup({"maxWidth": 300});
+
+        
+            var html_82e27c4cf7b44bb168ec07b23f7bd9ba = $(`<div id="html_82e27c4cf7b44bb168ec07b23f7bd9ba" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28030<br>     <b>Name:</b> AGERNÆS<br>     <b>Start:</b> 21.05.2003<br>     <b>End:</b> 12.10.2009<br>     <b>Lat:</b> 55.5941591944437<br>     <b>Long:</b> 10.3569186140219<br>     <b>Height:</b> 6<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_a018dba8a8be67445b39577cbeed2410.setContent(html_82e27c4cf7b44bb168ec07b23f7bd9ba);
+        
+
+        marker_9f5807cb3a97bf2b6af534428fabbd6c.bindPopup(popup_a018dba8a8be67445b39577cbeed2410)
+        ;
+
+        
+    
+    
+            var marker_1ee9b265c03fb6173c5691fab408758c = L.marker(
+                [55.5942469175605, 10.3571120759752],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_9de61bd84f3629241765b96e767147d1 = L.popup({"maxWidth": 300});
+
+        
+            var html_212e5e112ad7a2a7ca3035e4d429c436 = $(`<div id="html_212e5e112ad7a2a7ca3035e4d429c436" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28030<br>     <b>Name:</b> AGERNÆS<br>     <b>Start:</b> 13.10.2009<br>     <b>End:</b> 01.09.2010<br>     <b>Lat:</b> 55.5942469175605<br>     <b>Long:</b> 10.3571120759752<br>     <b>Height:</b> 6<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_9de61bd84f3629241765b96e767147d1.setContent(html_212e5e112ad7a2a7ca3035e4d429c436);
+        
+
+        marker_1ee9b265c03fb6173c5691fab408758c.bindPopup(popup_9de61bd84f3629241765b96e767147d1)
+        ;
+
+        
+    
+    
+            var marker_3d1c35f50dc967bbaba5539c28221e35 = L.marker(
+                [55.5942287760775, 10.357127319433],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_0c0df205b3d2529d8b676ea0a93b332c = L.popup({"maxWidth": 300});
+
+        
+            var html_936b0d0c9a676d28a1d16f4cf62137d4 = $(`<div id="html_936b0d0c9a676d28a1d16f4cf62137d4" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28030<br>     <b>Name:</b> AGERNÆS<br>     <b>Start:</b> 09.12.2009<br>     <b>End:</b> 01.10.2014<br>     <b>Lat:</b> 55.5942287760775<br>     <b>Long:</b> 10.357127319433<br>     <b>Height:</b> 6<br>     <b>Report type:</b> precip_aut     </div>`)[0];
+            popup_0c0df205b3d2529d8b676ea0a93b332c.setContent(html_936b0d0c9a676d28a1d16f4cf62137d4);
+        
+
+        marker_3d1c35f50dc967bbaba5539c28221e35.bindPopup(popup_0c0df205b3d2529d8b676ea0a93b332c)
+        ;
+
+        
+    
+    
+            var marker_e6b0b7c8de8847f6cba6eec2ef8ea882 = L.marker(
+                [55.5942287760775, 10.357127319433],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_f05e9fdf256eb61682bfde51bfc4c09f = L.popup({"maxWidth": 300});
+
+        
+            var html_1246ab47548fb625cd4169ae4353f5d5 = $(`<div id="html_1246ab47548fb625cd4169ae4353f5d5" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28030<br>     <b>Name:</b> AGERNÆS<br>     <b>Start:</b> 01.10.2011<br>     <b>End:</b> 01.06.2014<br>     <b>Lat:</b> 55.5942287760775<br>     <b>Long:</b> 10.357127319433<br>     <b>Height:</b> 6<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_f05e9fdf256eb61682bfde51bfc4c09f.setContent(html_1246ab47548fb625cd4169ae4353f5d5);
+        
+
+        marker_e6b0b7c8de8847f6cba6eec2ef8ea882.bindPopup(popup_f05e9fdf256eb61682bfde51bfc4c09f)
+        ;
+
+        
+    
+    
+            var marker_441ccaa99d36349f9ab210717d83ab49 = L.marker(
+                [55.5814970975009, 10.3930018578508],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_7581697713316c5823022b93fd38c3b4 = L.popup({"maxWidth": 300});
+
+        
+            var html_9be907282377ef2fbe704dc5a3ff2528 = $(`<div id="html_9be907282377ef2fbe704dc5a3ff2528" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28032<br>     <b>Name:</b> TØRRESØ<br>     <b>Start:</b> 28.10.2014<br>     <b>End:</b> 30.03.2017<br>     <b>Lat:</b> 55.5814970975009<br>     <b>Long:</b> 10.3930018578508<br>     <b>Height:</b> 3<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_7581697713316c5823022b93fd38c3b4.setContent(html_9be907282377ef2fbe704dc5a3ff2528);
+        
+
+        marker_441ccaa99d36349f9ab210717d83ab49.bindPopup(popup_7581697713316c5823022b93fd38c3b4)
+        ;
+
+        
+    
+    
+            var marker_eb4404cb4a3ba0304bb66ba687fc9d01 = L.marker(
+                [55.5676965153354, 10.3411940589874],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_8f7912ebd009d28b53bf54d9d9e1e552 = L.popup({"maxWidth": 300});
+
+        
+            var html_041afa5d281edac9888810d308adde6f = $(`<div id="html_041afa5d281edac9888810d308adde6f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28032<br>     <b>Name:</b> ROERSLEV<br>     <b>Start:</b> 04.12.2019<br>     <b>End:</b> 01.04.2021<br>     <b>Lat:</b> 55.5676965153354<br>     <b>Long:</b> 10.3411940589874<br>     <b>Height:</b> 18<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_8f7912ebd009d28b53bf54d9d9e1e552.setContent(html_041afa5d281edac9888810d308adde6f);
+        
+
+        marker_eb4404cb4a3ba0304bb66ba687fc9d01.bindPopup(popup_8f7912ebd009d28b53bf54d9d9e1e552)
+        ;
+
+        
+    
+    
+            var marker_c1fcfd811bbc59e81e5bf4dfe777964a = L.marker(
+                [55.5971219179117, 10.6274480764156],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c3ac77f1c2daf49f51cd08811294e0df = L.popup({"maxWidth": 300});
+
+        
+            var html_73deeab8a6b3c3d2e7e8e547fa209060 = $(`<div id="html_73deeab8a6b3c3d2e7e8e547fa209060" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28040<br>     <b>Name:</b> NORDSKOV<br>     <b>Start:</b> 01.04.1965<br>     <b>End:</b> 30.04.1976<br>     <b>Lat:</b> 55.5971219179117<br>     <b>Long:</b> 10.6274480764156<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_c3ac77f1c2daf49f51cd08811294e0df.setContent(html_73deeab8a6b3c3d2e7e8e547fa209060);
+        
+
+        marker_c1fcfd811bbc59e81e5bf4dfe777964a.bindPopup(popup_c3ac77f1c2daf49f51cd08811294e0df)
+        ;
+
+        
+    
+    
+            var marker_b839812d3e807520f986029e85e10657 = L.marker(
+                [55.5972159466618, 10.6271345393836],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_8c36355f2b3a8da3443eb0706160ce67 = L.popup({"maxWidth": 300});
+
+        
+            var html_8918abf3455c2103032c032972dd601b = $(`<div id="html_8918abf3455c2103032c032972dd601b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28040<br>     <b>Name:</b> NORDSKOV<br>     <b>Start:</b> 01.05.1976<br>     <b>End:</b> 30.09.1994<br>     <b>Lat:</b> 55.5972159466618<br>     <b>Long:</b> 10.6271345393836<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_8c36355f2b3a8da3443eb0706160ce67.setContent(html_8918abf3455c2103032c032972dd601b);
+        
+
+        marker_b839812d3e807520f986029e85e10657.bindPopup(popup_8c36355f2b3a8da3443eb0706160ce67)
+        ;
+
+        
+    
+    
+            var marker_ff1002b44debae07ce0f0027a9b46947 = L.marker(
+                [55.541666195378, 10.6614509190625],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_9651a6e2bbfa62b4a6c69fe443a04ed6 = L.popup({"maxWidth": 300});
+
+        
+            var html_87a556c8e860e73cee32ddedf4b386ee = $(`<div id="html_87a556c8e860e73cee32ddedf4b386ee" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28050<br>     <b>Name:</b> MARTOFTE<br>     <b>Start:</b> 01.07.1874<br>     <b>End:</b> 31.05.1898<br>     <b>Lat:</b> 55.541666195378<br>     <b>Long:</b> 10.6614509190625<br>     <b>Height:</b> 17<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_9651a6e2bbfa62b4a6c69fe443a04ed6.setContent(html_87a556c8e860e73cee32ddedf4b386ee);
+        
+
+        marker_ff1002b44debae07ce0f0027a9b46947.bindPopup(popup_9651a6e2bbfa62b4a6c69fe443a04ed6)
+        ;
+
+        
+    
+    
+            var marker_a0dcec09668923ca0de3769cc6f14e51 = L.marker(
+                [55.5554107040568, 10.6552133061757],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_cd4fc57adcd81d4cfd8a461f2265b075 = L.popup({"maxWidth": 300});
+
+        
+            var html_c71e8d7a27db44916617ad713170cd6b = $(`<div id="html_c71e8d7a27db44916617ad713170cd6b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28050<br>     <b>Name:</b> MARTOFTE<br>     <b>Start:</b> 01.01.1899<br>     <b>End:</b> 28.02.1900<br>     <b>Lat:</b> 55.5554107040568<br>     <b>Long:</b> 10.6552133061757<br>     <b>Height:</b> 4<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_cd4fc57adcd81d4cfd8a461f2265b075.setContent(html_c71e8d7a27db44916617ad713170cd6b);
+        
+
+        marker_a0dcec09668923ca0de3769cc6f14e51.bindPopup(popup_cd4fc57adcd81d4cfd8a461f2265b075)
+        ;
+
+        
+    
+    
+            var marker_a02c905707f2c4deff34cf5f8a3e98ac = L.marker(
+                [55.5423249710491, 10.6592597814061],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_5f3700272f53acc4ac467355796e9f42 = L.popup({"maxWidth": 300});
+
+        
+            var html_05f2e0e191222d86047b18052b584bfc = $(`<div id="html_05f2e0e191222d86047b18052b584bfc" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28050<br>     <b>Name:</b> MARTOFTE<br>     <b>Start:</b> 01.01.1901<br>     <b>End:</b> 31.01.1917<br>     <b>Lat:</b> 55.5423249710491<br>     <b>Long:</b> 10.6592597814061<br>     <b>Height:</b> 15<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_5f3700272f53acc4ac467355796e9f42.setContent(html_05f2e0e191222d86047b18052b584bfc);
+        
+
+        marker_a02c905707f2c4deff34cf5f8a3e98ac.bindPopup(popup_5f3700272f53acc4ac467355796e9f42)
+        ;
+
+        
+    
+    
+            var marker_f073caaa240b74108f8149f03d612f59 = L.marker(
+                [55.541666195378, 10.6614509190625],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_cd2a1473bed783defc9dde5485ecec56 = L.popup({"maxWidth": 300});
+
+        
+            var html_7e93becf96f2b5a9b0eedd2ff43b38cd = $(`<div id="html_7e93becf96f2b5a9b0eedd2ff43b38cd" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28050<br>     <b>Name:</b> MARTOFTE<br>     <b>Start:</b> 01.02.1917<br>     <b>End:</b> 31.12.1961<br>     <b>Lat:</b> 55.541666195378<br>     <b>Long:</b> 10.6614509190625<br>     <b>Height:</b> 17<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_cd2a1473bed783defc9dde5485ecec56.setContent(html_7e93becf96f2b5a9b0eedd2ff43b38cd);
+        
+
+        marker_f073caaa240b74108f8149f03d612f59.bindPopup(popup_cd2a1473bed783defc9dde5485ecec56)
+        ;
+
+        
+    
+    
+            var marker_ff8b951c446baac7c30e8da8edb4a025 = L.marker(
+                [55.5468308779365, 10.6583400061026],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_39c80a2e83650a1a40d892b6868ab173 = L.popup({"maxWidth": 300});
+
+        
+            var html_6a670e2a88b9ba4b99a53e02cacdbcba = $(`<div id="html_6a670e2a88b9ba4b99a53e02cacdbcba" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28050<br>     <b>Name:</b> MARTOFTE<br>     <b>Start:</b> 01.05.1968<br>     <b>End:</b> 30.06.1997<br>     <b>Lat:</b> 55.5468308779365<br>     <b>Long:</b> 10.6583400061026<br>     <b>Height:</b> 12<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_39c80a2e83650a1a40d892b6868ab173.setContent(html_6a670e2a88b9ba4b99a53e02cacdbcba);
+        
+
+        marker_ff8b951c446baac7c30e8da8edb4a025.bindPopup(popup_39c80a2e83650a1a40d892b6868ab173)
+        ;
+
+        
+    
+    
+            var marker_edba1e0591775e3f90c5c951da700f47 = L.marker(
+                [55.544080710133, 10.6590167329612],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_68b89a3808f66e3dc79ac247e248af5a = L.popup({"maxWidth": 300});
+
+        
+            var html_586465ac60f2c2e872da19d1be2e4a95 = $(`<div id="html_586465ac60f2c2e872da19d1be2e4a95" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28050<br>     <b>Name:</b> MARTOFTE<br>     <b>Start:</b> 02.08.1997<br>     <b>End:</b> 19.01.2001<br>     <b>Lat:</b> 55.544080710133<br>     <b>Long:</b> 10.6590167329612<br>     <b>Height:</b> 13<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_68b89a3808f66e3dc79ac247e248af5a.setContent(html_586465ac60f2c2e872da19d1be2e4a95);
+        
+
+        marker_edba1e0591775e3f90c5c951da700f47.bindPopup(popup_68b89a3808f66e3dc79ac247e248af5a)
+        ;
+
+        
+    
+    
+            var marker_031810ed1a2ec1f70f769bdb21a455e1 = L.marker(
+                [55.5467925665754, 10.6591785083597],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_e3a6faad38b516d36b93fc441d622312 = L.popup({"maxWidth": 300});
+
+        
+            var html_69981ebc4908cfc1ec410b7c5a8bd564 = $(`<div id="html_69981ebc4908cfc1ec410b7c5a8bd564" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28050<br>     <b>Name:</b> MARTOFTE<br>     <b>Start:</b> 20.01.2001<br>     <b>End:</b> 21.03.2005<br>     <b>Lat:</b> 55.5467925665754<br>     <b>Long:</b> 10.6591785083597<br>     <b>Height:</b> 12<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_e3a6faad38b516d36b93fc441d622312.setContent(html_69981ebc4908cfc1ec410b7c5a8bd564);
+        
+
+        marker_031810ed1a2ec1f70f769bdb21a455e1.bindPopup(popup_e3a6faad38b516d36b93fc441d622312)
+        ;
+
+        
+    
+    
+            var marker_5e2452d3006f5beba538ea3618abd177 = L.marker(
+                [55.5337810461191, 10.6477444452143],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_ac84332573eae0d8e964f69452a9e5c0 = L.popup({"maxWidth": 300});
+
+        
+            var html_5b63e0e73f6883b7fa0d496a1345c699 = $(`<div id="html_5b63e0e73f6883b7fa0d496a1345c699" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28050<br>     <b>Name:</b> SCHEELENBORG<br>     <b>Start:</b> 22.05.2005<br>     <b>End:</b> 01.12.2008<br>     <b>Lat:</b> 55.5337810461191<br>     <b>Long:</b> 10.6477444452143<br>     <b>Height:</b> 10<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_ac84332573eae0d8e964f69452a9e5c0.setContent(html_5b63e0e73f6883b7fa0d496a1345c699);
+        
+
+        marker_5e2452d3006f5beba538ea3618abd177.bindPopup(popup_ac84332573eae0d8e964f69452a9e5c0)
+        ;
+
+        
+    
+    
+            var marker_3ba2630bb081b96beb0ab745a435004e = L.marker(
+                [55.5122098495347, 10.7998968357202],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_cbbb5bf8c7f14930323e3e390f6456f3 = L.popup({"maxWidth": 300});
+
+        
+            var html_5018b7a78466a980082d5d933ccc800d = $(`<div id="html_5018b7a78466a980082d5d933ccc800d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28060<br>     <b>Name:</b> ROMSØ FYR<br>     <b>Start:</b> 01.11.1885<br>     <b>End:</b> 31.01.1959<br>     <b>Lat:</b> 55.5122098495347<br>     <b>Long:</b> 10.7998968357202<br>     <b>Height:</b> 8<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_cbbb5bf8c7f14930323e3e390f6456f3.setContent(html_5018b7a78466a980082d5d933ccc800d);
+        
+
+        marker_3ba2630bb081b96beb0ab745a435004e.bindPopup(popup_cbbb5bf8c7f14930323e3e390f6456f3)
+        ;
+
+        
+    
+    
+            var marker_97535f1b34e1f6c0f8b032d124f7eb17 = L.marker(
+                [55.512292682255, 10.8003757496418],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_199ce492a69ec0e00c57eb298c204dc8 = L.popup({"maxWidth": 300});
+
+        
+            var html_7ac29e423fdc0ba019226165bb8a1782 = $(`<div id="html_7ac29e423fdc0ba019226165bb8a1782" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28060<br>     <b>Name:</b> ROMSØ FYR<br>     <b>Start:</b> 01.02.1959<br>     <b>End:</b> 31.07.1974<br>     <b>Lat:</b> 55.512292682255<br>     <b>Long:</b> 10.8003757496418<br>     <b>Height:</b> 4<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_199ce492a69ec0e00c57eb298c204dc8.setContent(html_7ac29e423fdc0ba019226165bb8a1782);
+        
+
+        marker_97535f1b34e1f6c0f8b032d124f7eb17.bindPopup(popup_199ce492a69ec0e00c57eb298c204dc8)
+        ;
+
+        
+    
+    
+            var marker_8f8080ca7b6c5cd8c7511d4ce7c8f01e = L.marker(
+                [55.512292682255, 10.8003757496418],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_81f7939ab82eefcd45051ab52cdc2e08 = L.popup({"maxWidth": 300});
+
+        
+            var html_a4ec175072e3756827f5237376a34037 = $(`<div id="html_a4ec175072e3756827f5237376a34037" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28060<br>     <b>Name:</b> ROMSØ FYR<br>     <b>Start:</b> 01.05.1978<br>     <b>End:</b> 30.06.1985<br>     <b>Lat:</b> 55.512292682255<br>     <b>Long:</b> 10.8003757496418<br>     <b>Height:</b> 4<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_81f7939ab82eefcd45051ab52cdc2e08.setContent(html_a4ec175072e3756827f5237376a34037);
+        
+
+        marker_8f8080ca7b6c5cd8c7511d4ce7c8f01e.bindPopup(popup_81f7939ab82eefcd45051ab52cdc2e08)
+        ;
+
+        
+    
+    
+            var marker_d16c92db67112cb2f13dc83239d8db12 = L.marker(
+                [55.512292682255, 10.8003757496418],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6746ab261bb3620d0e5adcf848eae0ff = L.popup({"maxWidth": 300});
+
+        
+            var html_39fd7774e6514f31712fe21c0486ff48 = $(`<div id="html_39fd7774e6514f31712fe21c0486ff48" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28060<br>     <b>Name:</b> ROMSØ FYR<br>     <b>Start:</b> 01.07.1985<br>     <b>End:</b> 30.09.1985<br>     <b>Lat:</b> 55.512292682255<br>     <b>Long:</b> 10.8003757496418<br>     <b>Height:</b> 4<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_6746ab261bb3620d0e5adcf848eae0ff.setContent(html_39fd7774e6514f31712fe21c0486ff48);
+        
+
+        marker_d16c92db67112cb2f13dc83239d8db12.bindPopup(popup_6746ab261bb3620d0e5adcf848eae0ff)
+        ;
+
+        
+    
+    
+            var marker_4bda9f6c269055fd11e8cb78c672c540 = L.marker(
+                [55.5160002426103, 10.5701044729589],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_cd6acaf9451d449cbcf34ee015da56f2 = L.popup({"maxWidth": 300});
+
+        
+            var html_0fdef39e55dff097513c891b1a1fb164 = $(`<div id="html_0fdef39e55dff097513c891b1a1fb164" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28068<br>     <b>Name:</b> GABET<br>     <b>Start:</b> 10.07.1978<br>     <b>End:</b> 30.04.2013<br>     <b>Lat:</b> 55.5160002426103<br>     <b>Long:</b> 10.5701044729589<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_cd6acaf9451d449cbcf34ee015da56f2.setContent(html_0fdef39e55dff097513c891b1a1fb164);
+        
+
+        marker_4bda9f6c269055fd11e8cb78c672c540.bindPopup(popup_cd6acaf9451d449cbcf34ee015da56f2)
+        ;
+
+        
+    
+    
+            var marker_a75e14c25878b0e784032918a599e08f = L.marker(
+                [55.5160002426103, 10.5701044729589],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_a6e10b507dbc911aaf6dbd1f3f966ecd = L.popup({"maxWidth": 300});
+
+        
+            var html_05c45da4aaa07b0ecf556289d83efa92 = $(`<div id="html_05c45da4aaa07b0ecf556289d83efa92" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28068<br>     <b>Name:</b> ODENSE FJORD<br>     <b>Start:</b> 01.05.2013<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.5160002426103<br>     <b>Long:</b> 10.5701044729589<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_a6e10b507dbc911aaf6dbd1f3f966ecd.setContent(html_05c45da4aaa07b0ecf556289d83efa92);
+        
+
+        marker_a75e14c25878b0e784032918a599e08f.bindPopup(popup_a6e10b507dbc911aaf6dbd1f3f966ecd)
+        ;
+
+        
+    
+    
+            var marker_8529dcc60d5a8356118196a00291ef03 = L.marker(
+                [55.537046030156, 10.4821842354562],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_52e7062237793fd14b6be5a234ba1989 = L.popup({"maxWidth": 300});
+
+        
+            var html_4bd218549c093418531d7bf938c4591f = $(`<div id="html_4bd218549c093418531d7bf938c4591f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28070<br>     <b>Name:</b> HOFMANSGAVE<br>     <b>Start:</b> 01.05.1874<br>     <b>End:</b> 30.11.1980<br>     <b>Lat:</b> 55.537046030156<br>     <b>Long:</b> 10.4821842354562<br>     <b>Height:</b> 3<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_52e7062237793fd14b6be5a234ba1989.setContent(html_4bd218549c093418531d7bf938c4591f);
+        
+
+        marker_8529dcc60d5a8356118196a00291ef03.bindPopup(popup_52e7062237793fd14b6be5a234ba1989)
+        ;
+
+        
+    
+    
+            var marker_d8d990f28d6afaacf6e2e8a5d5313b7d = L.marker(
+                [55.5375009055105, 10.4817259351127],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_107d0363015b23e3e89c5467bdb47f4f = L.popup({"maxWidth": 300});
+
+        
+            var html_af381714adc45dca562bd0eda44afc71 = $(`<div id="html_af381714adc45dca562bd0eda44afc71" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28070<br>     <b>Name:</b> HOFMANSGAVE<br>     <b>Start:</b> 01.02.1982<br>     <b>End:</b> 30.06.1991<br>     <b>Lat:</b> 55.5375009055105<br>     <b>Long:</b> 10.4817259351127<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_107d0363015b23e3e89c5467bdb47f4f.setContent(html_af381714adc45dca562bd0eda44afc71);
+        
+
+        marker_d8d990f28d6afaacf6e2e8a5d5313b7d.bindPopup(popup_107d0363015b23e3e89c5467bdb47f4f)
+        ;
+
+        
+    
+    
+            var marker_53b167f79810a49e89a2ca33d1efb476 = L.marker(
+                [55.5397750392849, 10.4030477623158],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_56e414450bfca07991236c798f746ccd = L.popup({"maxWidth": 300});
+
+        
+            var html_b1259dc990542e0844c71135cc2eb348 = $(`<div id="html_b1259dc990542e0844c71135cc2eb348" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28080<br>     <b>Name:</b> EGENSE<br>     <b>Start:</b> 01.10.1953<br>     <b>End:</b> 31.10.1956<br>     <b>Lat:</b> 55.5397750392849<br>     <b>Long:</b> 10.4030477623158<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_56e414450bfca07991236c798f746ccd.setContent(html_b1259dc990542e0844c71135cc2eb348);
+        
+
+        marker_53b167f79810a49e89a2ca33d1efb476.bindPopup(popup_56e414450bfca07991236c798f746ccd)
+        ;
+
+        
+    
+    
+            var marker_2f4ee347831552e3f0a0ddf87a4c9ef7 = L.marker(
+                [55.5397750392849, 10.4030477623158],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_9a80791e71ebb5e32593200c0b70de2d = L.popup({"maxWidth": 300});
+
+        
+            var html_adbb825d8327fba1def6a86d84514354 = $(`<div id="html_adbb825d8327fba1def6a86d84514354" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28080<br>     <b>Name:</b> EGENSE<br>     <b>Start:</b> 01.07.1957<br>     <b>End:</b> 31.10.1957<br>     <b>Lat:</b> 55.5397750392849<br>     <b>Long:</b> 10.4030477623158<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_9a80791e71ebb5e32593200c0b70de2d.setContent(html_adbb825d8327fba1def6a86d84514354);
+        
+
+        marker_2f4ee347831552e3f0a0ddf87a4c9ef7.bindPopup(popup_9a80791e71ebb5e32593200c0b70de2d)
+        ;
+
+        
+    
+    
+            var marker_b6ba9b5e6d662d3700d7086754758095 = L.marker(
+                [55.5397750392849, 10.4030477623158],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_23330883432ef83c7f2f24d27c7dd6f9 = L.popup({"maxWidth": 300});
+
+        
+            var html_f97d16a535bb3f30668b486b75eff9ac = $(`<div id="html_f97d16a535bb3f30668b486b75eff9ac" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28080<br>     <b>Name:</b> EGENSE<br>     <b>Start:</b> 01.06.1959<br>     <b>End:</b> 31.08.1959<br>     <b>Lat:</b> 55.5397750392849<br>     <b>Long:</b> 10.4030477623158<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_23330883432ef83c7f2f24d27c7dd6f9.setContent(html_f97d16a535bb3f30668b486b75eff9ac);
+        
+
+        marker_b6ba9b5e6d662d3700d7086754758095.bindPopup(popup_23330883432ef83c7f2f24d27c7dd6f9)
+        ;
+
+        
+    
+    
+            var marker_f5b0d5ae7800b881006c7b7b6477de72 = L.marker(
+                [55.5234088831336, 10.4195737497626],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_023bde3643831dcb65911b800150e75c = L.popup({"maxWidth": 300});
+
+        
+            var html_dcc1a08abb1fc0f9d18bfe4eddb999d6 = $(`<div id="html_dcc1a08abb1fc0f9d18bfe4eddb999d6" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28080<br>     <b>Name:</b> ØRRITSLEVGÅRD<br>     <b>Start:</b> 01.07.1959<br>     <b>End:</b> 31.10.1970<br>     <b>Lat:</b> 55.5234088831336<br>     <b>Long:</b> 10.4195737497626<br>     <b>Height:</b> 2<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_023bde3643831dcb65911b800150e75c.setContent(html_dcc1a08abb1fc0f9d18bfe4eddb999d6);
+        
+
+        marker_f5b0d5ae7800b881006c7b7b6477de72.bindPopup(popup_023bde3643831dcb65911b800150e75c)
+        ;
+
+        
+    
+    
+            var marker_a58205db36a9c4a745aca03f53628e3f = L.marker(
+                [55.5153497387271, 10.4340763070394],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_314872bc08461d6ef092e297a87e1419 = L.popup({"maxWidth": 300});
+
+        
+            var html_d0c3d3598aa61cbfab18a74844639cad = $(`<div id="html_d0c3d3598aa61cbfab18a74844639cad" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28080<br>     <b>Name:</b> OTTERUP<br>     <b>Start:</b> 21.05.2003<br>     <b>End:</b> 16.07.2004<br>     <b>Lat:</b> 55.5153497387271<br>     <b>Long:</b> 10.4340763070394<br>     <b>Height:</b> 5<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_314872bc08461d6ef092e297a87e1419.setContent(html_d0c3d3598aa61cbfab18a74844639cad);
+        
+
+        marker_a58205db36a9c4a745aca03f53628e3f.bindPopup(popup_314872bc08461d6ef092e297a87e1419)
+        ;
+
+        
+    
+    
+            var marker_577ed2fa3f2da85743e4f192163fd5f0 = L.marker(
+                [55.5216240184136, 10.4153909669628],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_50af791ee7f36c887f76222ae0c35fab = L.popup({"maxWidth": 300});
+
+        
+            var html_54eb6ba555362765a59dc19cddf60de1 = $(`<div id="html_54eb6ba555362765a59dc19cddf60de1" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28081<br>     <b>Name:</b> OTTERUP RENSEANLÆG<br>     <b>Start:</b> 29.05.2012<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.5216240184136<br>     <b>Long:</b> 10.4153909669628<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_50af791ee7f36c887f76222ae0c35fab.setContent(html_54eb6ba555362765a59dc19cddf60de1);
+        
+
+        marker_577ed2fa3f2da85743e4f192163fd5f0.bindPopup(popup_50af791ee7f36c887f76222ae0c35fab)
+        ;
+
+        
+    
+    
+            var marker_ef1403395732ef60d3f880589433e844 = L.marker(
+                [55.4375963597086, 10.4225937313098],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_bc52a0f927a725e622e86da8dffbf615 = L.popup({"maxWidth": 300});
+
+        
+            var html_d6cce5854b9d21ee272d151375962afa = $(`<div id="html_d6cce5854b9d21ee272d151375962afa" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28086<br>     <b>Name:</b> ODENSE KANAL STIGE Ø<br>     <b>Start:</b> 03.07.1973<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4375963597086<br>     <b>Long:</b> 10.4225937313098<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_bc52a0f927a725e622e86da8dffbf615.setContent(html_d6cce5854b9d21ee272d151375962afa);
+        
+
+        marker_ef1403395732ef60d3f880589433e844.bindPopup(popup_bc52a0f927a725e622e86da8dffbf615)
+        ;
+
+        
+    
+    
+            var marker_5e89abd4469ed839646b1c05ac013c35 = L.marker(
+                [55.4385987254066, 10.424495033733],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_03adf3d876401868ee900b791f140437 = L.popup({"maxWidth": 300});
+
+        
+            var html_0657c199ba7216079086f5ac23692a5d = $(`<div id="html_0657c199ba7216079086f5ac23692a5d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28087<br>     <b>Name:</b> ODENSE FJORD STIGE Ø<br>     <b>Start:</b> 01.05.2013<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4385987254066<br>     <b>Long:</b> 10.424495033733<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_03adf3d876401868ee900b791f140437.setContent(html_0657c199ba7216079086f5ac23692a5d);
+        
+
+        marker_5e89abd4469ed839646b1c05ac013c35.bindPopup(popup_03adf3d876401868ee900b791f140437)
+        ;
+
+        
+    
+    
+            var marker_f14e990de418e3d7e8090be4a0262536 = L.marker(
+                [55.4736457658282, 10.3295030059325],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_56e01a699c5490a1fbf35a123779d9e5 = L.popup({"maxWidth": 300});
+
+        
+            var html_245588329c10069d4cad3168b7f94cd6 = $(`<div id="html_245588329c10069d4cad3168b7f94cd6" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28090<br>     <b>Name:</b> BELDRINGE<br>     <b>Start:</b> 01.12.1956<br>     <b>End:</b> 30.04.1987<br>     <b>Lat:</b> 55.4736457658282<br>     <b>Long:</b> 10.3295030059325<br>     <b>Height:</b> 15<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_56e01a699c5490a1fbf35a123779d9e5.setContent(html_245588329c10069d4cad3168b7f94cd6);
+        
+
+        marker_f14e990de418e3d7e8090be4a0262536.bindPopup(popup_56e01a699c5490a1fbf35a123779d9e5)
+        ;
+
+        
+    
+    
+            var marker_9b6b44d10db32853f37b5805f959337a = L.marker(
+                [55.4735084408815, 10.3297356982053],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_45ef1264dd060cbdf8cad5577c9b27ca = L.popup({"maxWidth": 300});
+
+        
+            var html_b8c0e0b2f85c626293e38d950aa279cd = $(`<div id="html_b8c0e0b2f85c626293e38d950aa279cd" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28091<br>     <b>Name:</b> ODENSE LUFTHAVN<br>     <b>Start:</b> 01.01.1959<br>     <b>End:</b> 30.06.1975<br>     <b>Lat:</b> 55.4735084408815<br>     <b>Long:</b> 10.3297356982053<br>     <b>Height:</b> 16<br>     <b>Report type:</b> synop_dk     </div>`)[0];
+            popup_45ef1264dd060cbdf8cad5577c9b27ca.setContent(html_b8c0e0b2f85c626293e38d950aa279cd);
+        
+
+        marker_9b6b44d10db32853f37b5805f959337a.bindPopup(popup_45ef1264dd060cbdf8cad5577c9b27ca)
+        ;
+
+        
+    
+    
+            var marker_137967ee1da61f0f5fea778e7ae992ef = L.marker(
+                [55.4748751446257, 10.3304936749607],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_50a6d84e74c46012b1810c27bd2bdc5a = L.popup({"maxWidth": 300});
+
+        
+            var html_aafd140b102e28cdf458b9f29174b555 = $(`<div id="html_aafd140b102e28cdf458b9f29174b555" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28091<br>     <b>Name:</b> ODENSE LUFTHAVN<br>     <b>Start:</b> 01.07.1975<br>     <b>End:</b> 30.09.2013<br>     <b>Lat:</b> 55.4748751446257<br>     <b>Long:</b> 10.3304936749607<br>     <b>Height:</b> 15<br>     <b>Report type:</b> synop_dk     </div>`)[0];
+            popup_50a6d84e74c46012b1810c27bd2bdc5a.setContent(html_aafd140b102e28cdf458b9f29174b555);
+        
+
+        marker_137967ee1da61f0f5fea778e7ae992ef.bindPopup(popup_50a6d84e74c46012b1810c27bd2bdc5a)
+        ;
+
+        
+    
+    
+            var marker_8ba101aa8d1cb555bfa96006e6049084 = L.marker(
+                [55.4748751446257, 10.3304936749607],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_235a8959e710adcc6e9e85bbccfc1285 = L.popup({"maxWidth": 300});
+
+        
+            var html_2af023d88d8d83b85ef3458310548488 = $(`<div id="html_2af023d88d8d83b85ef3458310548488" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28091<br>     <b>Name:</b> H.C.ANDERSEN AIRPORT<br>     <b>Start:</b> 01.10.2013<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4748751446257<br>     <b>Long:</b> 10.3304936749607<br>     <b>Height:</b> 15<br>     <b>Report type:</b> synop_dk     </div>`)[0];
+            popup_235a8959e710adcc6e9e85bbccfc1285.setContent(html_2af023d88d8d83b85ef3458310548488);
+        
+
+        marker_8ba101aa8d1cb555bfa96006e6049084.bindPopup(popup_235a8959e710adcc6e9e85bbccfc1285)
+        ;
+
+        
+    
+    
+            var marker_c047041247ea39f95251689709f4ab16 = L.marker(
+                [55.4761695235651, 10.2599556100469],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_097f442bf19ef98661ae30d0ffb61efc = L.popup({"maxWidth": 300});
+
+        
+            var html_d306319bb882fa3037f74bb533839ce0 = $(`<div id="html_d306319bb882fa3037f74bb533839ce0" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28093<br>     <b>Name:</b> SØNDERSØ RENSEANLÆG<br>     <b>Start:</b> 22.05.2012<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4761695235651<br>     <b>Long:</b> 10.2599556100469<br>     <b>Height:</b> 22<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_097f442bf19ef98661ae30d0ffb61efc.setContent(html_d306319bb882fa3037f74bb533839ce0);
+        
+
+        marker_c047041247ea39f95251689709f4ab16.bindPopup(popup_097f442bf19ef98661ae30d0ffb61efc)
+        ;
+
+        
+    
+    
+            var marker_3b014a56a5236ac36a26d60b79ea92f4 = L.marker(
+                [55.5299010368658, 10.2439437016536],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_32e31c79cae59b228f01e94e68f058a3 = L.popup({"maxWidth": 300});
+
+        
+            var html_cdac353c896cf5da9f1c790e4fcc3e3d = $(`<div id="html_cdac353c896cf5da9f1c790e4fcc3e3d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28095<br>     <b>Name:</b> ROSTRUP<br>     <b>Start:</b> 01.10.1983<br>     <b>End:</b> 01.03.2003<br>     <b>Lat:</b> 55.5299010368658<br>     <b>Long:</b> 10.2439437016536<br>     <b>Height:</b> 31<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_32e31c79cae59b228f01e94e68f058a3.setContent(html_cdac353c896cf5da9f1c790e4fcc3e3d);
+        
+
+        marker_3b014a56a5236ac36a26d60b79ea92f4.bindPopup(popup_32e31c79cae59b228f01e94e68f058a3)
+        ;
+
+        
+    
+    
+            var marker_e6065066c9bf6a38d4893f48915df3e2 = L.marker(
+                [55.5294220241882, 10.2503926139353],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_f6f54d7100dc2d3462b7fea914184dd7 = L.popup({"maxWidth": 300});
+
+        
+            var html_6a0703c8912258e86838c7a01b4d1e23 = $(`<div id="html_6a0703c8912258e86838c7a01b4d1e23" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28095<br>     <b>Name:</b> ROSTRUP<br>     <b>Start:</b> 02.04.2003<br>     <b>End:</b> 01.11.2003<br>     <b>Lat:</b> 55.5294220241882<br>     <b>Long:</b> 10.2503926139353<br>     <b>Height:</b> 30<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_f6f54d7100dc2d3462b7fea914184dd7.setContent(html_6a0703c8912258e86838c7a01b4d1e23);
+        
+
+        marker_e6065066c9bf6a38d4893f48915df3e2.bindPopup(popup_f6f54d7100dc2d3462b7fea914184dd7)
+        ;
+
+        
+    
+    
+            var marker_b5ac00d55ff53fb0b54545aa2ce1ca8f = L.marker(
+                [55.5431740693544, 10.2368187382376],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c0286004f43048600bc785d166112eb4 = L.popup({"maxWidth": 300});
+
+        
+            var html_293ec030bab399c34fec35daff67a604 = $(`<div id="html_293ec030bab399c34fec35daff67a604" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28095<br>     <b>Name:</b> ENGELDRUP<br>     <b>Start:</b> 06.07.2006<br>     <b>End:</b> 14.07.2006<br>     <b>Lat:</b> 55.5431740693544<br>     <b>Long:</b> 10.2368187382376<br>     <b>Height:</b> 18<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_c0286004f43048600bc785d166112eb4.setContent(html_293ec030bab399c34fec35daff67a604);
+        
+
+        marker_b5ac00d55ff53fb0b54545aa2ce1ca8f.bindPopup(popup_c0286004f43048600bc785d166112eb4)
+        ;
+
+        
+    
+    
+            var marker_ad61f7088ecb78f27aee873680d927a3 = L.marker(
+                [55.5436959098173, 10.2367558752663],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6919f14157bc153766fc498cd15ce752 = L.popup({"maxWidth": 300});
+
+        
+            var html_d109040b14bd9c964f12e9531e04fe81 = $(`<div id="html_d109040b14bd9c964f12e9531e04fe81" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28095<br>     <b>Name:</b> ENGELDRUP<br>     <b>Start:</b> 15.07.2006<br>     <b>End:</b> 01.01.2007<br>     <b>Lat:</b> 55.5436959098173<br>     <b>Long:</b> 10.2367558752663<br>     <b>Height:</b> 21<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_6919f14157bc153766fc498cd15ce752.setContent(html_d109040b14bd9c964f12e9531e04fe81);
+        
+
+        marker_ad61f7088ecb78f27aee873680d927a3.bindPopup(popup_6919f14157bc153766fc498cd15ce752)
+        ;
+
+        
+    
+    
+            var marker_94719cadd292b56447c1f090c80a5645 = L.marker(
+                [55.5431740693544, 10.2368187382376],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_59a038fd7ed67f51d527967c140ac111 = L.popup({"maxWidth": 300});
+
+        
+            var html_40c0537f29d36870ecc89b406da95f79 = $(`<div id="html_40c0537f29d36870ecc89b406da95f79" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28095<br>     <b>Name:</b> ENGELDRUP<br>     <b>Start:</b> 06.07.2006<br>     <b>End:</b> 01.01.2007<br>     <b>Lat:</b> 55.5431740693544<br>     <b>Long:</b> 10.2368187382376<br>     <b>Height:</b> 18<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_59a038fd7ed67f51d527967c140ac111.setContent(html_40c0537f29d36870ecc89b406da95f79);
+        
+
+        marker_94719cadd292b56447c1f090c80a5645.bindPopup(popup_59a038fd7ed67f51d527967c140ac111)
+        ;
+
+        
+    
+    
+            var marker_f07493e88c1a6cb2d6ac15f8c221ce95 = L.marker(
+                [55.5294982790252, 10.2124030315316],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_7f6322baafe7332127d776066bbcad0c = L.popup({"maxWidth": 300});
+
+        
+            var html_3347c36d7b6382899a77a2230b92d9f9 = $(`<div id="html_3347c36d7b6382899a77a2230b92d9f9" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28100<br>     <b>Name:</b> JULLERUP<br>     <b>Start:</b> 01.07.1960<br>     <b>End:</b> 31.08.1978<br>     <b>Lat:</b> 55.5294982790252<br>     <b>Long:</b> 10.2124030315316<br>     <b>Height:</b> 38<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_7f6322baafe7332127d776066bbcad0c.setContent(html_3347c36d7b6382899a77a2230b92d9f9);
+        
+
+        marker_f07493e88c1a6cb2d6ac15f8c221ce95.bindPopup(popup_7f6322baafe7332127d776066bbcad0c)
+        ;
+
+        
+    
+    
+            var marker_48870832d5d4a01bc538a9108e254b69 = L.marker(
+                [55.5343858273305, 10.2179407206366],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_27f950cfc2e29fb333a202bb7ad66a89 = L.popup({"maxWidth": 300});
+
+        
+            var html_a34ea8f63dec112a807c1263fd61bcfc = $(`<div id="html_a34ea8f63dec112a807c1263fd61bcfc" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28100<br>     <b>Name:</b> JULLERUP<br>     <b>Start:</b> 01.09.1978<br>     <b>End:</b> 31.12.1979<br>     <b>Lat:</b> 55.5343858273305<br>     <b>Long:</b> 10.2179407206366<br>     <b>Height:</b> 36<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_27f950cfc2e29fb333a202bb7ad66a89.setContent(html_a34ea8f63dec112a807c1263fd61bcfc);
+        
+
+        marker_48870832d5d4a01bc538a9108e254b69.bindPopup(popup_27f950cfc2e29fb333a202bb7ad66a89)
+        ;
+
+        
+    
+    
+            var marker_25896cdd7d6a779ed003d6aa232544a7 = L.marker(
+                [55.4920612382333, 9.894854740028],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c7cff0771a789ad2c0befc3a0f56b9ac = L.popup({"maxWidth": 300});
+
+        
+            var html_5713a5e35a89706b5928fd42a32f51f3 = $(`<div id="html_5713a5e35a89706b5928fd42a32f51f3" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28110<br>     <b>Name:</b> BÅRING<br>     <b>Start:</b> 01.04.1951<br>     <b>End:</b> 31.12.1974<br>     <b>Lat:</b> 55.4920612382333<br>     <b>Long:</b> 9.894854740028<br>     <b>Height:</b> 68<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_c7cff0771a789ad2c0befc3a0f56b9ac.setContent(html_5713a5e35a89706b5928fd42a32f51f3);
+        
+
+        marker_25896cdd7d6a779ed003d6aa232544a7.bindPopup(popup_c7cff0771a789ad2c0befc3a0f56b9ac)
+        ;
+
+        
+    
+    
+            var marker_fd2811ec979aa258b0128749c9d50f72 = L.marker(
+                [55.4911152115842, 9.9013224417374],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6f3773dda15c19eddac52d11097cb659 = L.popup({"maxWidth": 300});
+
+        
+            var html_39073f5b30306bb741f2578d670930ef = $(`<div id="html_39073f5b30306bb741f2578d670930ef" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28110<br>     <b>Name:</b> BÅRING<br>     <b>Start:</b> 01.01.1975<br>     <b>End:</b> 05.12.2002<br>     <b>Lat:</b> 55.4911152115842<br>     <b>Long:</b> 9.9013224417374<br>     <b>Height:</b> 65<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_6f3773dda15c19eddac52d11097cb659.setContent(html_39073f5b30306bb741f2578d670930ef);
+        
+
+        marker_fd2811ec979aa258b0128749c9d50f72.bindPopup(popup_6f3773dda15c19eddac52d11097cb659)
+        ;
+
+        
+    
+    
+            var marker_922a9b01c6eaae62fccfed25a7b57095 = L.marker(
+                [55.4931821290562, 9.9037438319252],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_7bffbb7af03146a3f15e5b0895870295 = L.popup({"maxWidth": 300});
+
+        
+            var html_d808dab7634a38b2abba75c2bb196414 = $(`<div id="html_d808dab7634a38b2abba75c2bb196414" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28110<br>     <b>Name:</b> BÅRING<br>     <b>Start:</b> 06.12.2002<br>     <b>End:</b> 01.01.2003<br>     <b>Lat:</b> 55.4931821290562<br>     <b>Long:</b> 9.9037438319252<br>     <b>Height:</b> 69<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_7bffbb7af03146a3f15e5b0895870295.setContent(html_d808dab7634a38b2abba75c2bb196414);
+        
+
+        marker_922a9b01c6eaae62fccfed25a7b57095.bindPopup(popup_7bffbb7af03146a3f15e5b0895870295)
+        ;
+
+        
+    
+    
+            var marker_cf69fcce1887b0f3184d4a79711ce3d6 = L.marker(
+                [55.4931790924542, 9.9041552908168],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_f4b6d04edc32e92fedd8b067db229bed = L.popup({"maxWidth": 300});
+
+        
+            var html_fafef226f430dc50d78b7602e06e261f = $(`<div id="html_fafef226f430dc50d78b7602e06e261f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28110<br>     <b>Name:</b> BÅRING<br>     <b>Start:</b> 02.01.2003<br>     <b>End:</b> 01.08.2010<br>     <b>Lat:</b> 55.4931790924542<br>     <b>Long:</b> 9.9041552908168<br>     <b>Height:</b> 68<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_f4b6d04edc32e92fedd8b067db229bed.setContent(html_fafef226f430dc50d78b7602e06e261f);
+        
+
+        marker_cf69fcce1887b0f3184d4a79711ce3d6.bindPopup(popup_f4b6d04edc32e92fedd8b067db229bed)
+        ;
+
+        
+    
+    
+            var marker_1143d23a9704599baa07b2c49ce3979d = L.marker(
+                [55.492698909235, 9.8949008491145],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_1814bf560e63d4b148ebf86d0fd5e24f = L.popup({"maxWidth": 300});
+
+        
+            var html_a3c5a19a0fa7c7f2f95de54d58662af1 = $(`<div id="html_a3c5a19a0fa7c7f2f95de54d58662af1" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28110<br>     <b>Name:</b> BÅRING<br>     <b>Start:</b> 09.12.2009<br>     <b>End:</b> 04.11.2011<br>     <b>Lat:</b> 55.492698909235<br>     <b>Long:</b> 9.8949008491145<br>     <b>Height:</b> 64<br>     <b>Report type:</b> precip_aut     </div>`)[0];
+            popup_1814bf560e63d4b148ebf86d0fd5e24f.setContent(html_a3c5a19a0fa7c7f2f95de54d58662af1);
+        
+
+        marker_1143d23a9704599baa07b2c49ce3979d.bindPopup(popup_1814bf560e63d4b148ebf86d0fd5e24f)
+        ;
+
+        
+    
+    
+            var marker_036abe7acbfabda428071d1873434343 = L.marker(
+                [55.4934957574582, 9.8952987870443],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_4896055036d9dc470a1f7778da24f4ba = L.popup({"maxWidth": 300});
+
+        
+            var html_1508328c9df69e93e7a256d73171f370 = $(`<div id="html_1508328c9df69e93e7a256d73171f370" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28110<br>     <b>Name:</b> BÅRING<br>     <b>Start:</b> 04.11.2011<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4934957574582<br>     <b>Long:</b> 9.8952987870443<br>     <b>Height:</b> 63<br>     <b>Report type:</b> precip_aut     </div>`)[0];
+            popup_4896055036d9dc470a1f7778da24f4ba.setContent(html_1508328c9df69e93e7a256d73171f370);
+        
+
+        marker_036abe7acbfabda428071d1873434343.bindPopup(popup_4896055036d9dc470a1f7778da24f4ba)
+        ;
+
+        
+    
+    
+            var marker_7877f07806d2b8ef62c359a23b684bc0 = L.marker(
+                [55.4926996029328, 9.8948058979837],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_451de04db9e634d1e62fee24a380b7b9 = L.popup({"maxWidth": 300});
+
+        
+            var html_9374fd8a47c2368a5ffd428ffd24e3bd = $(`<div id="html_9374fd8a47c2368a5ffd428ffd24e3bd" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28110<br>     <b>Name:</b> BÅRING<br>     <b>Start:</b> 01.10.2011<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4926996029328<br>     <b>Long:</b> 9.8948058979837<br>     <b>Height:</b> 64<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_451de04db9e634d1e62fee24a380b7b9.setContent(html_9374fd8a47c2368a5ffd428ffd24e3bd);
+        
+
+        marker_7877f07806d2b8ef62c359a23b684bc0.bindPopup(popup_451de04db9e634d1e62fee24a380b7b9)
+        ;
+
+        
+    
+    
+            var marker_c8b60287af087c361f34c2b0470348eb = L.marker(
+                [55.5026993675037, 9.7416866762639],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_b61c95163e2d1107ca85e5b2bf291d67 = L.popup({"maxWidth": 300});
+
+        
+            var html_0aa3feaeb1fbdeb2e9a4cd4d6a61bc8c = $(`<div id="html_0aa3feaeb1fbdeb2e9a4cd4d6a61bc8c" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28115<br>     <b>Name:</b> MIDDELFART<br>     <b>Start:</b> 01.10.1983<br>     <b>End:</b> 01.12.1989<br>     <b>Lat:</b> 55.5026993675037<br>     <b>Long:</b> 9.7416866762639<br>     <b>Height:</b> 6<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_b61c95163e2d1107ca85e5b2bf291d67.setContent(html_0aa3feaeb1fbdeb2e9a4cd4d6a61bc8c);
+        
+
+        marker_c8b60287af087c361f34c2b0470348eb.bindPopup(popup_b61c95163e2d1107ca85e5b2bf291d67)
+        ;
+
+        
+    
+    
+            var marker_446614c6da7908bb1eda97579a22ad4a = L.marker(
+                [55.5056015923479, 9.725211820177],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6c8269fff1786d1cad7c9f8623187553 = L.popup({"maxWidth": 300});
+
+        
+            var html_e5c127cddaf25ca52b1b99d76686d14b = $(`<div id="html_e5c127cddaf25ca52b1b99d76686d14b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28118<br>     <b>Name:</b> MIDDELFART HAVN<br>     <b>Start:</b> 01.01.1895<br>     <b>End:</b> 29.04.1999<br>     <b>Lat:</b> 55.5056015923479<br>     <b>Long:</b> 9.725211820177<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel-temp-salt     </div>`)[0];
+            popup_6c8269fff1786d1cad7c9f8623187553.setContent(html_e5c127cddaf25ca52b1b99d76686d14b);
+        
+
+        marker_446614c6da7908bb1eda97579a22ad4a.bindPopup(popup_6c8269fff1786d1cad7c9f8623187553)
+        ;
+
+        
+    
+    
+            var marker_a99021d996f5fa421ddc1dc75f8e4285 = L.marker(
+                [55.506398708579, 9.7361987898258],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_3bbaf60eac2a80889cf72eb5aac531e3 = L.popup({"maxWidth": 300});
+
+        
+            var html_2c76ea1d8cd26c62e078d3f086b3d89d = $(`<div id="html_2c76ea1d8cd26c62e078d3f086b3d89d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28119<br>     <b>Name:</b> MIDDELFART HAVN<br>     <b>Start:</b> 19.04.2022<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.506398708579<br>     <b>Long:</b> 9.7361987898258<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_3bbaf60eac2a80889cf72eb5aac531e3.setContent(html_2c76ea1d8cd26c62e078d3f086b3d89d);
+        
+
+        marker_a99021d996f5fa421ddc1dc75f8e4285.bindPopup(popup_3bbaf60eac2a80889cf72eb5aac531e3)
+        ;
+
+        
+    
+    
+            var marker_d8e7e8197ee2fa691c6e1d4dc7d687ee = L.marker(
+                [55.4494882049421, 9.7587121353561],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_919daf503dd306197b8eedf5f3879463 = L.popup({"maxWidth": 300});
+
+        
+            var html_5c99e72c3583e7e3c0f50fb83c9dfa50 = $(`<div id="html_5c99e72c3583e7e3c0f50fb83c9dfa50" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28120<br>     <b>Name:</b> FØNSSKOV  <br>     <b>Start:</b> 01.03.1916<br>     <b>End:</b> 31.12.1954<br>     <b>Lat:</b> 55.4494882049421<br>     <b>Long:</b> 9.7587121353561<br>     <b>Height:</b> 4<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_919daf503dd306197b8eedf5f3879463.setContent(html_5c99e72c3583e7e3c0f50fb83c9dfa50);
+        
+
+        marker_d8e7e8197ee2fa691c6e1d4dc7d687ee.bindPopup(popup_919daf503dd306197b8eedf5f3879463)
+        ;
+
+        
+    
+    
+            var marker_8d4333bac8b3629a8684121d928abb63 = L.marker(
+                [55.4494882049421, 9.7587121353561],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_63143c3b4ee597ab77838045ff652f6a = L.popup({"maxWidth": 300});
+
+        
+            var html_940feb9db3e6a05ce0c88e4f15b33950 = $(`<div id="html_940feb9db3e6a05ce0c88e4f15b33950" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28120<br>     <b>Name:</b> FØNSSKOV  <br>     <b>Start:</b> 01.09.1960<br>     <b>End:</b> 31.05.1961<br>     <b>Lat:</b> 55.4494882049421<br>     <b>Long:</b> 9.7587121353561<br>     <b>Height:</b> 4<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_63143c3b4ee597ab77838045ff652f6a.setContent(html_940feb9db3e6a05ce0c88e4f15b33950);
+        
+
+        marker_8d4333bac8b3629a8684121d928abb63.bindPopup(popup_63143c3b4ee597ab77838045ff652f6a)
+        ;
+
+        
+    
+    
+            var marker_7f723796b0b212521bfe79814d049fa0 = L.marker(
+                [55.4672567455232, 9.7179279953547],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_390e082bb594952a00663cd63af9afcb = L.popup({"maxWidth": 300});
+
+        
+            var html_352f15e718e591efa4ce0098eea7d0db = $(`<div id="html_352f15e718e591efa4ce0098eea7d0db" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28120<br>     <b>Name:</b> FØNSSKOV ODDE<br>     <b>Start:</b> 01.04.1964<br>     <b>End:</b> 01.01.2010<br>     <b>Lat:</b> 55.4672567455232<br>     <b>Long:</b> 9.7179279953547<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_390e082bb594952a00663cd63af9afcb.setContent(html_352f15e718e591efa4ce0098eea7d0db);
+        
+
+        marker_7f723796b0b212521bfe79814d049fa0.bindPopup(popup_390e082bb594952a00663cd63af9afcb)
+        ;
+
+        
+    
+    
+            var marker_f8636f17308146f1eba06a262a623242 = L.marker(
+                [55.4672567455232, 9.7179279953547],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_632ac0a5e24aa6678077351871ead1ce = L.popup({"maxWidth": 300});
+
+        
+            var html_f59db5fc02d39d4864fde4d054875688 = $(`<div id="html_f59db5fc02d39d4864fde4d054875688" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28120<br>     <b>Name:</b> FØNSSKOV ODDE<br>     <b>Start:</b> 01.08.1966<br>     <b>End:</b> 31.12.1993<br>     <b>Lat:</b> 55.4672567455232<br>     <b>Long:</b> 9.7179279953547<br>     <b>Height:</b> 2<br>     <b>Report type:</b> lightning     </div>`)[0];
+            popup_632ac0a5e24aa6678077351871ead1ce.setContent(html_f59db5fc02d39d4864fde4d054875688);
+        
+
+        marker_f8636f17308146f1eba06a262a623242.bindPopup(popup_632ac0a5e24aa6678077351871ead1ce)
+        ;
+
+        
+    
+    
+            var marker_83dd89fe5facd735b4f633e5d145529c = L.marker(
+                [55.4925034740461, 9.7291971624791],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_9eda3a50de9148324eb98aa7b375d0be = L.popup({"maxWidth": 300});
+
+        
+            var html_003e651807e8f99862d9d6bde5b2e30b = $(`<div id="html_003e651807e8f99862d9d6bde5b2e30b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28121<br>     <b>Name:</b> MIDDELFART LYSTBÅDEHAVN<br>     <b>Start:</b> 14.11.2024<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4925034740461<br>     <b>Long:</b> 9.7291971624791<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_9eda3a50de9148324eb98aa7b375d0be.setContent(html_003e651807e8f99862d9d6bde5b2e30b);
+        
+
+        marker_83dd89fe5facd735b4f633e5d145529c.bindPopup(popup_9eda3a50de9148324eb98aa7b375d0be)
+        ;
+
+        
+    
+    
+            var marker_bb1f15b4fbfbbe93fb30c64587e56e75 = L.marker(
+                [55.426023489974, 9.8296827196832],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_b4930bc5092a5d2cfd62583b58766a4c = L.popup({"maxWidth": 300});
+
+        
+            var html_f6c09b0df206a347b973565da84ae437 = $(`<div id="html_f6c09b0df206a347b973565da84ae437" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28130<br>     <b>Name:</b> FØNS<br>     <b>Start:</b> 01.01.1955<br>     <b>End:</b> 31.07.1960<br>     <b>Lat:</b> 55.426023489974<br>     <b>Long:</b> 9.8296827196832<br>     <b>Height:</b> 9<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_b4930bc5092a5d2cfd62583b58766a4c.setContent(html_f6c09b0df206a347b973565da84ae437);
+        
+
+        marker_bb1f15b4fbfbbe93fb30c64587e56e75.bindPopup(popup_b4930bc5092a5d2cfd62583b58766a4c)
+        ;
+
+        
+    
+    
+            var marker_bf6806679466023cdfb9bf80223bff48 = L.marker(
+                [55.426335555033, 9.8366417714488],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_73fb21d5ae9b1e4191870ef6f1fe413a = L.popup({"maxWidth": 300});
+
+        
+            var html_814ce34a095dcc7b7b5a798105c8e6cb = $(`<div id="html_814ce34a095dcc7b7b5a798105c8e6cb" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28130<br>     <b>Name:</b> FØNS<br>     <b>Start:</b> 01.04.1964<br>     <b>End:</b> 31.01.1985<br>     <b>Lat:</b> 55.426335555033<br>     <b>Long:</b> 9.8366417714488<br>     <b>Height:</b> 13<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_73fb21d5ae9b1e4191870ef6f1fe413a.setContent(html_814ce34a095dcc7b7b5a798105c8e6cb);
+        
+
+        marker_bf6806679466023cdfb9bf80223bff48.bindPopup(popup_73fb21d5ae9b1e4191870ef6f1fe413a)
+        ;
+
+        
+    
+    
+            var marker_321bdb18cd9d1e81003f868267c1be4a = L.marker(
+                [55.4258421200369, 9.8352092542189],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c2a8ef86ad9b8f93d7c62b0369f83481 = L.popup({"maxWidth": 300});
+
+        
+            var html_fd11cd90102379a48bb3cc22a403787c = $(`<div id="html_fd11cd90102379a48bb3cc22a403787c" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28130<br>     <b>Name:</b> FØNS<br>     <b>Start:</b> 01.08.1986<br>     <b>End:</b> 30.04.1988<br>     <b>Lat:</b> 55.4258421200369<br>     <b>Long:</b> 9.8352092542189<br>     <b>Height:</b> 10<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_c2a8ef86ad9b8f93d7c62b0369f83481.setContent(html_fd11cd90102379a48bb3cc22a403787c);
+        
+
+        marker_321bdb18cd9d1e81003f868267c1be4a.bindPopup(popup_c2a8ef86ad9b8f93d7c62b0369f83481)
+        ;
+
+        
+    
+    
+            var marker_d132dd4f71770e7ff34be90e79f43d0f = L.marker(
+                [55.4256706544402, 9.8353162422808],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_d6f9ec3574b2501943d8fe7946ae1449 = L.popup({"maxWidth": 300});
+
+        
+            var html_18020aa5e57bde493218e05d2e9ecefb = $(`<div id="html_18020aa5e57bde493218e05d2e9ecefb" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28130<br>     <b>Name:</b> FØNS<br>     <b>Start:</b> 01.05.1988<br>     <b>End:</b> 19.07.1999<br>     <b>Lat:</b> 55.4256706544402<br>     <b>Long:</b> 9.8353162422808<br>     <b>Height:</b> 9<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_d6f9ec3574b2501943d8fe7946ae1449.setContent(html_18020aa5e57bde493218e05d2e9ecefb);
+        
+
+        marker_d132dd4f71770e7ff34be90e79f43d0f.bindPopup(popup_d6f9ec3574b2501943d8fe7946ae1449)
+        ;
+
+        
+    
+    
+            var marker_94efce5a5b1903f66b30afa0a495c1b4 = L.marker(
+                [55.4258054261107, 9.8353190865657],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_4450d13d3e874b5d9a4216c8681ab094 = L.popup({"maxWidth": 300});
+
+        
+            var html_27a4b48489c485f3756c124cd263011a = $(`<div id="html_27a4b48489c485f3756c124cd263011a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28130<br>     <b>Name:</b> FØNS<br>     <b>Start:</b> 20.07.1999<br>     <b>End:</b> 07.02.2001<br>     <b>Lat:</b> 55.4258054261107<br>     <b>Long:</b> 9.8353190865657<br>     <b>Height:</b> 10<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_4450d13d3e874b5d9a4216c8681ab094.setContent(html_27a4b48489c485f3756c124cd263011a);
+        
+
+        marker_94efce5a5b1903f66b30afa0a495c1b4.bindPopup(popup_4450d13d3e874b5d9a4216c8681ab094)
+        ;
+
+        
+    
+    
+            var marker_cec7e0e38603170e8b03e98680b1445a = L.marker(
+                [55.4265080050776, 9.8311149865601],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_4870153fa7e188a5a1d2d56bdac88881 = L.popup({"maxWidth": 300});
+
+        
+            var html_994913cb13ab3188d2c5d823247bf4c2 = $(`<div id="html_994913cb13ab3188d2c5d823247bf4c2" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28130<br>     <b>Name:</b> FØNS<br>     <b>Start:</b> 08.02.2001<br>     <b>End:</b> 01.01.2003<br>     <b>Lat:</b> 55.4265080050776<br>     <b>Long:</b> 9.8311149865601<br>     <b>Height:</b> 11<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_4870153fa7e188a5a1d2d56bdac88881.setContent(html_994913cb13ab3188d2c5d823247bf4c2);
+        
+
+        marker_cec7e0e38603170e8b03e98680b1445a.bindPopup(popup_4870153fa7e188a5a1d2d56bdac88881)
+        ;
+
+        
+    
+    
+            var marker_d8ac3d0e3ea7ee27842684f3cc437619 = L.marker(
+                [55.3846442632301, 9.8503623397274],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_700d379a9a3b408fef99b06c94a439f0 = L.popup({"maxWidth": 300});
+
+        
+            var html_f7564349aba4c50e6ba58bb51ece099e = $(`<div id="html_f7564349aba4c50e6ba58bb51ece099e" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28133<br>     <b>Name:</b> ESKØR<br>     <b>Start:</b> 02.06.2003<br>     <b>End:</b> 01.07.2003<br>     <b>Lat:</b> 55.3846442632301<br>     <b>Long:</b> 9.8503623397274<br>     <b>Height:</b> 14<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_700d379a9a3b408fef99b06c94a439f0.setContent(html_f7564349aba4c50e6ba58bb51ece099e);
+        
+
+        marker_d8ac3d0e3ea7ee27842684f3cc437619.bindPopup(popup_700d379a9a3b408fef99b06c94a439f0)
+        ;
+
+        
+    
+    
+            var marker_a0574cb5b68b6d35c78647ec408387b5 = L.marker(
+                [55.4001581859788, 9.865191209527],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6f2ca90b757a223a42590272c047772e = L.popup({"maxWidth": 300});
+
+        
+            var html_96d39685c7d30ff29049a371eedfa55c = $(`<div id="html_96d39685c7d30ff29049a371eedfa55c" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28133<br>     <b>Name:</b> TYBRIND<br>     <b>Start:</b> 02.01.2004<br>     <b>End:</b> 01.05.2007<br>     <b>Lat:</b> 55.4001581859788<br>     <b>Long:</b> 9.865191209527<br>     <b>Height:</b> 13<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_6f2ca90b757a223a42590272c047772e.setContent(html_96d39685c7d30ff29049a371eedfa55c);
+        
+
+        marker_a0574cb5b68b6d35c78647ec408387b5.bindPopup(popup_6f2ca90b757a223a42590272c047772e)
+        ;
+
+        
+    
+    
+            var marker_d155b57060e9e42d2589633a3b70a3e4 = L.marker(
+                [55.4001581859788, 9.865191209527],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_fee7ad90f7aaf5b0024244be5f663a34 = L.popup({"maxWidth": 300});
+
+        
+            var html_e83b48483da41146030a7f0259cc0abf = $(`<div id="html_e83b48483da41146030a7f0259cc0abf" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28133<br>     <b>Name:</b> TYBRIND<br>     <b>Start:</b> 02.01.2004<br>     <b>End:</b> 01.05.2007<br>     <b>Lat:</b> 55.4001581859788<br>     <b>Long:</b> 9.865191209527<br>     <b>Height:</b> 13<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_fee7ad90f7aaf5b0024244be5f663a34.setContent(html_e83b48483da41146030a7f0259cc0abf);
+        
+
+        marker_d155b57060e9e42d2589633a3b70a3e4.bindPopup(popup_fee7ad90f7aaf5b0024244be5f663a34)
+        ;
+
+        
+    
+    
+            var marker_e69e2f6b36cf39dc8f60d6ddf1460255 = L.marker(
+                [55.3968680442735, 9.9695986754973],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_77150a57a2ed2828dc74b10c1c0e5605 = L.popup({"maxWidth": 300});
+
+        
+            var html_f04d5d4157ef641b3afc07b700a38652 = $(`<div id="html_f04d5d4157ef641b3afc07b700a38652" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28140<br>     <b>Name:</b> GELSTED<br>     <b>Start:</b> 01.11.1912<br>     <b>End:</b> 31.12.1958<br>     <b>Lat:</b> 55.3968680442735<br>     <b>Long:</b> 9.9695986754973<br>     <b>Height:</b> 53<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_77150a57a2ed2828dc74b10c1c0e5605.setContent(html_f04d5d4157ef641b3afc07b700a38652);
+        
+
+        marker_e69e2f6b36cf39dc8f60d6ddf1460255.bindPopup(popup_77150a57a2ed2828dc74b10c1c0e5605)
+        ;
+
+        
+    
+    
+            var marker_039712ac66c985f6fd5500f91beb7ebd = L.marker(
+                [55.3968316701579, 9.9741767696634],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_58643904e00264048efc132328c5c689 = L.popup({"maxWidth": 300});
+
+        
+            var html_61821751bfedc45e4d79145ff4f9c03a = $(`<div id="html_61821751bfedc45e4d79145ff4f9c03a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28140<br>     <b>Name:</b> GELSTED<br>     <b>Start:</b> 01.01.1959<br>     <b>End:</b> 31.03.1962<br>     <b>Lat:</b> 55.3968316701579<br>     <b>Long:</b> 9.9741767696634<br>     <b>Height:</b> 50<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_58643904e00264048efc132328c5c689.setContent(html_61821751bfedc45e4d79145ff4f9c03a);
+        
+
+        marker_039712ac66c985f6fd5500f91beb7ebd.bindPopup(popup_58643904e00264048efc132328c5c689)
+        ;
+
+        
+    
+    
+            var marker_c5e869269ddc0e8531d36357dc394d80 = L.marker(
+                [55.396009225717, 9.9758933688474],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_0b0a70d87ad55931f426835a0e4fe910 = L.popup({"maxWidth": 300});
+
+        
+            var html_76a10ee580b504caf1a63f5b6dbcee73 = $(`<div id="html_76a10ee580b504caf1a63f5b6dbcee73" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28140<br>     <b>Name:</b> GELSTED<br>     <b>Start:</b> 01.04.1962<br>     <b>End:</b> 31.03.1971<br>     <b>Lat:</b> 55.396009225717<br>     <b>Long:</b> 9.9758933688474<br>     <b>Height:</b> 49<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_0b0a70d87ad55931f426835a0e4fe910.setContent(html_76a10ee580b504caf1a63f5b6dbcee73);
+        
+
+        marker_c5e869269ddc0e8531d36357dc394d80.bindPopup(popup_0b0a70d87ad55931f426835a0e4fe910)
+        ;
+
+        
+    
+    
+            var marker_99cee99dc3e6bd9c517fb2365207a989 = L.marker(
+                [55.3806770922537, 10.0372283174355],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_04403c0f8f4ed1c04769274f89bb565c = L.popup({"maxWidth": 300});
+
+        
+            var html_9a58972f66821cfb8a4b9d29c293ebff = $(`<div id="html_9a58972f66821cfb8a4b9d29c293ebff" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28145<br>     <b>Name:</b> ÅRUP<br>     <b>Start:</b> 01.12.1970<br>     <b>End:</b> 30.06.1971<br>     <b>Lat:</b> 55.3806770922537<br>     <b>Long:</b> 10.0372283174355<br>     <b>Height:</b> 60<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_04403c0f8f4ed1c04769274f89bb565c.setContent(html_9a58972f66821cfb8a4b9d29c293ebff);
+        
+
+        marker_99cee99dc3e6bd9c517fb2365207a989.bindPopup(popup_04403c0f8f4ed1c04769274f89bb565c)
+        ;
+
+        
+    
+    
+            var marker_056bcb5b8c468dc721247b40b3969bfe = L.marker(
+                [55.3804129141901, 10.0365900787596],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_bbc759b56606f32100cb21ede2161032 = L.popup({"maxWidth": 300});
+
+        
+            var html_6dde7e92e7005357db696ea6e6a232d7 = $(`<div id="html_6dde7e92e7005357db696ea6e6a232d7" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28145<br>     <b>Name:</b> ÅRUP<br>     <b>Start:</b> 01.07.1971<br>     <b>End:</b> 31.12.1980<br>     <b>Lat:</b> 55.3804129141901<br>     <b>Long:</b> 10.0365900787596<br>     <b>Height:</b> 65<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_bbc759b56606f32100cb21ede2161032.setContent(html_6dde7e92e7005357db696ea6e6a232d7);
+        
+
+        marker_056bcb5b8c468dc721247b40b3969bfe.bindPopup(popup_bbc759b56606f32100cb21ede2161032)
+        ;
+
+        
+    
+    
+            var marker_0fd817c13d96cda6d3c5ac6f7f67f3a8 = L.marker(
+                [55.3806770922537, 10.0372283174355],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_55900a71ed466ec5da5d58f65e3e72b9 = L.popup({"maxWidth": 300});
+
+        
+            var html_93b9fe601d0d713e0e8f09ce239bce55 = $(`<div id="html_93b9fe601d0d713e0e8f09ce239bce55" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28145<br>     <b>Name:</b> ÅRUP<br>     <b>Start:</b> 01.01.1981<br>     <b>End:</b> 30.06.1983<br>     <b>Lat:</b> 55.3806770922537<br>     <b>Long:</b> 10.0372283174355<br>     <b>Height:</b> 60<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_55900a71ed466ec5da5d58f65e3e72b9.setContent(html_93b9fe601d0d713e0e8f09ce239bce55);
+        
+
+        marker_0fd817c13d96cda6d3c5ac6f7f67f3a8.bindPopup(popup_55900a71ed466ec5da5d58f65e3e72b9)
+        ;
+
+        
+    
+    
+            var marker_1cf912ef2e733b344a15ab8a72a7b8c1 = L.marker(
+                [55.3804129141901, 10.0365900787596],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6959ecaa97e20e96fc71dc345c203add = L.popup({"maxWidth": 300});
+
+        
+            var html_19489a93bf4c4dc6460ce981c2a9a49a = $(`<div id="html_19489a93bf4c4dc6460ce981c2a9a49a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28145<br>     <b>Name:</b> ÅRUP<br>     <b>Start:</b> 01.07.1971<br>     <b>End:</b> 30.04.1980<br>     <b>Lat:</b> 55.3804129141901<br>     <b>Long:</b> 10.0365900787596<br>     <b>Height:</b> 65<br>     <b>Report type:</b> casella     </div>`)[0];
+            popup_6959ecaa97e20e96fc71dc345c203add.setContent(html_19489a93bf4c4dc6460ce981c2a9a49a);
+        
+
+        marker_1cf912ef2e733b344a15ab8a72a7b8c1.bindPopup(popup_6959ecaa97e20e96fc71dc345c203add)
+        ;
+
+        
+    
+    
+            var marker_6ff096848d07a4a8b21ebef54ca26dd2 = L.marker(
+                [55.4119243498777, 10.061108469472],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_1a113142365e5c29f71bb8ec3450d38e = L.popup({"maxWidth": 300});
+
+        
+            var html_5c19f3b5fb7ecd4aceb39e39f822b8f8 = $(`<div id="html_5c19f3b5fb7ecd4aceb39e39f822b8f8" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> GRIBSVAD<br>     <b>Start:</b> 01.05.1956<br>     <b>End:</b> 31.01.1963<br>     <b>Lat:</b> 55.4119243498777<br>     <b>Long:</b> 10.061108469472<br>     <b>Height:</b> 74<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_1a113142365e5c29f71bb8ec3450d38e.setContent(html_5c19f3b5fb7ecd4aceb39e39f822b8f8);
+        
+
+        marker_6ff096848d07a4a8b21ebef54ca26dd2.bindPopup(popup_1a113142365e5c29f71bb8ec3450d38e)
+        ;
+
+        
+    
+    
+            var marker_0948f0f32f417c5a2878cf7864d1851a = L.marker(
+                [55.4174539031207, 10.0555694033882],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_acf241e68a9db991eec80ae73e9ab4f2 = L.popup({"maxWidth": 300});
+
+        
+            var html_3e8533acf21d092db55667b72297e7e4 = $(`<div id="html_3e8533acf21d092db55667b72297e7e4" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> ETTERUP<br>     <b>Start:</b> 01.11.1964<br>     <b>End:</b> 30.11.1966<br>     <b>Lat:</b> 55.4174539031207<br>     <b>Long:</b> 10.0555694033882<br>     <b>Height:</b> 67<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_acf241e68a9db991eec80ae73e9ab4f2.setContent(html_3e8533acf21d092db55667b72297e7e4);
+        
+
+        marker_0948f0f32f417c5a2878cf7864d1851a.bindPopup(popup_acf241e68a9db991eec80ae73e9ab4f2)
+        ;
+
+        
+    
+    
+            var marker_3082a9c80b4fa9f408931cb79a344fd6 = L.marker(
+                [55.4199977960106, 10.0627467850874],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_71075cd773c1b2d156f65772b6d76d95 = L.popup({"maxWidth": 300});
+
+        
+            var html_62d6dd7b49f66085c5f286c40d7a07d4 = $(`<div id="html_62d6dd7b49f66085c5f286c40d7a07d4" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> ETTERUP<br>     <b>Start:</b> 01.12.1966<br>     <b>End:</b> 30.06.1969<br>     <b>Lat:</b> 55.4199977960106<br>     <b>Long:</b> 10.0627467850874<br>     <b>Height:</b> 74<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_71075cd773c1b2d156f65772b6d76d95.setContent(html_62d6dd7b49f66085c5f286c40d7a07d4);
+        
+
+        marker_3082a9c80b4fa9f408931cb79a344fd6.bindPopup(popup_71075cd773c1b2d156f65772b6d76d95)
+        ;
+
+        
+    
+    
+            var marker_a04793f275eb9c0ad9e49045f99d4a48 = L.marker(
+                [55.4197933845257, 10.0655851031202],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_2b472e19a2e187d0aa45150bfe5e59a2 = L.popup({"maxWidth": 300});
+
+        
+            var html_6d6650f5efb663a81ea3683fb9c6ba42 = $(`<div id="html_6d6650f5efb663a81ea3683fb9c6ba42" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> ETTERUP<br>     <b>Start:</b> 01.07.1969<br>     <b>End:</b> 31.03.1972<br>     <b>Lat:</b> 55.4197933845257<br>     <b>Long:</b> 10.0655851031202<br>     <b>Height:</b> 75<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_2b472e19a2e187d0aa45150bfe5e59a2.setContent(html_6d6650f5efb663a81ea3683fb9c6ba42);
+        
+
+        marker_a04793f275eb9c0ad9e49045f99d4a48.bindPopup(popup_2b472e19a2e187d0aa45150bfe5e59a2)
+        ;
+
+        
+    
+    
+            var marker_aa48bdf9b9ec4e1171d9d722f6f40457 = L.marker(
+                [55.4119243498777, 10.061108469472],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_7bef0bbc296df3dd8653b90fedc4c470 = L.popup({"maxWidth": 300});
+
+        
+            var html_660491d96b0c7f3dc0451d0a71b20ee7 = $(`<div id="html_660491d96b0c7f3dc0451d0a71b20ee7" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> GRIBSVAD<br>     <b>Start:</b> 01.04.1972<br>     <b>End:</b> 31.12.1972<br>     <b>Lat:</b> 55.4119243498777<br>     <b>Long:</b> 10.061108469472<br>     <b>Height:</b> 74<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_7bef0bbc296df3dd8653b90fedc4c470.setContent(html_660491d96b0c7f3dc0451d0a71b20ee7);
+        
+
+        marker_aa48bdf9b9ec4e1171d9d722f6f40457.bindPopup(popup_7bef0bbc296df3dd8653b90fedc4c470)
+        ;
+
+        
+    
+    
+            var marker_d407fdf67fc218317d38ac2654dabeb7 = L.marker(
+                [55.4117569844314, 10.0596823708112],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_efae8db26a6efd498687d3226ee2481b = L.popup({"maxWidth": 300});
+
+        
+            var html_8baff7a3f91212e7991bce0037bebbf5 = $(`<div id="html_8baff7a3f91212e7991bce0037bebbf5" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> GRIBSVAD<br>     <b>Start:</b> 01.01.1973<br>     <b>End:</b> 01.11.1999<br>     <b>Lat:</b> 55.4117569844314<br>     <b>Long:</b> 10.0596823708112<br>     <b>Height:</b> 77<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_efae8db26a6efd498687d3226ee2481b.setContent(html_8baff7a3f91212e7991bce0037bebbf5);
+        
+
+        marker_d407fdf67fc218317d38ac2654dabeb7.bindPopup(popup_efae8db26a6efd498687d3226ee2481b)
+        ;
+
+        
+    
+    
+            var marker_f341fe2a62aaa1dea0910dab36fb395a = L.marker(
+                [55.4116664097234, 10.06080143952],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_1463696de92eb3f53ae3378baf127697 = L.popup({"maxWidth": 300});
+
+        
+            var html_b3eb9d025f87d6d81a82e0d6aaec68f4 = $(`<div id="html_b3eb9d025f87d6d81a82e0d6aaec68f4" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> GRIBSVAD<br>     <b>Start:</b> 02.11.1999<br>     <b>End:</b> 23.10.2000<br>     <b>Lat:</b> 55.4116664097234<br>     <b>Long:</b> 10.06080143952<br>     <b>Height:</b> 74<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_1463696de92eb3f53ae3378baf127697.setContent(html_b3eb9d025f87d6d81a82e0d6aaec68f4);
+        
+
+        marker_f341fe2a62aaa1dea0910dab36fb395a.bindPopup(popup_1463696de92eb3f53ae3378baf127697)
+        ;
+
+        
+    
+    
+            var marker_0b832f9874be05991ae68a127ab0141a = L.marker(
+                [55.4116560561273, 10.0609591188277],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_565a0b49d4d760e24f5c050878444a86 = L.popup({"maxWidth": 300});
+
+        
+            var html_275fa1c33b917f11aa47049b3b9e028b = $(`<div id="html_275fa1c33b917f11aa47049b3b9e028b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> GRIBSVAD<br>     <b>Start:</b> 24.10.2000<br>     <b>End:</b> 15.12.2003<br>     <b>Lat:</b> 55.4116560561273<br>     <b>Long:</b> 10.0609591188277<br>     <b>Height:</b> 73<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_565a0b49d4d760e24f5c050878444a86.setContent(html_275fa1c33b917f11aa47049b3b9e028b);
+        
+
+        marker_0b832f9874be05991ae68a127ab0141a.bindPopup(popup_565a0b49d4d760e24f5c050878444a86)
+        ;
+
+        
+    
+    
+            var marker_c4e4bd5f430c4e50ab225e2664ded1d7 = L.marker(
+                [55.4177270246601, 10.0499367726166],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_f84606f1f2e841314100e2c33106baf3 = L.popup({"maxWidth": 300});
+
+        
+            var html_85b18522436e9ce4bd1590c8ef2a300e = $(`<div id="html_85b18522436e9ce4bd1590c8ef2a300e" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28150<br>     <b>Name:</b> GRØNNEMOSE<br>     <b>Start:</b> 16.12.2003<br>     <b>End:</b> 01.12.2008<br>     <b>Lat:</b> 55.4177270246601<br>     <b>Long:</b> 10.0499367726166<br>     <b>Height:</b> 55<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_f84606f1f2e841314100e2c33106baf3.setContent(html_85b18522436e9ce4bd1590c8ef2a300e);
+        
+
+        marker_c4e4bd5f430c4e50ab225e2664ded1d7.bindPopup(popup_f84606f1f2e841314100e2c33106baf3)
+        ;
+
+        
+    
+    
+            var marker_2d79cde665c4b543e1a355e65eef46ec = L.marker(
+                [55.4281859261196, 10.1509857785433],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_a926b5a0eec19f1e2f8f6adaf04368a4 = L.popup({"maxWidth": 300});
+
+        
+            var html_cd17d5f7001d8b8ef1b5771824b34ba4 = $(`<div id="html_cd17d5f7001d8b8ef1b5771824b34ba4" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28160<br>     <b>Name:</b> VÆDE<br>     <b>Start:</b> 01.09.1934<br>     <b>End:</b> 31.05.1961<br>     <b>Lat:</b> 55.4281859261196<br>     <b>Long:</b> 10.1509857785433<br>     <b>Height:</b> 73<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_a926b5a0eec19f1e2f8f6adaf04368a4.setContent(html_cd17d5f7001d8b8ef1b5771824b34ba4);
+        
+
+        marker_2d79cde665c4b543e1a355e65eef46ec.bindPopup(popup_a926b5a0eec19f1e2f8f6adaf04368a4)
+        ;
+
+        
+    
+    
+            var marker_fffc9974e9b75f8a949afc815e573068 = L.marker(
+                [55.4298149128512, 10.1497689153303],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_504aa1c57501035332922d589fdff23f = L.popup({"maxWidth": 300});
+
+        
+            var html_5af9419b7dea5df77cf168e506acfe41 = $(`<div id="html_5af9419b7dea5df77cf168e506acfe41" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28160<br>     <b>Name:</b> VÆDE<br>     <b>Start:</b> 01.06.1961<br>     <b>End:</b> 31.03.1976<br>     <b>Lat:</b> 55.4298149128512<br>     <b>Long:</b> 10.1497689153303<br>     <b>Height:</b> 68<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_504aa1c57501035332922d589fdff23f.setContent(html_5af9419b7dea5df77cf168e506acfe41);
+        
+
+        marker_fffc9974e9b75f8a949afc815e573068.bindPopup(popup_504aa1c57501035332922d589fdff23f)
+        ;
+
+        
+    
+    
+            var marker_b330d5468e97b81625edd2e5870e8777 = L.marker(
+                [55.4310726611309, 10.1498054636684],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_e61f6507ca58b1610b9b65572415b93d = L.popup({"maxWidth": 300});
+
+        
+            var html_3c797c44dba26a48eef362a0a5a1e18a = $(`<div id="html_3c797c44dba26a48eef362a0a5a1e18a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28160<br>     <b>Name:</b> VÆDE<br>     <b>Start:</b> 01.04.1976<br>     <b>End:</b> 31.12.1988<br>     <b>Lat:</b> 55.4310726611309<br>     <b>Long:</b> 10.1498054636684<br>     <b>Height:</b> 67<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_e61f6507ca58b1610b9b65572415b93d.setContent(html_3c797c44dba26a48eef362a0a5a1e18a);
+        
+
+        marker_b330d5468e97b81625edd2e5870e8777.bindPopup(popup_e61f6507ca58b1610b9b65572415b93d)
+        ;
+
+        
+    
+    
+            var marker_9be768ebb9d535d6091a7088cc37e853 = L.marker(
+                [55.4447388833993, 10.1394526221838],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_90ba1c4c666521412b053d0afe3b25c7 = L.popup({"maxWidth": 300});
+
+        
+            var html_572e6b03a19986b15a7311a44038d0ff = $(`<div id="html_572e6b03a19986b15a7311a44038d0ff" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28160<br>     <b>Name:</b> SASSEROD<br>     <b>Start:</b> 02.02.1989<br>     <b>End:</b> 01.11.1999<br>     <b>Lat:</b> 55.4447388833993<br>     <b>Long:</b> 10.1394526221838<br>     <b>Height:</b> 53<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_90ba1c4c666521412b053d0afe3b25c7.setContent(html_572e6b03a19986b15a7311a44038d0ff);
+        
+
+        marker_9be768ebb9d535d6091a7088cc37e853.bindPopup(popup_90ba1c4c666521412b053d0afe3b25c7)
+        ;
+
+        
+    
+    
+            var marker_3d4f0c2c64e54498e9de2341899fae3f = L.marker(
+                [55.4638617418671, 10.1528945409047],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_ca7e93f55b50fd450770f5e27cc8a018 = L.popup({"maxWidth": 300});
+
+        
+            var html_ba683d4545feb532c2a96cb2ce154106 = $(`<div id="html_ba683d4545feb532c2a96cb2ce154106" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28161<br>     <b>Name:</b> VEFLINGE<br>     <b>Start:</b> 02.11.1999<br>     <b>End:</b> 02.01.2010<br>     <b>Lat:</b> 55.4638617418671<br>     <b>Long:</b> 10.1528945409047<br>     <b>Height:</b> 37<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_ca7e93f55b50fd450770f5e27cc8a018.setContent(html_ba683d4545feb532c2a96cb2ce154106);
+        
+
+        marker_3d4f0c2c64e54498e9de2341899fae3f.bindPopup(popup_ca7e93f55b50fd450770f5e27cc8a018)
+        ;
+
+        
+    
+    
+            var marker_0e3e9c76b3e51d461d9f00bf3379ffa3 = L.marker(
+                [55.4163722302194, 10.2670407576389],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_e560b5f53125a558f5a72cbdffdcd920 = L.popup({"maxWidth": 300});
+
+        
+            var html_6bd305881ae58a09e68dd4c8d2f9a6a5 = $(`<div id="html_6bd305881ae58a09e68dd4c8d2f9a6a5" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28165<br>     <b>Name:</b> ODENSE KORUP<br>     <b>Start:</b> 19.05.2009<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4163722302194<br>     <b>Long:</b> 10.2670407576389<br>     <b>Height:</b> 17<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_e560b5f53125a558f5a72cbdffdcd920.setContent(html_6bd305881ae58a09e68dd4c8d2f9a6a5);
+        
+
+        marker_0e3e9c76b3e51d461d9f00bf3379ffa3.bindPopup(popup_e560b5f53125a558f5a72cbdffdcd920)
+        ;
+
+        
+    
+    
+            var marker_bf81658dee3136f73afd32d0376831ed = L.marker(
+                [55.3823469446959, 10.3697675743886],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6569a421b5bec5ba1f4478436e2df405 = L.popup({"maxWidth": 300});
+
+        
+            var html_783ebf74cea7ddaa828cf4f5aa08756d = $(`<div id="html_783ebf74cea7ddaa828cf4f5aa08756d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28168<br>     <b>Name:</b> ODENSE SYGEHUS<br>     <b>Start:</b> 15.04.1981<br>     <b>End:</b> 12.09.1991<br>     <b>Lat:</b> 55.3823469446959<br>     <b>Long:</b> 10.3697675743886<br>     <b>Height:</b> 13<br>     <b>Report type:</b> pollen     </div>`)[0];
+            popup_6569a421b5bec5ba1f4478436e2df405.setContent(html_783ebf74cea7ddaa828cf4f5aa08756d);
+        
+
+        marker_bf81658dee3136f73afd32d0376831ed.bindPopup(popup_6569a421b5bec5ba1f4478436e2df405)
+        ;
+
+        
+    
+    
+            var marker_9852cd558e0b7cd87364017ecfdabac9 = L.marker(
+                [55.3654953246208, 10.3961184593204],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_8381108cf03256c902cf2b7c7edd8350 = L.popup({"maxWidth": 300});
+
+        
+            var html_8c69a8f40c439a4abe49ac935ece92b5 = $(`<div id="html_8c69a8f40c439a4abe49ac935ece92b5" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28170<br>     <b>Name:</b> DALUM<br>     <b>Start:</b> 01.02.1889<br>     <b>End:</b> 31.05.1972<br>     <b>Lat:</b> 55.3654953246208<br>     <b>Long:</b> 10.3961184593204<br>     <b>Height:</b> 23<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_8381108cf03256c902cf2b7c7edd8350.setContent(html_8c69a8f40c439a4abe49ac935ece92b5);
+        
+
+        marker_9852cd558e0b7cd87364017ecfdabac9.bindPopup(popup_8381108cf03256c902cf2b7c7edd8350)
+        ;
+
+        
+    
+    
+            var marker_703efc5a9be35e06501c0898221af45c = L.marker(
+                [55.3653260855319, 10.3959862785889],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_442c7eeae4f25a2f9fe19da85ce7c06a = L.popup({"maxWidth": 300});
+
+        
+            var html_66b9dafe1ec0e5fa5312fa6364e5e8af = $(`<div id="html_66b9dafe1ec0e5fa5312fa6364e5e8af" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28170<br>     <b>Name:</b> DALUM<br>     <b>Start:</b> 01.06.1972<br>     <b>End:</b> 15.12.1988<br>     <b>Lat:</b> 55.3653260855319<br>     <b>Long:</b> 10.3959862785889<br>     <b>Height:</b> 23<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_442c7eeae4f25a2f9fe19da85ce7c06a.setContent(html_66b9dafe1ec0e5fa5312fa6364e5e8af);
+        
+
+        marker_703efc5a9be35e06501c0898221af45c.bindPopup(popup_442c7eeae4f25a2f9fe19da85ce7c06a)
+        ;
+
+        
+    
+    
+            var marker_f05a06eb74ae05167c2c2f7ffee54cc1 = L.marker(
+                [55.3653852063808, 10.3955307995712],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_0395dafd6a1bcfb29b952f0b414ec2ee = L.popup({"maxWidth": 300});
+
+        
+            var html_2a1b0306acbb5af76796515c3649a5c3 = $(`<div id="html_2a1b0306acbb5af76796515c3649a5c3" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28170<br>     <b>Name:</b> DALUM<br>     <b>Start:</b> 16.12.1988<br>     <b>End:</b> 01.04.2009<br>     <b>Lat:</b> 55.3653852063808<br>     <b>Long:</b> 10.3955307995712<br>     <b>Height:</b> 23<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_0395dafd6a1bcfb29b952f0b414ec2ee.setContent(html_2a1b0306acbb5af76796515c3649a5c3);
+        
+
+        marker_f05a06eb74ae05167c2c2f7ffee54cc1.bindPopup(popup_0395dafd6a1bcfb29b952f0b414ec2ee)
+        ;
+
+        
+    
+    
+            var marker_731528f09c25efc28a39be735e8623a0 = L.marker(
+                [55.3439009513709, 10.4325431284312],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_be133a8fdc6152217053db89aca0251c = L.popup({"maxWidth": 300});
+
+        
+            var html_494eaca2a611749df1d1a403c901c6db = $(`<div id="html_494eaca2a611749df1d1a403c901c6db" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28175<br>     <b>Name:</b> ODENSE HØJBY<br>     <b>Start:</b> 20.05.2009<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.3439009513709<br>     <b>Long:</b> 10.4325431284312<br>     <b>Height:</b> 25<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_be133a8fdc6152217053db89aca0251c.setContent(html_494eaca2a611749df1d1a403c901c6db);
+        
+
+        marker_731528f09c25efc28a39be735e8623a0.bindPopup(popup_be133a8fdc6152217053db89aca0251c)
+        ;
+
+        
+    
+    
+            var marker_3960706820180b0865ecdfa3c59614a3 = L.marker(
+                [55.3801229971099, 10.445847686508],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_ddb08dd1e51e98e6d1f7dc706d91dc5a = L.popup({"maxWidth": 300});
+
+        
+            var html_ced39fd67bb25cf2c76f546c168628f5 = $(`<div id="html_ced39fd67bb25cf2c76f546c168628f5" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28180<br>     <b>Name:</b> BLANGSTEDGÅRD<br>     <b>Start:</b> 01.07.1885<br>     <b>End:</b> 31.12.1982<br>     <b>Lat:</b> 55.3801229971099<br>     <b>Long:</b> 10.445847686508<br>     <b>Height:</b> 15<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_ddb08dd1e51e98e6d1f7dc706d91dc5a.setContent(html_ced39fd67bb25cf2c76f546c168628f5);
+        
+
+        marker_3960706820180b0865ecdfa3c59614a3.bindPopup(popup_ddb08dd1e51e98e6d1f7dc706d91dc5a)
+        ;
+
+        
+    
+    
+            var marker_b8c6a35fef02ac0578d22ecd62967af0 = L.marker(
+                [55.3909839107113, 10.3281489548396],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_093daa53125f07657947190f1fefdad4 = L.popup({"maxWidth": 300});
+
+        
+            var html_0eaca536c29d1236debe707f6416db68 = $(`<div id="html_0eaca536c29d1236debe707f6416db68" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28181<br>     <b>Name:</b> BOLBRO VANDVÆRK<br>     <b>Start:</b> 01.01.1979<br>     <b>End:</b> 05.03.1992<br>     <b>Lat:</b> 55.3909839107113<br>     <b>Long:</b> 10.3281489548396<br>     <b>Height:</b> 38<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_093daa53125f07657947190f1fefdad4.setContent(html_0eaca536c29d1236debe707f6416db68);
+        
+
+        marker_b8c6a35fef02ac0578d22ecd62967af0.bindPopup(popup_093daa53125f07657947190f1fefdad4)
+        ;
+
+        
+    
+    
+            var marker_42526ab3586aa909dc2ec6de90e51973 = L.marker(
+                [55.3913398170926, 10.3284766468179],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c819104d2e326bff0f811723b5a26231 = L.popup({"maxWidth": 300});
+
+        
+            var html_1e6f5ae93458e538b4d7a67fcb8fcdf1 = $(`<div id="html_1e6f5ae93458e538b4d7a67fcb8fcdf1" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28181<br>     <b>Name:</b> BOLBRO HØJDEBEHOLDER<br>     <b>Start:</b> 14.12.1993<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.3913398170926<br>     <b>Long:</b> 10.3284766468179<br>     <b>Height:</b> 38<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_c819104d2e326bff0f811723b5a26231.setContent(html_1e6f5ae93458e538b4d7a67fcb8fcdf1);
+        
+
+        marker_42526ab3586aa909dc2ec6de90e51973.bindPopup(popup_c819104d2e326bff0f811723b5a26231)
+        ;
+
+        
+    
+    
+            var marker_1699d62bccb924d334543d7bd7f0c1fc = L.marker(
+                [55.3649659504253, 10.3730327737769],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_4f084ae938b510ccd9e7730b6a91a1c6 = L.popup({"maxWidth": 300});
+
+        
+            var html_e58f6f650491b2a2f874d9bc4e18db93 = $(`<div id="html_e58f6f650491b2a2f874d9bc4e18db93" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28182<br>     <b>Name:</b> DALUM<br>     <b>Start:</b> 19.01.1979<br>     <b>End:</b> 27.10.1987<br>     <b>Lat:</b> 55.3649659504253<br>     <b>Long:</b> 10.3730327737769<br>     <b>Height:</b> 23<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_4f084ae938b510ccd9e7730b6a91a1c6.setContent(html_e58f6f650491b2a2f874d9bc4e18db93);
+        
+
+        marker_1699d62bccb924d334543d7bd7f0c1fc.bindPopup(popup_4f084ae938b510ccd9e7730b6a91a1c6)
+        ;
+
+        
+    
+    
+            var marker_6287d76e3ee8c9b70a38b27a2360fdd7 = L.marker(
+                [55.3571823312292, 10.3739307025852],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_fd4e600c1e155131213c47f0343331ee = L.popup({"maxWidth": 300});
+
+        
+            var html_c71d80d0640fee89f32d9f10c9f87974 = $(`<div id="html_c71d80d0640fee89f32d9f10c9f87974" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28182<br>     <b>Name:</b> DALUM VANDVÆRK<br>     <b>Start:</b> 17.10.2005<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.3571823312292<br>     <b>Long:</b> 10.3739307025852<br>     <b>Height:</b> 14<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_fd4e600c1e155131213c47f0343331ee.setContent(html_c71d80d0640fee89f32d9f10c9f87974);
+        
+
+        marker_6287d76e3ee8c9b70a38b27a2360fdd7.bindPopup(popup_fd4e600c1e155131213c47f0343331ee)
+        ;
+
+        
+    
+    
+            var marker_eca66d5db3b3ba40a53e55c5ba62446b = L.marker(
+                [55.3983116036954, 10.4198244959766],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_91645bf3f2051cb22c82a264ac72caef = L.popup({"maxWidth": 300});
+
+        
+            var html_08ced17b660f853129f252ee1573ec1f = $(`<div id="html_08ced17b660f853129f252ee1573ec1f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28183<br>     <b>Name:</b> EJBY MØLLE RENSEVÆRK<br>     <b>Start:</b> 01.01.1979<br>     <b>End:</b> 06.10.1988<br>     <b>Lat:</b> 55.3983116036954<br>     <b>Long:</b> 10.4198244959766<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_91645bf3f2051cb22c82a264ac72caef.setContent(html_08ced17b660f853129f252ee1573ec1f);
+        
+
+        marker_eca66d5db3b3ba40a53e55c5ba62446b.bindPopup(popup_91645bf3f2051cb22c82a264ac72caef)
+        ;
+
+        
+    
+    
+            var marker_642890051b1354a9a83746c0f3d2f761 = L.marker(
+                [55.3984481812295, 10.4196714798665],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c95b4e2fa9c1819e5cdb0a711ec8a1e1 = L.popup({"maxWidth": 300});
+
+        
+            var html_4a134ed5d1aa15a1e57c59582979279f = $(`<div id="html_4a134ed5d1aa15a1e57c59582979279f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28183<br>     <b>Name:</b> EJBY MØLLE RENSEVÆRK<br>     <b>Start:</b> 08.11.1989<br>     <b>End:</b> 21.11.1989<br>     <b>Lat:</b> 55.3984481812295<br>     <b>Long:</b> 10.4196714798665<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_c95b4e2fa9c1819e5cdb0a711ec8a1e1.setContent(html_4a134ed5d1aa15a1e57c59582979279f);
+        
+
+        marker_642890051b1354a9a83746c0f3d2f761.bindPopup(popup_c95b4e2fa9c1819e5cdb0a711ec8a1e1)
+        ;
+
+        
+    
+    
+            var marker_178dafda621bdf42771fbe4f5ebbf812 = L.marker(
+                [55.3984023500203, 10.4197487929752],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_b83be2fe3e0ad75808e830325ac06064 = L.popup({"maxWidth": 300});
+
+        
+            var html_7710e3f673315028d86c1eec6ef0d183 = $(`<div id="html_7710e3f673315028d86c1eec6ef0d183" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28183<br>     <b>Name:</b> EJBY MØLLE RENSEANLÆG<br>     <b>Start:</b> 04.12.1998<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.3984023500203<br>     <b>Long:</b> 10.4197487929752<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_b83be2fe3e0ad75808e830325ac06064.setContent(html_7710e3f673315028d86c1eec6ef0d183);
+        
+
+        marker_178dafda621bdf42771fbe4f5ebbf812.bindPopup(popup_b83be2fe3e0ad75808e830325ac06064)
+        ;
+
+        
+    
+    
+            var marker_7b05e10fe0d26df29a6568e0374fcd0b = L.marker(
+                [55.4206692567572, 10.3662745671283],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_54c52ca64e15e4b30dc1d741c1cbd8ea = L.popup({"maxWidth": 300});
+
+        
+            var html_654e16576edc1e7b409be7401a3489e3 = $(`<div id="html_654e16576edc1e7b409be7401a3489e3" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28184<br>     <b>Name:</b> ODENSE NV RENSEANLÆG<br>     <b>Start:</b> 01.01.1979<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4206692567572<br>     <b>Long:</b> 10.3662745671283<br>     <b>Height:</b> 4<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_54c52ca64e15e4b30dc1d741c1cbd8ea.setContent(html_654e16576edc1e7b409be7401a3489e3);
+        
+
+        marker_7b05e10fe0d26df29a6568e0374fcd0b.bindPopup(popup_54c52ca64e15e4b30dc1d741c1cbd8ea)
+        ;
+
+        
+    
+    
+            var marker_0ad75248854eb90f1eae0aa05879c3d5 = L.marker(
+                [55.3931904960785, 10.3716739691463],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6458f30c2f3e51be4eec51145fadb190 = L.popup({"maxWidth": 300});
+
+        
+            var html_11ee39e2a0072c5434de7928242e6e0f = $(`<div id="html_11ee39e2a0072c5434de7928242e6e0f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28186<br>     <b>Name:</b> ODENSE VANDVÆRK<br>     <b>Start:</b> 01.01.1979<br>     <b>End:</b> 06.12.1995<br>     <b>Lat:</b> 55.3931904960785<br>     <b>Long:</b> 10.3716739691463<br>     <b>Height:</b> 12<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_6458f30c2f3e51be4eec51145fadb190.setContent(html_11ee39e2a0072c5434de7928242e6e0f);
+        
+
+        marker_0ad75248854eb90f1eae0aa05879c3d5.bindPopup(popup_6458f30c2f3e51be4eec51145fadb190)
+        ;
+
+        
+    
+    
+            var marker_7b415b2eb2e8b424f74a6f36626d6e26 = L.marker(
+                [55.3931904960785, 10.3716739691463],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_7c16526be3c323e49a9eaac0bc9c41a6 = L.popup({"maxWidth": 300});
+
+        
+            var html_f178f651f9a13efb10efa2e84090de08 = $(`<div id="html_f178f651f9a13efb10efa2e84090de08" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28186<br>     <b>Name:</b> ODENSE VANDVÆRK<br>     <b>Start:</b> 04.06.1997<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.3931904960785<br>     <b>Long:</b> 10.3716739691463<br>     <b>Height:</b> 12<br>     <b>Report type:</b> precip_svk     </div>`)[0];
+            popup_7c16526be3c323e49a9eaac0bc9c41a6.setContent(html_f178f651f9a13efb10efa2e84090de08);
+        
+
+        marker_7b415b2eb2e8b424f74a6f36626d6e26.bindPopup(popup_7c16526be3c323e49a9eaac0bc9c41a6)
+        ;
+
+        
+    
+    
+            var marker_996cc2dd7f890955bc3177c5b4bb6649 = L.marker(
+                [55.4391986430321, 10.3062938319088],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_c0a68d85bbaafefbe41c8462412914c6 = L.popup({"maxWidth": 300});
+
+        
+            var html_5f6cb4d44d9dc0abe6c6c339ee8903ba = $(`<div id="html_5f6cb4d44d9dc0abe6c6c339ee8903ba" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28188<br>     <b>Name:</b> NÆSBYHOVED-BROBY<br>     <b>Start:</b> 31.01.2022<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4391986430321<br>     <b>Long:</b> 10.3062938319088<br>     <b>Height:</b> 17<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_c0a68d85bbaafefbe41c8462412914c6.setContent(html_5f6cb4d44d9dc0abe6c6c339ee8903ba);
+        
+
+        marker_996cc2dd7f890955bc3177c5b4bb6649.bindPopup(popup_c0a68d85bbaafefbe41c8462412914c6)
+        ;
+
+        
+    
+    
+            var marker_1b8c714c5e8667c2cfa8b43d72fa89de = L.marker(
+                [55.4281378560434, 10.5033868413776],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_fd0152522dfcd8d36fa819ac7d6cd0b8 = L.popup({"maxWidth": 300});
+
+        
+            var html_629db44803b990595b08f92e0f3bf58f = $(`<div id="html_629db44803b990595b08f92e0f3bf58f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28190<br>     <b>Name:</b> AGEDRUP<br>     <b>Start:</b> 01.05.1955<br>     <b>End:</b> 31.07.1975<br>     <b>Lat:</b> 55.4281378560434<br>     <b>Long:</b> 10.5033868413776<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_fd0152522dfcd8d36fa819ac7d6cd0b8.setContent(html_629db44803b990595b08f92e0f3bf58f);
+        
+
+        marker_1b8c714c5e8667c2cfa8b43d72fa89de.bindPopup(popup_fd0152522dfcd8d36fa819ac7d6cd0b8)
+        ;
+
+        
+    
+    
+            var marker_fb0e719748f5ce2d665fea9b151d033c = L.marker(
+                [55.4341408455643, 10.4901802189991],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_3f773befed1169bb26357a5c4e735429 = L.popup({"maxWidth": 300});
+
+        
+            var html_a43a323452147097109313749b23cb4e = $(`<div id="html_a43a323452147097109313749b23cb4e" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28190<br>     <b>Name:</b> AGEDRUP<br>     <b>Start:</b> 01.01.1976<br>     <b>End:</b> 30.06.1982<br>     <b>Lat:</b> 55.4341408455643<br>     <b>Long:</b> 10.4901802189991<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_3f773befed1169bb26357a5c4e735429.setContent(html_a43a323452147097109313749b23cb4e);
+        
+
+        marker_fb0e719748f5ce2d665fea9b151d033c.bindPopup(popup_3f773befed1169bb26357a5c4e735429)
+        ;
+
+        
+    
+    
+            var marker_7a44bd92cede6f029e2bd3d2b0e66f89 = L.marker(
+                [55.4343147260994, 10.4906609390014],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_88133610bbabfaf5e5159f8d708f4036 = L.popup({"maxWidth": 300});
+
+        
+            var html_547508f8d1a759d7ac17748532b83e38 = $(`<div id="html_547508f8d1a759d7ac17748532b83e38" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28190<br>     <b>Name:</b> AGEDRUP<br>     <b>Start:</b> 01.04.1976<br>     <b>End:</b> 30.11.1987<br>     <b>Lat:</b> 55.4343147260994<br>     <b>Long:</b> 10.4906609390014<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_88133610bbabfaf5e5159f8d708f4036.setContent(html_547508f8d1a759d7ac17748532b83e38);
+        
+
+        marker_7a44bd92cede6f029e2bd3d2b0e66f89.bindPopup(popup_88133610bbabfaf5e5159f8d708f4036)
+        ;
+
+        
+    
+    
+            var marker_666ab62381a3374be9f7fdc8ed384030 = L.marker(
+                [55.43422297456, 10.4908155376375],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6556263a5fa20f93bf7cb5504b9d0d23 = L.popup({"maxWidth": 300});
+
+        
+            var html_84a8f706a096bfd93475d445e255a806 = $(`<div id="html_84a8f706a096bfd93475d445e255a806" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28190<br>     <b>Name:</b> AGEDRUP<br>     <b>Start:</b> 01.07.1982<br>     <b>End:</b> 24.11.1987<br>     <b>Lat:</b> 55.43422297456<br>     <b>Long:</b> 10.4908155376375<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_6556263a5fa20f93bf7cb5504b9d0d23.setContent(html_84a8f706a096bfd93475d445e255a806);
+        
+
+        marker_666ab62381a3374be9f7fdc8ed384030.bindPopup(popup_6556263a5fa20f93bf7cb5504b9d0d23)
+        ;
+
+        
+    
+    
+            var marker_e4a787c5d2b04474be82a901d4c5293e = L.marker(
+                [55.434131222828, 10.4909701355565],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_a2d49cca4f3723d398d4f47f2d1815d7 = L.popup({"maxWidth": 300});
+
+        
+            var html_6ebfa7452bce75c475bb385724eb265c = $(`<div id="html_6ebfa7452bce75c475bb385724eb265c" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28190<br>     <b>Name:</b> AGEDRUP<br>     <b>Start:</b> 25.11.1987<br>     <b>End:</b> 01.07.1998<br>     <b>Lat:</b> 55.434131222828<br>     <b>Long:</b> 10.4909701355565<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_a2d49cca4f3723d398d4f47f2d1815d7.setContent(html_6ebfa7452bce75c475bb385724eb265c);
+        
+
+        marker_e4a787c5d2b04474be82a901d4c5293e.bindPopup(popup_a2d49cca4f3723d398d4f47f2d1815d7)
+        ;
+
+        
+    
+    
+            var marker_af586c6574cfe846cc9a370d5d826fb7 = L.marker(
+                [55.4350713589991, 10.5095776004657],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_56ed87d17f1bc31c61f88ca15d31c291 = L.popup({"maxWidth": 300});
+
+        
+            var html_0a87f8316dfd5fe58563df6c04261c7a = $(`<div id="html_0a87f8316dfd5fe58563df6c04261c7a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28190<br>     <b>Name:</b> AGEDRUP<br>     <b>Start:</b> 06.09.1998<br>     <b>End:</b> 01.12.1998<br>     <b>Lat:</b> 55.4350713589991<br>     <b>Long:</b> 10.5095776004657<br>     <b>Height:</b> 4<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_56ed87d17f1bc31c61f88ca15d31c291.setContent(html_0a87f8316dfd5fe58563df6c04261c7a);
+        
+
+        marker_af586c6574cfe846cc9a370d5d826fb7.bindPopup(popup_56ed87d17f1bc31c61f88ca15d31c291)
+        ;
+
+        
+    
+    
+            var marker_d353876d7e10cc7e35ef443a37232d7f = L.marker(
+                [55.425779066384, 10.5051934944831],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_fb58608b7b8532e32137733d25214ee2 = L.popup({"maxWidth": 300});
+
+        
+            var html_a883782cdb79ea7738bac53c39de1fe5 = $(`<div id="html_a883782cdb79ea7738bac53c39de1fe5" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28190<br>     <b>Name:</b> AGEDRUP<br>     <b>Start:</b> 02.03.1999<br>     <b>End:</b> 17.10.2003<br>     <b>Lat:</b> 55.425779066384<br>     <b>Long:</b> 10.5051934944831<br>     <b>Height:</b> 3<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_fb58608b7b8532e32137733d25214ee2.setContent(html_a883782cdb79ea7738bac53c39de1fe5);
+        
+
+        marker_d353876d7e10cc7e35ef443a37232d7f.bindPopup(popup_fb58608b7b8532e32137733d25214ee2)
+        ;
+
+        
+    
+    
+            var marker_b2f51ac9abc597669581e37a6c0ba68e = L.marker(
+                [55.4508032521616, 10.6650934091939],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_251320edef1dafc1d4b329acf342af4f = L.popup({"maxWidth": 300});
+
+        
+            var html_2fc37c5686e5dc8a56d885b317e733db = $(`<div id="html_2fc37c5686e5dc8a56d885b317e733db" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28198<br>     <b>Name:</b> KERTEMINDE HAVN I<br>     <b>Start:</b> 25.01.2011<br>     <b>End:</b> 02.08.2017<br>     <b>Lat:</b> 55.4508032521616<br>     <b>Long:</b> 10.6650934091939<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel-temp      </div>`)[0];
+            popup_251320edef1dafc1d4b329acf342af4f.setContent(html_2fc37c5686e5dc8a56d885b317e733db);
+        
+
+        marker_b2f51ac9abc597669581e37a6c0ba68e.bindPopup(popup_251320edef1dafc1d4b329acf342af4f)
+        ;
+
+        
+    
+    
+            var marker_cd2b6073eced0fe6944fb6db86d43c7a = L.marker(
+                [55.4508032521616, 10.6650934091939],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_654c154deea691a210a95aaa32b8b320 = L.popup({"maxWidth": 300});
+
+        
+            var html_460a2080ba3df9c0293e6b72d8e87a8f = $(`<div id="html_460a2080ba3df9c0293e6b72d8e87a8f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28198<br>     <b>Name:</b> KERTEMINDE HAVN I<br>     <b>Start:</b> 03.08.2017<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4508032521616<br>     <b>Long:</b> 10.6650934091939<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_654c154deea691a210a95aaa32b8b320.setContent(html_460a2080ba3df9c0293e6b72d8e87a8f);
+        
+
+        marker_cd2b6073eced0fe6944fb6db86d43c7a.bindPopup(popup_654c154deea691a210a95aaa32b8b320)
+        ;
+
+        
+    
+    
+            var marker_5832d66b2e27882ae6cb96b95900074d = L.marker(
+                [55.4508032521616, 10.6650934091939],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_77539973d18ba587a98e599381803dcb = L.popup({"maxWidth": 300});
+
+        
+            var html_6d0149723eb23e2c609a8b9adcc070b7 = $(`<div id="html_6d0149723eb23e2c609a8b9adcc070b7" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28199<br>     <b>Name:</b> KERTEMINDE HAVN II<br>     <b>Start:</b> 25.01.2011<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.4508032521616<br>     <b>Long:</b> 10.6650934091939<br>     <b>Height:</b> 0<br>     <b>Report type:</b> sealevel     </div>`)[0];
+            popup_77539973d18ba587a98e599381803dcb.setContent(html_6d0149723eb23e2c609a8b9adcc070b7);
+        
+
+        marker_5832d66b2e27882ae6cb96b95900074d.bindPopup(popup_77539973d18ba587a98e599381803dcb)
+        ;
+
+        
+    
+    
+            var marker_7194ac8c8dbbb5a57a59d83207a94bf1 = L.marker(
+                [55.4412480990477, 10.6705087198066],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_b0d7544bdf1831b1c8f283b884af44ec = L.popup({"maxWidth": 300});
+
+        
+            var html_35bad03be7e5b0ed8bfe7b5ccacefd46 = $(`<div id="html_35bad03be7e5b0ed8bfe7b5ccacefd46" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28200<br>     <b>Name:</b> LUNDSGÅRD<br>     <b>Start:</b> 01.04.1955<br>     <b>End:</b> 11.10.1984<br>     <b>Lat:</b> 55.4412480990477<br>     <b>Long:</b> 10.6705087198066<br>     <b>Height:</b> 4<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_b0d7544bdf1831b1c8f283b884af44ec.setContent(html_35bad03be7e5b0ed8bfe7b5ccacefd46);
+        
+
+        marker_7194ac8c8dbbb5a57a59d83207a94bf1.bindPopup(popup_b0d7544bdf1831b1c8f283b884af44ec)
+        ;
+
+        
+    
+    
+            var marker_bef111484c1737782690acebb016be47 = L.marker(
+                [55.4362535895726, 10.6873692584366],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_3eda4f3a86b98dc6f58eb8ef4803628c = L.popup({"maxWidth": 300});
+
+        
+            var html_5f72e5fb6b657b7c11b6d79fc5b39f88 = $(`<div id="html_5f72e5fb6b657b7c11b6d79fc5b39f88" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28200<br>     <b>Name:</b> LUNDSGÅRD<br>     <b>Start:</b> 12.10.1984<br>     <b>End:</b> 13.09.1993<br>     <b>Lat:</b> 55.4362535895726<br>     <b>Long:</b> 10.6873692584366<br>     <b>Height:</b> 21<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_3eda4f3a86b98dc6f58eb8ef4803628c.setContent(html_5f72e5fb6b657b7c11b6d79fc5b39f88);
+        
+
+        marker_bef111484c1737782690acebb016be47.bindPopup(popup_3eda4f3a86b98dc6f58eb8ef4803628c)
+        ;
+
+        
+    
+    
+            var marker_8fa6b53b6e4b1d9a63be121791e6930e = L.marker(
+                [55.4395595250059, 10.6750375899729],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_3e08803679a2a3bd2222e189c4434a08 = L.popup({"maxWidth": 300});
+
+        
+            var html_9ff0eddf4488c4710839ada931032485 = $(`<div id="html_9ff0eddf4488c4710839ada931032485" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28200<br>     <b>Name:</b> LUNDSGÅRD<br>     <b>Start:</b> 14.09.1993<br>     <b>End:</b> 19.09.2005<br>     <b>Lat:</b> 55.4395595250059<br>     <b>Long:</b> 10.6750375899729<br>     <b>Height:</b> 6<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_3e08803679a2a3bd2222e189c4434a08.setContent(html_9ff0eddf4488c4710839ada931032485);
+        
+
+        marker_8fa6b53b6e4b1d9a63be121791e6930e.bindPopup(popup_3e08803679a2a3bd2222e189c4434a08)
+        ;
+
+        
+    
+    
+            var marker_dbc488c4d416cbef2322568f81c1e67e = L.marker(
+                [55.4428074659558, 10.664234976612],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_ee98537a49ebee79f883ba7b4ac0c4d2 = L.popup({"maxWidth": 300});
+
+        
+            var html_1324e44eb0866a548b2aff047c87f00f = $(`<div id="html_1324e44eb0866a548b2aff047c87f00f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28200<br>     <b>Name:</b> LUNDSGÅRD<br>     <b>Start:</b> 20.09.2005<br>     <b>End:</b> 01.01.2010<br>     <b>Lat:</b> 55.4428074659558<br>     <b>Long:</b> 10.664234976612<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_ee98537a49ebee79f883ba7b4ac0c4d2.setContent(html_1324e44eb0866a548b2aff047c87f00f);
+        
+
+        marker_dbc488c4d416cbef2322568f81c1e67e.bindPopup(popup_ee98537a49ebee79f883ba7b4ac0c4d2)
+        ;
+
+        
+    
+    
+            var marker_160abf26e93455cba92521c71a90a7ba = L.marker(
+                [55.4031213769012, 10.7238622805573],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_850c0ab1c2714686b6d8903cb028c980 = L.popup({"maxWidth": 300});
+
+        
+            var html_8a24c9aef4a00d1e48e87b708d1b9015 = $(`<div id="html_8a24c9aef4a00d1e48e87b708d1b9015" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28210<br>     <b>Name:</b> NY VISBYGÅRD<br>     <b>Start:</b> 01.05.1955<br>     <b>End:</b> 31.08.1964<br>     <b>Lat:</b> 55.4031213769012<br>     <b>Long:</b> 10.7238622805573<br>     <b>Height:</b> 5<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_850c0ab1c2714686b6d8903cb028c980.setContent(html_8a24c9aef4a00d1e48e87b708d1b9015);
+        
+
+        marker_160abf26e93455cba92521c71a90a7ba.bindPopup(popup_850c0ab1c2714686b6d8903cb028c980)
+        ;
+
+        
+    
+    
+            var marker_a3dc001da269698aeeaffcfde1dee96c = L.marker(
+                [55.4050973500286, 10.7239483049137],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_49f8959ac80f294c49fa39c0040fd367 = L.popup({"maxWidth": 300});
+
+        
+            var html_7f203d5bc67878c56d4dc1ae40f7279e = $(`<div id="html_7f203d5bc67878c56d4dc1ae40f7279e" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28210<br>     <b>Name:</b> VISBYHUS<br>     <b>Start:</b> 01.09.1964<br>     <b>End:</b> 30.09.1981<br>     <b>Lat:</b> 55.4050973500286<br>     <b>Long:</b> 10.7239483049137<br>     <b>Height:</b> 7<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_49f8959ac80f294c49fa39c0040fd367.setContent(html_7f203d5bc67878c56d4dc1ae40f7279e);
+        
+
+        marker_a3dc001da269698aeeaffcfde1dee96c.bindPopup(popup_49f8959ac80f294c49fa39c0040fd367)
+        ;
+
+        
+    
+    
+            var marker_2757a7c9f43a982fe8db994a523d6d7c = L.marker(
+                [55.4027873190996, 10.7284279148507],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_e61671359eff87f6c10be84ebcc40c98 = L.popup({"maxWidth": 300});
+
+        
+            var html_e2eb19c0cb97480bf1d18487645fb5ae = $(`<div id="html_e2eb19c0cb97480bf1d18487645fb5ae" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28210<br>     <b>Name:</b> ANDKÆR<br>     <b>Start:</b> 01.07.1982<br>     <b>End:</b> 31.05.1985<br>     <b>Lat:</b> 55.4027873190996<br>     <b>Long:</b> 10.7284279148507<br>     <b>Height:</b> 9<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_e61671359eff87f6c10be84ebcc40c98.setContent(html_e2eb19c0cb97480bf1d18487645fb5ae);
+        
+
+        marker_2757a7c9f43a982fe8db994a523d6d7c.bindPopup(popup_e61671359eff87f6c10be84ebcc40c98)
+        ;
+
+        
+    
+    
+            var marker_3e73491c052e18b5eb993bd32a1d7b9f = L.marker(
+                [55.4024057343864, 10.729990616788],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_04afc111054fe7051f88e4856dbbedc8 = L.popup({"maxWidth": 300});
+
+        
+            var html_2ece1ec972ba031a432afb05d218f7ae = $(`<div id="html_2ece1ec972ba031a432afb05d218f7ae" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28210<br>     <b>Name:</b> ANDKÆR<br>     <b>Start:</b> 01.06.1985<br>     <b>End:</b> 31.07.1987<br>     <b>Lat:</b> 55.4024057343864<br>     <b>Long:</b> 10.729990616788<br>     <b>Height:</b> 10<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_04afc111054fe7051f88e4856dbbedc8.setContent(html_2ece1ec972ba031a432afb05d218f7ae);
+        
+
+        marker_3e73491c052e18b5eb993bd32a1d7b9f.bindPopup(popup_04afc111054fe7051f88e4856dbbedc8)
+        ;
+
+        
+    
+    
+            var marker_69e3e9962a154573647682bbbaa4f72d = L.marker(
+                [56.292444992338, 10.767886023638],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_8727162a4c2e07a108b9cb6c363f0367 = L.popup({"maxWidth": 300});
+
+        
+            var html_f7319aa865d4a0a51bba95172a0e79d8 = $(`<div id="html_f7319aa865d4a0a51bba95172a0e79d8" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28210<br>     <b>Name:</b> BOVENSE<br>     <b>Start:</b> 01.05.1988<br>     <b>End:</b> 30.09.1994<br>     <b>Lat:</b> 56.292444992338<br>     <b>Long:</b> 10.767886023638<br>     <b>Height:</b> 13<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_8727162a4c2e07a108b9cb6c363f0367.setContent(html_f7319aa865d4a0a51bba95172a0e79d8);
+        
+
+        marker_69e3e9962a154573647682bbbaa4f72d.bindPopup(popup_8727162a4c2e07a108b9cb6c363f0367)
+        ;
+
+        
+    
+    
+            var marker_7baec8e24bc9bb0be38ca402cb3f4459 = L.marker(
+                [55.3622231628908, 10.608960388668],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_ad4ffc6a47d3ba0f5180dcdf99240d17 = L.popup({"maxWidth": 300});
+
+        
+            var html_e86d8f3b06ca5c976b0e6126732d19ca = $(`<div id="html_e86d8f3b06ca5c976b0e6126732d19ca" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28218<br>     <b>Name:</b> GAMMEL LANGESKOV<br>     <b>Start:</b> 01.04.1995<br>     <b>End:</b> 01.04.2003<br>     <b>Lat:</b> 55.3622231628908<br>     <b>Long:</b> 10.608960388668<br>     <b>Height:</b> 18<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_ad4ffc6a47d3ba0f5180dcdf99240d17.setContent(html_e86d8f3b06ca5c976b0e6126732d19ca);
+        
+
+        marker_7baec8e24bc9bb0be38ca402cb3f4459.bindPopup(popup_ad4ffc6a47d3ba0f5180dcdf99240d17)
+        ;
+
+        
+    
+    
+            var marker_4258717385ef020f25379bc1c7d83873 = L.marker(
+                [55.3590050893097, 10.6286917913398],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_089586182d60ed6fb8dc835b3ec276f2 = L.popup({"maxWidth": 300});
+
+        
+            var html_2c065eee0fa6df27eedeef77cf0bcdbe = $(`<div id="html_2c065eee0fa6df27eedeef77cf0bcdbe" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28218<br>     <b>Name:</b> GAMMEL LANGESKOV<br>     <b>Start:</b> 22.05.2003<br>     <b>End:</b> 26.01.2004<br>     <b>Lat:</b> 55.3590050893097<br>     <b>Long:</b> 10.6286917913398<br>     <b>Height:</b> 18<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_089586182d60ed6fb8dc835b3ec276f2.setContent(html_2c065eee0fa6df27eedeef77cf0bcdbe);
+        
+
+        marker_4258717385ef020f25379bc1c7d83873.bindPopup(popup_089586182d60ed6fb8dc835b3ec276f2)
+        ;
+
+        
+    
+    
+            var marker_d68d592561ca27be0ea3742a0a4a31ec = L.marker(
+                [55.3631940898382, 10.6407128455237],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_1d193fba71955d602e13c944dbe168da = L.popup({"maxWidth": 300});
+
+        
+            var html_114b6313f94e6eff2d7c8c1e13bcc991 = $(`<div id="html_114b6313f94e6eff2d7c8c1e13bcc991" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28220<br>     <b>Name:</b> ULLERSLEV<br>     <b>Start:</b> 01.06.1964<br>     <b>End:</b> 28.02.1969<br>     <b>Lat:</b> 55.3631940898382<br>     <b>Long:</b> 10.6407128455237<br>     <b>Height:</b> 15<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_1d193fba71955d602e13c944dbe168da.setContent(html_114b6313f94e6eff2d7c8c1e13bcc991);
+        
+
+        marker_d68d592561ca27be0ea3742a0a4a31ec.bindPopup(popup_1d193fba71955d602e13c944dbe168da)
+        ;
+
+        
+    
+    
+            var marker_02449c8642d386693e128f9ea1c79796 = L.marker(
+                [55.3639516241321, 10.6445309042124],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_5db522e497db8069e539f786e09d3b06 = L.popup({"maxWidth": 300});
+
+        
+            var html_9606912b6801aa81e84e0a3113f3ea15 = $(`<div id="html_9606912b6801aa81e84e0a3113f3ea15" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28220<br>     <b>Name:</b> ULLERSLEV<br>     <b>Start:</b> 01.07.1969<br>     <b>End:</b> 30.06.1982<br>     <b>Lat:</b> 55.3639516241321<br>     <b>Long:</b> 10.6445309042124<br>     <b>Height:</b> 21<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_5db522e497db8069e539f786e09d3b06.setContent(html_9606912b6801aa81e84e0a3113f3ea15);
+        
+
+        marker_02449c8642d386693e128f9ea1c79796.bindPopup(popup_5db522e497db8069e539f786e09d3b06)
+        ;
+
+        
+    
+    
+            var marker_febbd037dbaee050577a7787071a1157 = L.marker(
+                [55.365109082871, 10.6652487264583],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_8ab4b5fc0e54c46f50eea7590c5b2658 = L.popup({"maxWidth": 300});
+
+        
+            var html_5978f2dfa151f016c8d5bac8c8743574 = $(`<div id="html_5978f2dfa151f016c8d5bac8c8743574" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28220<br>     <b>Name:</b> ULLERSLEV<br>     <b>Start:</b> 01.07.1982<br>     <b>End:</b> 31.01.1987<br>     <b>Lat:</b> 55.365109082871<br>     <b>Long:</b> 10.6652487264583<br>     <b>Height:</b> 21<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_8ab4b5fc0e54c46f50eea7590c5b2658.setContent(html_5978f2dfa151f016c8d5bac8c8743574);
+        
+
+        marker_febbd037dbaee050577a7787071a1157.bindPopup(popup_8ab4b5fc0e54c46f50eea7590c5b2658)
+        ;
+
+        
+    
+    
+            var marker_8633f05d4c41a627e2681d1a966d3877 = L.marker(
+                [55.3658959714694, 10.6668596535451],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_64b5e90b89115a1a08c8a7abb3cdec0f = L.popup({"maxWidth": 300});
+
+        
+            var html_ed69760195324a9ba6da3609a7a8b576 = $(`<div id="html_ed69760195324a9ba6da3609a7a8b576" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28220<br>     <b>Name:</b> ULLERSLEV<br>     <b>Start:</b> 01.04.1987<br>     <b>End:</b> 31.01.1991<br>     <b>Lat:</b> 55.3658959714694<br>     <b>Long:</b> 10.6668596535451<br>     <b>Height:</b> 22<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_64b5e90b89115a1a08c8a7abb3cdec0f.setContent(html_ed69760195324a9ba6da3609a7a8b576);
+        
+
+        marker_8633f05d4c41a627e2681d1a966d3877.bindPopup(popup_64b5e90b89115a1a08c8a7abb3cdec0f)
+        ;
+
+        
+    
+    
+            var marker_eb43bda7d909bb9647557eba80800ec1 = L.marker(
+                [55.308295715443, 10.8950045911958],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_5b8f3ee8b7759ffbc14b2b0a4765e46b = L.popup({"maxWidth": 300});
+
+        
+            var html_4dd8fee7d65c00c967cbf6ba0a4dee75 = $(`<div id="html_4dd8fee7d65c00c967cbf6ba0a4dee75" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28227<br>     <b>Name:</b> VESTBROEN<br>     <b>Start:</b> 29.04.1996<br>     <b>End:</b> 31.12.1999<br>     <b>Lat:</b> 55.308295715443<br>     <b>Long:</b> 10.8950045911958<br>     <b>Height:</b> -7<br>     <b>Report type:</b> current     </div>`)[0];
+            popup_5b8f3ee8b7759ffbc14b2b0a4765e46b.setContent(html_4dd8fee7d65c00c967cbf6ba0a4dee75);
+        
+
+        marker_eb43bda7d909bb9647557eba80800ec1.bindPopup(popup_5b8f3ee8b7759ffbc14b2b0a4765e46b)
+        ;
+
+        
+    
+    
+            var marker_c64179871933be95d7d3fae5ab2d4423 = L.marker(
+                [55.2913793879083, 10.8487914703939],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_3f092545f70e47c6c8ece59d03f56157 = L.popup({"maxWidth": 300});
+
+        
+            var html_890e57be9761acf2143b173aa6690d07 = $(`<div id="html_890e57be9761acf2143b173aa6690d07" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28230<br>     <b>Name:</b> KNUDSHOVED<br>     <b>Start:</b> 01.12.1889<br>     <b>End:</b> 31.12.1971<br>     <b>Lat:</b> 55.2913793879083<br>     <b>Long:</b> 10.8487914703939<br>     <b>Height:</b> 2<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_3f092545f70e47c6c8ece59d03f56157.setContent(html_890e57be9761acf2143b173aa6690d07);
+        
+
+        marker_c64179871933be95d7d3fae5ab2d4423.bindPopup(popup_3f092545f70e47c6c8ece59d03f56157)
+        ;
+
+        
+    
+    
+            var marker_09c0321179a44303473ef269fff733d2 = L.marker(
+                [55.2912871923717, 10.8489446812684],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_d89f35234c5d4119178941b87af55cc5 = L.popup({"maxWidth": 300});
+
+        
+            var html_38607063e99deae8577a55fdad80c5dd = $(`<div id="html_38607063e99deae8577a55fdad80c5dd" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28230<br>     <b>Name:</b> KNUDSHOVED<br>     <b>Start:</b> 01.01.1972<br>     <b>End:</b> 31.12.1972<br>     <b>Lat:</b> 55.2912871923717<br>     <b>Long:</b> 10.8489446812684<br>     <b>Height:</b> 2<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_d89f35234c5d4119178941b87af55cc5.setContent(html_38607063e99deae8577a55fdad80c5dd);
+        
+
+        marker_09c0321179a44303473ef269fff733d2.bindPopup(popup_d89f35234c5d4119178941b87af55cc5)
+        ;
+
+        
+    
+    
+            var marker_ae3b087c67c551892bc77fa45bb6bff9 = L.marker(
+                [55.2912871923717, 10.8489446812684],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_d8a88edaa75d76e0378cfef73b098ce3 = L.popup({"maxWidth": 300});
+
+        
+            var html_0b6d646ec610abb5681151dcbd5f448e = $(`<div id="html_0b6d646ec610abb5681151dcbd5f448e" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28230<br>     <b>Name:</b> KNUDSHOVED<br>     <b>Start:</b> 01.07.1978<br>     <b>End:</b> 28.02.1985<br>     <b>Lat:</b> 55.2912871923717<br>     <b>Long:</b> 10.8489446812684<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_d8a88edaa75d76e0378cfef73b098ce3.setContent(html_0b6d646ec610abb5681151dcbd5f448e);
+        
+
+        marker_ae3b087c67c551892bc77fa45bb6bff9.bindPopup(popup_d8a88edaa75d76e0378cfef73b098ce3)
+        ;
+
+        
+    
+    
+            var marker_a245202a37a08af59f11857f630126d6 = L.marker(
+                [55.2868751940258, 10.8255900495319],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_2016246b5d9d490e779904e16c5f8808 = L.popup({"maxWidth": 300});
+
+        
+            var html_cd7c4a360126559f87c81a8421b5f339 = $(`<div id="html_cd7c4a360126559f87c81a8421b5f339" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28230<br>     <b>Name:</b> SLIPSHAVN<br>     <b>Start:</b> 01.12.1985<br>     <b>End:</b> 30.11.1986<br>     <b>Lat:</b> 55.2868751940258<br>     <b>Long:</b> 10.8255900495319<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_2016246b5d9d490e779904e16c5f8808.setContent(html_cd7c4a360126559f87c81a8421b5f339);
+        
+
+        marker_a245202a37a08af59f11857f630126d6.bindPopup(popup_2016246b5d9d490e779904e16c5f8808)
+        ;
+
+        
+    
+    
+            var marker_e34a33114ca6538258dbcfaf08fd4ecf = L.marker(
+                [55.2868751940258, 10.8255900495319],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_9b489dd407ba7a25a6f09ea6aee2b1a6 = L.popup({"maxWidth": 300});
+
+        
+            var html_e9c71ac192aee18bc0c0cbb6e1abc0a9 = $(`<div id="html_e9c71ac192aee18bc0c0cbb6e1abc0a9" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28230<br>     <b>Name:</b> SLIPSHAVN<br>     <b>Start:</b> 01.11.1987<br>     <b>End:</b> 30.06.1991<br>     <b>Lat:</b> 55.2868751940258<br>     <b>Long:</b> 10.8255900495319<br>     <b>Height:</b> 2<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_9b489dd407ba7a25a6f09ea6aee2b1a6.setContent(html_e9c71ac192aee18bc0c0cbb6e1abc0a9);
+        
+
+        marker_e34a33114ca6538258dbcfaf08fd4ecf.bindPopup(popup_9b489dd407ba7a25a6f09ea6aee2b1a6)
+        ;
+
+        
+    
+    
+            var marker_ac76bd77eb2197aa710987af6808f1ae = L.marker(
+                [55.2877977248886, 10.8264040644326],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_e0e79078419554d477c0c64d3f1274a7 = L.popup({"maxWidth": 300});
+
+        
+            var html_336587258dd11439d92524a297c14983 = $(`<div id="html_336587258dd11439d92524a297c14983" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28231<br>     <b>Name:</b> SLIPSHAVN II<br>     <b>Start:</b> 24.10.2021<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.2877977248886<br>     <b>Long:</b> 10.8264040644326<br>     <b>Height:</b> 0<br>     <b>Report type:</b> nan     </div>`)[0];
+            popup_e0e79078419554d477c0c64d3f1274a7.setContent(html_336587258dd11439d92524a297c14983);
+        
+
+        marker_ac76bd77eb2197aa710987af6808f1ae.bindPopup(popup_e0e79078419554d477c0c64d3f1274a7)
+        ;
+
+        
+    
+    
+            var marker_f4c266648ad0a03e329311bf5e88aa57 = L.marker(
+                [55.2879984107634, 10.826806990484],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_cf3e6bbc13a09ca08146d80b90f09ad1 = L.popup({"maxWidth": 300});
+
+        
+            var html_3ab3fd3a6485ab937ecfbccc783ee5c6 = $(`<div id="html_3ab3fd3a6485ab937ecfbccc783ee5c6" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28232<br>     <b>Name:</b> SLIPSHAVN<br>     <b>Start:</b> 15.10.1971<br>     <b>End:</b> 30.10.1991<br>     <b>Lat:</b> 55.2879984107634<br>     <b>Long:</b> 10.826806990484<br>     <b>Height:</b> 0<br>     <b>Report type:</b> nan     </div>`)[0];
+            popup_cf3e6bbc13a09ca08146d80b90f09ad1.setContent(html_3ab3fd3a6485ab937ecfbccc783ee5c6);
+        
+
+        marker_f4c266648ad0a03e329311bf5e88aa57.bindPopup(popup_cf3e6bbc13a09ca08146d80b90f09ad1)
+        ;
+
+        
+    
+    
+            var marker_dee789bb043fb186a0999b3e2e63e17c = L.marker(
+                [55.2879984107634, 10.826806990484],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_6a42e5f2a63fc9fd2d154fe06fb372d2 = L.popup({"maxWidth": 300});
+
+        
+            var html_3461429200de0cdb643c62ce3acc9d77 = $(`<div id="html_3461429200de0cdb643c62ce3acc9d77" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28233<br>     <b>Name:</b> SLIPSHAVN<br>     <b>Start:</b> 29.10.1991<br>     <b>End:</b> 05.06.1996<br>     <b>Lat:</b> 55.2879984107634<br>     <b>Long:</b> 10.826806990484<br>     <b>Height:</b> 0<br>     <b>Report type:</b> nan     </div>`)[0];
+            popup_6a42e5f2a63fc9fd2d154fe06fb372d2.setContent(html_3461429200de0cdb643c62ce3acc9d77);
+        
+
+        marker_dee789bb043fb186a0999b3e2e63e17c.bindPopup(popup_6a42e5f2a63fc9fd2d154fe06fb372d2)
+        ;
+
+        
+    
+    
+            var marker_7bf96fbb78138c9558fbefd415e8a7d3 = L.marker(
+                [55.2877977248886, 10.8264040644326],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_81a4222cc7dbb74f2dab60c92b2482b3 = L.popup({"maxWidth": 300});
+
+        
+            var html_7c454d84b1f3b87d4c3b62d2373dceae = $(`<div id="html_7c454d84b1f3b87d4c3b62d2373dceae" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28234<br>     <b>Name:</b> SLIPSHAVN<br>     <b>Start:</b> 18.11.1996<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.2877977248886<br>     <b>Long:</b> 10.8264040644326<br>     <b>Height:</b> 0<br>     <b>Report type:</b> nan     </div>`)[0];
+            popup_81a4222cc7dbb74f2dab60c92b2482b3.setContent(html_7c454d84b1f3b87d4c3b62d2373dceae);
+        
+
+        marker_7bf96fbb78138c9558fbefd415e8a7d3.bindPopup(popup_81a4222cc7dbb74f2dab60c92b2482b3)
+        ;
+
+        
+    
+    
+            var marker_6059b3e4c69e02fa1de82f9538fc55ac = L.marker(
+                [55.3108804503418, 10.7450698544189],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_2c5435134fb23fa5f14b6186fb126a76 = L.popup({"maxWidth": 300});
+
+        
+            var html_e5f554c52e8fcf7a232c6d3ddec4c83d = $(`<div id="html_e5f554c52e8fcf7a232c6d3ddec4c83d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> VINDINGE<br>     <b>Start:</b> 01.08.1960<br>     <b>End:</b> 31.12.1960<br>     <b>Lat:</b> 55.3108804503418<br>     <b>Long:</b> 10.7450698544189<br>     <b>Height:</b> 14<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_2c5435134fb23fa5f14b6186fb126a76.setContent(html_e5f554c52e8fcf7a232c6d3ddec4c83d);
+        
+
+        marker_6059b3e4c69e02fa1de82f9538fc55ac.bindPopup(popup_2c5435134fb23fa5f14b6186fb126a76)
+        ;
+
+        
+    
+    
+            var marker_3846a16526c8cbcf7667d040da143968 = L.marker(
+                [55.3108759503582, 10.7453848008232],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_03773b70e2ae655ff4e80e910d414eaa = L.popup({"maxWidth": 300});
+
+        
+            var html_3eacdf04784273461b2b26635340290f = $(`<div id="html_3eacdf04784273461b2b26635340290f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> VINDINGE<br>     <b>Start:</b> 01.05.1961<br>     <b>End:</b> 31.05.1968<br>     <b>Lat:</b> 55.3108759503582<br>     <b>Long:</b> 10.7453848008232<br>     <b>Height:</b> 14<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_03773b70e2ae655ff4e80e910d414eaa.setContent(html_3eacdf04784273461b2b26635340290f);
+        
+
+        marker_3846a16526c8cbcf7667d040da143968.bindPopup(popup_03773b70e2ae655ff4e80e910d414eaa)
+        ;
+
+        
+    
+    
+            var marker_dd5841a8a4f84bf8dec48b45c7d7e7ae = L.marker(
+                [55.3109276086988, 10.7449143532422],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_49f9bf2af18038ca57c8352ce8708f50 = L.popup({"maxWidth": 300});
+
+        
+            var html_6703941449231e54ef62a7e7e24a369c = $(`<div id="html_6703941449231e54ef62a7e7e24a369c" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> VINDINGE<br>     <b>Start:</b> 01.06.1968<br>     <b>End:</b> 01.03.2002<br>     <b>Lat:</b> 55.3109276086988<br>     <b>Long:</b> 10.7449143532422<br>     <b>Height:</b> 14<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_49f9bf2af18038ca57c8352ce8708f50.setContent(html_6703941449231e54ef62a7e7e24a369c);
+        
+
+        marker_dd5841a8a4f84bf8dec48b45c7d7e7ae.bindPopup(popup_49f9bf2af18038ca57c8352ce8708f50)
+        ;
+
+        
+    
+    
+            var marker_be449ad21b694b276178fc3a78789c19 = L.marker(
+                [55.304159106527, 10.727917411261],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_5bcf24aa006260f40951034d0958da3f = L.popup({"maxWidth": 300});
+
+        
+            var html_620f93f005024ed22fc257b6563eb7b9 = $(`<div id="html_620f93f005024ed22fc257b6563eb7b9" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> ROSILDE<br>     <b>Start:</b> 02.03.2002<br>     <b>End:</b> 01.04.2011<br>     <b>Lat:</b> 55.304159106527<br>     <b>Long:</b> 10.727917411261<br>     <b>Height:</b> 8<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_5bcf24aa006260f40951034d0958da3f.setContent(html_620f93f005024ed22fc257b6563eb7b9);
+        
+
+        marker_be449ad21b694b276178fc3a78789c19.bindPopup(popup_5bcf24aa006260f40951034d0958da3f)
+        ;
+
+        
+    
+    
+            var marker_d4ac3c2f029d2e94ea4e2e72d1f95f83 = L.marker(
+                [55.304159106527, 10.727917411261],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_cbbfaafbf148f65bdce578766170483d = L.popup({"maxWidth": 300});
+
+        
+            var html_678268674e5d72de34b84fe2bdc55266 = $(`<div id="html_678268674e5d72de34b84fe2bdc55266" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> ROSILDE<br>     <b>Start:</b> 02.03.2002<br>     <b>End:</b> 01.04.2011<br>     <b>Lat:</b> 55.304159106527<br>     <b>Long:</b> 10.727917411261<br>     <b>Height:</b> 8<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_cbbfaafbf148f65bdce578766170483d.setContent(html_678268674e5d72de34b84fe2bdc55266);
+        
+
+        marker_d4ac3c2f029d2e94ea4e2e72d1f95f83.bindPopup(popup_cbbfaafbf148f65bdce578766170483d)
+        ;
+
+        
+    
+    
+            var marker_25d652d2899d099235f80e35269be7c2 = L.marker(
+                [55.3041323838018, 10.7279004950518],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_f1b9c19340e8ec5710cd3b475149727f = L.popup({"maxWidth": 300});
+
+        
+            var html_016d6143e07a0f9344b8aaf7b8c41ed7 = $(`<div id="html_016d6143e07a0f9344b8aaf7b8c41ed7" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> ROSILDE<br>     <b>Start:</b> 09.12.2009<br>     <b>End:</b> 19.08.2020<br>     <b>Lat:</b> 55.3041323838018<br>     <b>Long:</b> 10.7279004950518<br>     <b>Height:</b> 8<br>     <b>Report type:</b> precip_aut     </div>`)[0];
+            popup_f1b9c19340e8ec5710cd3b475149727f.setContent(html_016d6143e07a0f9344b8aaf7b8c41ed7);
+        
+
+        marker_25d652d2899d099235f80e35269be7c2.bindPopup(popup_f1b9c19340e8ec5710cd3b475149727f)
+        ;
+
+        
+    
+    
+            var marker_4a6730f3a8cce6644be3b1c2dd9698a3 = L.marker(
+                [55.3041323838018, 10.7279004950518],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_604861828663aba47bb4cdaf2c5d0560 = L.popup({"maxWidth": 300});
+
+        
+            var html_c4dfaf3bd79893d56ec7957ca34087b2 = $(`<div id="html_c4dfaf3bd79893d56ec7957ca34087b2" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> ROSILDE<br>     <b>Start:</b> 01.10.2011<br>     <b>End:</b> 19.08.2020<br>     <b>Lat:</b> 55.3041323838018<br>     <b>Long:</b> 10.7279004950518<br>     <b>Height:</b> 8<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_604861828663aba47bb4cdaf2c5d0560.setContent(html_c4dfaf3bd79893d56ec7957ca34087b2);
+        
+
+        marker_4a6730f3a8cce6644be3b1c2dd9698a3.bindPopup(popup_604861828663aba47bb4cdaf2c5d0560)
+        ;
+
+        
+    
+    
+            var marker_eeb0f2f8850e07351e84376202cbd67c = L.marker(
+                [55.3473986290563, 10.7618005340965],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_e3cbf262297b05dbae394de9d1019226 = L.popup({"maxWidth": 300});
+
+        
+            var html_af544f83b146b6d6bf34d0d43b5ebba3 = $(`<div id="html_af544f83b146b6d6bf34d0d43b5ebba3" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> JUELSBERG<br>     <b>Start:</b> 20.08.2020<br>     <b>End:</b> 26.10.2025<br>     <b>Lat:</b> 55.3473986290563<br>     <b>Long:</b> 10.7618005340965<br>     <b>Height:</b> 22<br>     <b>Report type:</b> precip_aut     </div>`)[0];
+            popup_e3cbf262297b05dbae394de9d1019226.setContent(html_af544f83b146b6d6bf34d0d43b5ebba3);
+        
+
+        marker_eeb0f2f8850e07351e84376202cbd67c.bindPopup(popup_e3cbf262297b05dbae394de9d1019226)
+        ;
+
+        
+    
+    
+            var marker_a58251d3fc983c3ae090dc9977e0731d = L.marker(
+                [55.3473986290563, 10.7618005340965],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_b44f4adc1596ef08481257e1ffcf3f4d = L.popup({"maxWidth": 300});
+
+        
+            var html_03f088d3531f01d147362fa667aec920 = $(`<div id="html_03f088d3531f01d147362fa667aec920" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28240<br>     <b>Name:</b> JUELSBERG<br>     <b>Start:</b> 20.08.2020<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.3473986290563<br>     <b>Long:</b> 10.7618005340965<br>     <b>Height:</b> 22<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_b44f4adc1596ef08481257e1ffcf3f4d.setContent(html_03f088d3531f01d147362fa667aec920);
+        
+
+        marker_a58251d3fc983c3ae090dc9977e0731d.bindPopup(popup_b44f4adc1596ef08481257e1ffcf3f4d)
+        ;
+
+        
+    
+    
+            var marker_ea503f3a63af4dca5eb696769cf55430 = L.marker(
+                [55.2957336156833, 10.6974666166002],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_917a8fd6f05a36189d240c42f594457a = L.popup({"maxWidth": 300});
+
+        
+            var html_7b772a0cd3fe7cc04bf412ecc6f9b71d = $(`<div id="html_7b772a0cd3fe7cc04bf412ecc6f9b71d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28250<br>     <b>Name:</b> REFSVINDINGE<br>     <b>Start:</b> 01.07.1954<br>     <b>End:</b> 30.04.1974<br>     <b>Lat:</b> 55.2957336156833<br>     <b>Long:</b> 10.6974666166002<br>     <b>Height:</b> 38<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_917a8fd6f05a36189d240c42f594457a.setContent(html_7b772a0cd3fe7cc04bf412ecc6f9b71d);
+        
+
+        marker_ea503f3a63af4dca5eb696769cf55430.bindPopup(popup_917a8fd6f05a36189d240c42f594457a)
+        ;
+
+        
+    
+    
+            var marker_972abd06d27f8240749e7c3121bf6067 = L.marker(
+                [55.2745630173788, 10.6082476770051],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_cd8339055d2868179b6092fa9c8ac009 = L.popup({"maxWidth": 300});
+
+        
+            var html_7d0d0b48e827f1c425bc8b0e2333b8c8 = $(`<div id="html_7d0d0b48e827f1c425bc8b0e2333b8c8" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28260<br>     <b>Name:</b> MÅRE<br>     <b>Start:</b> 01.05.1951<br>     <b>End:</b> 30.04.1970<br>     <b>Lat:</b> 55.2745630173788<br>     <b>Long:</b> 10.6082476770051<br>     <b>Height:</b> 61<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_cd8339055d2868179b6092fa9c8ac009.setContent(html_7d0d0b48e827f1c425bc8b0e2333b8c8);
+        
+
+        marker_972abd06d27f8240749e7c3121bf6067.bindPopup(popup_cd8339055d2868179b6092fa9c8ac009)
+        ;
+
+        
+    
+    
+            var marker_03c012d998af6f5777ad953c2d03a244 = L.marker(
+                [55.2732830963536, 10.6166965922569],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_73c06194ae98d2e663549841360fc00a = L.popup({"maxWidth": 300});
+
+        
+            var html_a117a84477edbecfc16626ba07c13aad = $(`<div id="html_a117a84477edbecfc16626ba07c13aad" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28260<br>     <b>Name:</b> MÅRE<br>     <b>Start:</b> 01.05.1970<br>     <b>End:</b> 30.04.1971<br>     <b>Lat:</b> 55.2732830963536<br>     <b>Long:</b> 10.6166965922569<br>     <b>Height:</b> 61<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_73c06194ae98d2e663549841360fc00a.setContent(html_a117a84477edbecfc16626ba07c13aad);
+        
+
+        marker_03c012d998af6f5777ad953c2d03a244.bindPopup(popup_73c06194ae98d2e663549841360fc00a)
+        ;
+
+        
+    
+    
+            var marker_cc49307123d08cfd1d10eca73ed44fa3 = L.marker(
+                [55.2726626614349, 10.6160417187818],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_37d09882ee63fb953c1ec1127dcd3806 = L.popup({"maxWidth": 300});
+
+        
+            var html_df552c904b05b8c65e82bcd281b83b63 = $(`<div id="html_df552c904b05b8c65e82bcd281b83b63" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28260<br>     <b>Name:</b> MÅRE<br>     <b>Start:</b> 01.08.1971<br>     <b>End:</b> 31.10.1971<br>     <b>Lat:</b> 55.2726626614349<br>     <b>Long:</b> 10.6160417187818<br>     <b>Height:</b> 61<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_37d09882ee63fb953c1ec1127dcd3806.setContent(html_df552c904b05b8c65e82bcd281b83b63);
+        
+
+        marker_cc49307123d08cfd1d10eca73ed44fa3.bindPopup(popup_37d09882ee63fb953c1ec1127dcd3806)
+        ;
+
+        
+    
+    
+            var marker_246c8c307ac255f83f9400a253c28238 = L.marker(
+                [55.2801700486478, 10.6124104935272],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_44ccafb0b36d1195db1a8e69aa0c37ae = L.popup({"maxWidth": 300});
+
+        
+            var html_cd03be01704a6c4460406761454e6c60 = $(`<div id="html_cd03be01704a6c4460406761454e6c60" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28260<br>     <b>Name:</b> HERRESTED<br>     <b>Start:</b> 01.05.1972<br>     <b>End:</b> 30.06.1991<br>     <b>Lat:</b> 55.2801700486478<br>     <b>Long:</b> 10.6124104935272<br>     <b>Height:</b> 59<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_44ccafb0b36d1195db1a8e69aa0c37ae.setContent(html_cd03be01704a6c4460406761454e6c60);
+        
+
+        marker_246c8c307ac255f83f9400a253c28238.bindPopup(popup_44ccafb0b36d1195db1a8e69aa0c37ae)
+        ;
+
+        
+    
+    
+            var marker_7fb58ceb6a6005e49c1a474f105fc642 = L.marker(
+                [55.2728296221753, 10.6176856423174],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_75e8ced75209a5bb4f28ab11e1bd754d = L.popup({"maxWidth": 300});
+
+        
+            var html_b4c998f713921731150a209397d2bc90 = $(`<div id="html_b4c998f713921731150a209397d2bc90" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28260<br>     <b>Name:</b> MÅRE<br>     <b>Start:</b> 01.04.1995<br>     <b>End:</b> 29.11.2001<br>     <b>Lat:</b> 55.2728296221753<br>     <b>Long:</b> 10.6176856423174<br>     <b>Height:</b> 62<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_75e8ced75209a5bb4f28ab11e1bd754d.setContent(html_b4c998f713921731150a209397d2bc90);
+        
+
+        marker_7fb58ceb6a6005e49c1a474f105fc642.bindPopup(popup_75e8ced75209a5bb4f28ab11e1bd754d)
+        ;
+
+        
+    
+    
+            var marker_a99d6225c405379d97327cb9ec2a9e7d = L.marker(
+                [55.2727918164143, 10.6178257812423],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_8c76a8b256c8494ac795626eeb001108 = L.popup({"maxWidth": 300});
+
+        
+            var html_fc6e70699a2b4b872e611c19685e3672 = $(`<div id="html_fc6e70699a2b4b872e611c19685e3672" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28260<br>     <b>Name:</b> MÅRE<br>     <b>Start:</b> 30.11.2001<br>     <b>End:</b> 01.01.2007<br>     <b>Lat:</b> 55.2727918164143<br>     <b>Long:</b> 10.6178257812423<br>     <b>Height:</b> 62<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_8c76a8b256c8494ac795626eeb001108.setContent(html_fc6e70699a2b4b872e611c19685e3672);
+        
+
+        marker_a99d6225c405379d97327cb9ec2a9e7d.bindPopup(popup_8c76a8b256c8494ac795626eeb001108)
+        ;
+
+        
+    
+    
+            var marker_6d262104e8f8780497f4eb8ea7358c93 = L.marker(
+                [55.2297376124898, 10.5440117959557],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_8d0027de29f8d76b13a5e1f71397f778 = L.popup({"maxWidth": 300});
+
+        
+            var html_46a87537dab26dbbe4804cf2b1f01325 = $(`<div id="html_46a87537dab26dbbe4804cf2b1f01325" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28271<br>     <b>Name:</b> RYSLINGE I<br>     <b>Start:</b> 01.07.1983<br>     <b>End:</b> 30.11.1994<br>     <b>Lat:</b> 55.2297376124898<br>     <b>Long:</b> 10.5440117959557<br>     <b>Height:</b> 79<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_8d0027de29f8d76b13a5e1f71397f778.setContent(html_46a87537dab26dbbe4804cf2b1f01325);
+        
+
+        marker_6d262104e8f8780497f4eb8ea7358c93.bindPopup(popup_8d0027de29f8d76b13a5e1f71397f778)
+        ;
+
+        
+    
+    
+            var marker_2e2ea7cfe589d1d1d1fa85c9421dbb8c = L.marker(
+                [55.3028494188485, 10.5180688049059],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_d64551e8bd17a14780faebbe980b5e67 = L.popup({"maxWidth": 300});
+
+        
+            var html_e4652ed8f63b0fa638b77b7b304e5422 = $(`<div id="html_e4652ed8f63b0fa638b77b7b304e5422" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28275<br>     <b>Name:</b> ORE/ÅRSLEV<br>     <b>Start:</b> 10.03.1998<br>     <b>End:</b> 01.04.2003<br>     <b>Lat:</b> 55.3028494188485<br>     <b>Long:</b> 10.5180688049059<br>     <b>Height:</b> 52<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_d64551e8bd17a14780faebbe980b5e67.setContent(html_e4652ed8f63b0fa638b77b7b304e5422);
+        
+
+        marker_2e2ea7cfe589d1d1d1fa85c9421dbb8c.bindPopup(popup_d64551e8bd17a14780faebbe980b5e67)
+        ;
+
+        
+    
+    
+            var marker_e996b1cf9cb95b310be533b52f614381 = L.marker(
+                [55.3042669659564, 10.5168153636113],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_fb1cc50a8a1664cde99aa0ab1bf433ea = L.popup({"maxWidth": 300});
+
+        
+            var html_fd783b7a52c17e41e852351cad596eab = $(`<div id="html_fd783b7a52c17e41e852351cad596eab" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28275<br>     <b>Name:</b> ORE/ÅRSLEV<br>     <b>Start:</b> 23.03.1998<br>     <b>End:</b> 30.04.2002<br>     <b>Lat:</b> 55.3042669659564<br>     <b>Long:</b> 10.5168153636113<br>     <b>Height:</b> 51<br>     <b>Report type:</b> casella     </div>`)[0];
+            popup_fb1cc50a8a1664cde99aa0ab1bf433ea.setContent(html_fd783b7a52c17e41e852351cad596eab);
+        
+
+        marker_e996b1cf9cb95b310be533b52f614381.bindPopup(popup_fb1cc50a8a1664cde99aa0ab1bf433ea)
+        ;
+
+        
+    
+    
+            var marker_93fbb05d02af30c78c24c17dc456ec77 = L.marker(
+                [55.3066879488292, 10.4798995766847],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_18fc9c1a57fb7ab90f08108fe5bd8e80 = L.popup({"maxWidth": 300});
+
+        
+            var html_213f9317a70cdb8357b53b81b2136c6a = $(`<div id="html_213f9317a70cdb8357b53b81b2136c6a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28275<br>     <b>Name:</b> SØNDER NÆRÅ / ÅRSLEV<br>     <b>Start:</b> 02.04.2003<br>     <b>End:</b> 01.08.2004<br>     <b>Lat:</b> 55.3066879488292<br>     <b>Long:</b> 10.4798995766847<br>     <b>Height:</b> 47<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_18fc9c1a57fb7ab90f08108fe5bd8e80.setContent(html_213f9317a70cdb8357b53b81b2136c6a);
+        
+
+        marker_93fbb05d02af30c78c24c17dc456ec77.bindPopup(popup_18fc9c1a57fb7ab90f08108fe5bd8e80)
+        ;
+
+        
+    
+    
+            var marker_9522894faa20b8917bb1708bf20f922d = L.marker(
+                [55.307950867447, 10.4950087041536],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_39b82fff7d1951549a3217df2bdcec8f = L.popup({"maxWidth": 300});
+
+        
+            var html_d9f75dd5b6c5deefae5d9427286f1068 = $(`<div id="html_d9f75dd5b6c5deefae5d9427286f1068" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28275<br>     <b>Name:</b> SØNDER NÆRÅ  <br>     <b>Start:</b> 11.08.2004<br>     <b>End:</b> 01.04.2009<br>     <b>Lat:</b> 55.307950867447<br>     <b>Long:</b> 10.4950087041536<br>     <b>Height:</b> 46<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_39b82fff7d1951549a3217df2bdcec8f.setContent(html_d9f75dd5b6c5deefae5d9427286f1068);
+        
+
+        marker_9522894faa20b8917bb1708bf20f922d.bindPopup(popup_39b82fff7d1951549a3217df2bdcec8f)
+        ;
+
+        
+    
+    
+            var marker_5fa9346d13b5ca0d4f53a2494f051169 = L.marker(
+                [55.3072569284981, 10.4443774830101],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_31afa605fbb6d6420276c14a8ace29ff = L.popup({"maxWidth": 300});
+
+        
+            var html_32f55f17611a6531c19ccbd30cb9f585 = $(`<div id="html_32f55f17611a6531c19ccbd30cb9f585" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28280<br>     <b>Name:</b> ÅRSLEV<br>     <b>Start:</b> 01.08.1906<br>     <b>End:</b> 30.06.1978<br>     <b>Lat:</b> 55.3072569284981<br>     <b>Long:</b> 10.4443774830101<br>     <b>Height:</b> 48<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_31afa605fbb6d6420276c14a8ace29ff.setContent(html_32f55f17611a6531c19ccbd30cb9f585);
+        
+
+        marker_5fa9346d13b5ca0d4f53a2494f051169.bindPopup(popup_31afa605fbb6d6420276c14a8ace29ff)
+        ;
+
+        
+    
+    
+            var marker_3f6077efdb84b1c5c2ec5a999df47e57 = L.marker(
+                [55.3086610883488, 10.4396230826846],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_9c59120421b4df1a95e88b81ed20cc69 = L.popup({"maxWidth": 300});
+
+        
+            var html_98b9679ef3f9d980a417b47cc5091f0c = $(`<div id="html_98b9679ef3f9d980a417b47cc5091f0c" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28280<br>     <b>Name:</b> ÅRSLEV<br>     <b>Start:</b> 01.07.1978<br>     <b>End:</b> 01.04.1998<br>     <b>Lat:</b> 55.3086610883488<br>     <b>Long:</b> 10.4396230826846<br>     <b>Height:</b> 49<br>     <b>Report type:</b> clima_man     </div>`)[0];
+            popup_9c59120421b4df1a95e88b81ed20cc69.setContent(html_98b9679ef3f9d980a417b47cc5091f0c);
+        
+
+        marker_3f6077efdb84b1c5c2ec5a999df47e57.bindPopup(popup_9c59120421b4df1a95e88b81ed20cc69)
+        ;
+
+        
+    
+    
+            var marker_6846602b8ae9d5b249ee98c72de63076 = L.marker(
+                [55.3072569284981, 10.4443774830101],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_a74fadfc5c43d47d0b891a1ff5f085a4 = L.popup({"maxWidth": 300});
+
+        
+            var html_3d593c33384950de55ec884e75a1664d = $(`<div id="html_3d593c33384950de55ec884e75a1664d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28280<br>     <b>Name:</b> ÅRSLEV<br>     <b>Start:</b> 01.10.1916<br>     <b>End:</b> 31.07.1972<br>     <b>Lat:</b> 55.3072569284981<br>     <b>Long:</b> 10.4443774830101<br>     <b>Height:</b> 48<br>     <b>Report type:</b> fuess     </div>`)[0];
+            popup_a74fadfc5c43d47d0b891a1ff5f085a4.setContent(html_3d593c33384950de55ec884e75a1664d);
+        
+
+        marker_6846602b8ae9d5b249ee98c72de63076.bindPopup(popup_a74fadfc5c43d47d0b891a1ff5f085a4)
+        ;
+
+        
+    
+    
+            var marker_3da66e7400f580d823a70571355285b0 = L.marker(
+                [55.3072569284981, 10.4443774830101],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_7edaab2ec9bb9b389e4f0e1a8a8cf766 = L.popup({"maxWidth": 300});
+
+        
+            var html_9253050dbcc651b2378120ad998f7628 = $(`<div id="html_9253050dbcc651b2378120ad998f7628" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28280<br>     <b>Name:</b> ÅRSLEV<br>     <b>Start:</b> 01.08.1965<br>     <b>End:</b> 30.06.1978<br>     <b>Lat:</b> 55.3072569284981<br>     <b>Long:</b> 10.4443774830101<br>     <b>Height:</b> 48<br>     <b>Report type:</b> casella     </div>`)[0];
+            popup_7edaab2ec9bb9b389e4f0e1a8a8cf766.setContent(html_9253050dbcc651b2378120ad998f7628);
+        
+
+        marker_3da66e7400f580d823a70571355285b0.bindPopup(popup_7edaab2ec9bb9b389e4f0e1a8a8cf766)
+        ;
+
+        
+    
+    
+            var marker_f14b4ef3d66757a4c28f44ec9e6fe6c8 = L.marker(
+                [55.3086610883488, 10.4396230826846],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_067ed447d52933b1957e1581d0540f87 = L.popup({"maxWidth": 300});
+
+        
+            var html_fb5bbabf6a1eb269716f57b33903f40b = $(`<div id="html_fb5bbabf6a1eb269716f57b33903f40b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28280<br>     <b>Name:</b> ÅRSLEV<br>     <b>Start:</b> 01.07.1978<br>     <b>End:</b> 01.04.1998<br>     <b>Lat:</b> 55.3086610883488<br>     <b>Long:</b> 10.4396230826846<br>     <b>Height:</b> 49<br>     <b>Report type:</b> casella     </div>`)[0];
+            popup_067ed447d52933b1957e1581d0540f87.setContent(html_fb5bbabf6a1eb269716f57b33903f40b);
+        
+
+        marker_f14b4ef3d66757a4c28f44ec9e6fe6c8.bindPopup(popup_067ed447d52933b1957e1581d0540f87)
+        ;
+
+        
+    
+    
+            var marker_5b2d1c57b127c9308da3ad244a75bc9a = L.marker(
+                [55.3086610883488, 10.4396230826846],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_44aa4e1f3a7d4e61dd8abb6ebabc77cd = L.popup({"maxWidth": 300});
+
+        
+            var html_069c920b62d3cafe5a34492c6b65ba0d = $(`<div id="html_069c920b62d3cafe5a34492c6b65ba0d" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28280<br>     <b>Name:</b> ÅRSLEV<br>     <b>Start:</b> 01.01.2012<br>     <b>End:</b> 19.11.2019<br>     <b>Lat:</b> 55.3086610883488<br>     <b>Long:</b> 10.4396230826846<br>     <b>Height:</b> 49<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_44aa4e1f3a7d4e61dd8abb6ebabc77cd.setContent(html_069c920b62d3cafe5a34492c6b65ba0d);
+        
+
+        marker_5b2d1c57b127c9308da3ad244a75bc9a.bindPopup(popup_44aa4e1f3a7d4e61dd8abb6ebabc77cd)
+        ;
+
+        
+    
+    
+            var marker_91da4d67aadd26eeeef9be39a6a1275b = L.marker(
+                [55.325701345216, 10.4380024055376],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_15681df2af8a97cd37751cc15b4c9c46 = L.popup({"maxWidth": 300});
+
+        
+            var html_a7181f8dea7ed3277e6500fc04994a05 = $(`<div id="html_a7181f8dea7ed3277e6500fc04994a05" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28280<br>     <b>Name:</b> HØJBY<br>     <b>Start:</b> 20.11.2019<br>     <b>End:</b> 01.05.2021<br>     <b>Lat:</b> 55.325701345216<br>     <b>Long:</b> 10.4380024055376<br>     <b>Height:</b> 41<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_15681df2af8a97cd37751cc15b4c9c46.setContent(html_a7181f8dea7ed3277e6500fc04994a05);
+        
+
+        marker_91da4d67aadd26eeeef9be39a6a1275b.bindPopup(popup_15681df2af8a97cd37751cc15b4c9c46)
+        ;
+
+        
+    
+    
+            var marker_d7fc30e1cff233a525036e484af63a41 = L.marker(
+                [55.3086610883488, 10.4396230826846],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_1604cace639f917b0dfed1c7bc2ae1a7 = L.popup({"maxWidth": 300});
+
+        
+            var html_419f0a55d00044088f7970b025060d86 = $(`<div id="html_419f0a55d00044088f7970b025060d86" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28281<br>     <b>Name:</b> ÅRSLEV II<br>     <b>Start:</b> 01.07.1978<br>     <b>End:</b> 30.04.1985<br>     <b>Lat:</b> 55.3086610883488<br>     <b>Long:</b> 10.4396230826846<br>     <b>Height:</b> 49<br>     <b>Report type:</b> clima_aut     </div>`)[0];
+            popup_1604cace639f917b0dfed1c7bc2ae1a7.setContent(html_419f0a55d00044088f7970b025060d86);
+        
+
+        marker_d7fc30e1cff233a525036e484af63a41.bindPopup(popup_1604cace639f917b0dfed1c7bc2ae1a7)
+        ;
+
+        
+    
+    
+            var marker_b5793fd0fb9201d5675375ba59a9944e = L.marker(
+                [55.3086610883488, 10.4396230826846],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_e7cdeb307cfeee7cbdd29b2d55c3aa55 = L.popup({"maxWidth": 300});
+
+        
+            var html_758b972cc03b52c7f44a6b4eac93328b = $(`<div id="html_758b972cc03b52c7f44a6b4eac93328b" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28281<br>     <b>Name:</b> ÅRSLEV II<br>     <b>Start:</b> 19.09.1986<br>     <b>End:</b> 06.06.2001<br>     <b>Lat:</b> 55.3086610883488<br>     <b>Long:</b> 10.4396230826846<br>     <b>Height:</b> 49<br>     <b>Report type:</b> clima_aut     </div>`)[0];
+            popup_e7cdeb307cfeee7cbdd29b2d55c3aa55.setContent(html_758b972cc03b52c7f44a6b4eac93328b);
+        
+
+        marker_b5793fd0fb9201d5675375ba59a9944e.bindPopup(popup_e7cdeb307cfeee7cbdd29b2d55c3aa55)
+        ;
+
+        
+    
+    
+            var marker_94ec91f8ac588a1397cb3557d74e4d48 = L.marker(
+                [55.3087844383303, 10.439832372857],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_65806c0ff9b2730d20fffa7078e6281e = L.popup({"maxWidth": 300});
+
+        
+            var html_250686a1c2ee03a9a1e75402c5f10b3f = $(`<div id="html_250686a1c2ee03a9a1e75402c5f10b3f" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28281<br>     <b>Name:</b> ÅRSLEV<br>     <b>Start:</b> 14.06.2001<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.3087844383303<br>     <b>Long:</b> 10.439832372857<br>     <b>Height:</b> 49<br>     <b>Report type:</b> synop_dk     </div>`)[0];
+            popup_65806c0ff9b2730d20fffa7078e6281e.setContent(html_250686a1c2ee03a9a1e75402c5f10b3f);
+        
+
+        marker_94ec91f8ac588a1397cb3557d74e4d48.bindPopup(popup_65806c0ff9b2730d20fffa7078e6281e)
+        ;
+
+        
+    
+    
+            var marker_fdd033b2dec8d97e96192aa444197fe9 = L.marker(
+                [55.2156342265746, 10.4482094632054],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_4c20b9b94d56e69fd108cdd0b86a976c = L.popup({"maxWidth": 300});
+
+        
+            var html_95e922b41d3d6ab856da52ebd21f9f2a = $(`<div id="html_95e922b41d3d6ab856da52ebd21f9f2a" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28290<br>     <b>Name:</b> BOLTINGGÅRD<br>     <b>Start:</b> 01.05.1967<br>     <b>End:</b> 31.12.1969<br>     <b>Lat:</b> 55.2156342265746<br>     <b>Long:</b> 10.4482094632054<br>     <b>Height:</b> 53<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_4c20b9b94d56e69fd108cdd0b86a976c.setContent(html_95e922b41d3d6ab856da52ebd21f9f2a);
+        
+
+        marker_fdd033b2dec8d97e96192aa444197fe9.bindPopup(popup_4c20b9b94d56e69fd108cdd0b86a976c)
+        ;
+
+        
+    
+    
+            var marker_29bf7e0dd79cee719b4ac55f6b609827 = L.marker(
+                [55.2101274929361, 10.4080895789674],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_67a1b75afff0a79ca86d2c0b992e0ee0 = L.popup({"maxWidth": 300});
+
+        
+            var html_fd173302ef8b2e14247c6055a6d74634 = $(`<div id="html_fd173302ef8b2e14247c6055a6d74634" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28290<br>     <b>Name:</b> ESPE<br>     <b>Start:</b> 01.06.1970<br>     <b>End:</b> 30.09.1994<br>     <b>Lat:</b> 55.2101274929361<br>     <b>Long:</b> 10.4080895789674<br>     <b>Height:</b> 63<br>     <b>Report type:</b> precip_man     </div>`)[0];
+            popup_67a1b75afff0a79ca86d2c0b992e0ee0.setContent(html_fd173302ef8b2e14247c6055a6d74634);
+        
+
+        marker_29bf7e0dd79cee719b4ac55f6b609827.bindPopup(popup_67a1b75afff0a79ca86d2c0b992e0ee0)
+        ;
+
+        
+    
+    
+            var marker_1dcc756d0267da77e10fdc6f9d729c28 = L.marker(
+                [55.1990033776367, 10.4756050518223],
+                {}
+            ).addTo(map_39ce4e552b96b7f60c6296db16708bfc);
+        
+    
+        var popup_a841d134ba4e095fd1a968d2c21c0245 = L.popup({"maxWidth": 300});
+
+        
+            var html_34f3e49c462246f038282df2fcf0c6da = $(`<div id="html_34f3e49c462246f038282df2fcf0c6da" style="width: 100.0%; height: 100.0%;">     <b>StatID:</b> 28295<br>     <b>Name:</b> RUDME<br>     <b>Start:</b> 16.12.2024<br>     <b>End:</b> infinity<br>     <b>Lat:</b> 55.1990033776367<br>     <b>Long:</b> 10.4756050518223<br>     <b>Height:</b> 71<br>     <b>Report type:</b> snow_man     </div>`)[0];
+            popup_a841d134ba4e095fd1a968d2c21c0245.setContent(html_34f3e49c462246f038282df2fcf0c6da);
+        
+
+        marker_1dcc756d0267da77e10fdc6f9d729c28.bindPopup(popup_a841d134ba4e095fd1a968d2c21c0245)
+        ;
+
+        
+    
+</script>
+</html>
