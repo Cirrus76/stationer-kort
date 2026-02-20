@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f986229e9597c200b9be904af2ae8f58 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f986229e9597c200b9be904af2ae8f58" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f986229e9597c200b9be904af2ae8f58 = L.map(
+                "map_f986229e9597c200b9be904af2ae8f58",
+                {
+                    center: [55.9653595378972, 9.39218486537184],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9b947b62162e974957fe53dd2804be5f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+            var marker_c1f79b6bf1499f444c80c1a8dc73b481 = L.marker(
+                [55.96050041886, 9.3930583605206],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_11ff197c3fb434db5424d2a678678227 = L.popup({"maxWidth": 400});
+
+        
+            var html_2469d3b1bca2a158a8acac60d17c2665 = $(`<div id="html_2469d3b1bca2a158a8acac60d17c2665" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1957-07-01<br>         <b>Slutdato:</b> 1995-12-31<br>         <b>Lat.:</b> 55.96050041886<br>         <b>Long.:</b> 9.3930583605206<br>         <b>Højde over havet:</b> 119 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_11ff197c3fb434db5424d2a678678227.setContent(html_2469d3b1bca2a158a8acac60d17c2665);
+        
+
+        marker_c1f79b6bf1499f444c80c1a8dc73b481.bindPopup(popup_11ff197c3fb434db5424d2a678678227)
+        ;
+
+        
+    
+    
+            var marker_59d13b95e6d2bc58f9a344c783d8e8b5 = L.marker(
+                [55.9622064968237, 9.3933960088682],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_9a0a30d25bc3e3f3338c6fcfcc2096f1 = L.popup({"maxWidth": 400});
+
+        
+            var html_044df46929d70e2fd088e0db6e3b787a = $(`<div id="html_044df46929d70e2fd088e0db6e3b787a" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1953-11-01<br>         <b>Slutdato:</b> 1957-06-30<br>         <b>Lat.:</b> 55.9622064968237<br>         <b>Long.:</b> 9.3933960088682<br>         <b>Højde over havet:</b> 121 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_9a0a30d25bc3e3f3338c6fcfcc2096f1.setContent(html_044df46929d70e2fd088e0db6e3b787a);
+        
+
+        marker_59d13b95e6d2bc58f9a344c783d8e8b5.bindPopup(popup_9a0a30d25bc3e3f3338c6fcfcc2096f1)
+        ;
+
+        
+    
+    
+            var marker_966e0da7c1f2b6007e84394b56d34e08 = L.marker(
+                [55.9623718492228, 9.3836905417184],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_0b32728bd30c840fa7018517dad02aa0 = L.popup({"maxWidth": 400});
+
+        
+            var html_ee9123dc12fa846baa9498e3471cb232 = $(`<div id="html_ee9123dc12fa846baa9498e3471cb232" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 2001-07-02<br>         <b>Slutdato:</b> 2010-01-01<br>         <b>Lat.:</b> 55.9623718492228<br>         <b>Long.:</b> 9.3836905417184<br>         <b>Højde over havet:</b> 99 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_0b32728bd30c840fa7018517dad02aa0.setContent(html_ee9123dc12fa846baa9498e3471cb232);
+        
+
+        marker_966e0da7c1f2b6007e84394b56d34e08.bindPopup(popup_0b32728bd30c840fa7018517dad02aa0)
+        ;
+
+        
+    
+    
+            var marker_a91455e249219087289aa39973a4e3be = L.marker(
+                [55.9637303191841, 9.3945327854979],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_923abfc7b97ed71bbc93d10923b24b52 = L.popup({"maxWidth": 400});
+
+        
+            var html_5a2204b7ece86067246328b431babf68 = $(`<div id="html_5a2204b7ece86067246328b431babf68" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1870-05-01<br>         <b>Slutdato:</b> 1905-07-31<br>         <b>Lat.:</b> 55.9637303191841<br>         <b>Long.:</b> 9.3945327854979<br>         <b>Højde over havet:</b> 123 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>                  <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1911-11-01<br>         <b>Slutdato:</b> 1944-06-30<br>         <b>Lat.:</b> 55.9637303191841<br>         <b>Long.:</b> 9.3945327854979<br>         <b>Højde over havet:</b> 123 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_923abfc7b97ed71bbc93d10923b24b52.setContent(html_5a2204b7ece86067246328b431babf68);
+        
+
+        marker_a91455e249219087289aa39973a4e3be.bindPopup(popup_923abfc7b97ed71bbc93d10923b24b52)
+        ;
+
+        
+    
+    
+            var marker_3c1b52dd68c5070574c06964fdfcb085 = L.marker(
+                [55.9639936967823, 9.3964577512539],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_f4ca8e9d8c2e41c41edb66707f37652b = L.popup({"maxWidth": 400});
+
+        
+            var html_94ab3d393373edf63d93c32bddac396f = $(`<div id="html_94ab3d393373edf63d93c32bddac396f" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1944-07-01<br>         <b>Slutdato:</b> 1953-10-31<br>         <b>Lat.:</b> 55.9639936967823<br>         <b>Long.:</b> 9.3964577512539<br>         <b>Højde over havet:</b> 125 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_f4ca8e9d8c2e41c41edb66707f37652b.setContent(html_94ab3d393373edf63d93c32bddac396f);
+        
+
+        marker_3c1b52dd68c5070574c06964fdfcb085.bindPopup(popup_f4ca8e9d8c2e41c41edb66707f37652b)
+        ;
+
+        
+    
+    
+            var marker_f01017af8b9cf519f278190585080531 = L.marker(
+                [55.9648151308759, 9.3924612943728],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_f09529129a4c14ebb52acc1afb8f6d2d = L.popup({"maxWidth": 400});
+
+        
+            var html_d618208487f03d83cb08ba3f33eea218 = $(`<div id="html_d618208487f03d83cb08ba3f33eea218" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1905-08-01<br>         <b>Slutdato:</b> 1911-10-31<br>         <b>Lat.:</b> 55.9648151308759<br>         <b>Long.:</b> 9.3924612943728<br>         <b>Højde over havet:</b> 117 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_f09529129a4c14ebb52acc1afb8f6d2d.setContent(html_d618208487f03d83cb08ba3f33eea218);
+        
+
+        marker_f01017af8b9cf519f278190585080531.bindPopup(popup_f09529129a4c14ebb52acc1afb8f6d2d)
+        ;
+
+        
+    
+    
+            var marker_6e01b08a191121959d71cb2a01ca4a90 = L.marker(
+                [55.9690323315522, 9.3942662841341],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_61abfbfb40acf47264f21aeda6c2ca63 = L.popup({"maxWidth": 400});
+
+        
+            var html_d654d764623efa02a8293b11b2cc837d = $(`<div id="html_d654d764623efa02a8293b11b2cc837d" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1862-11-01<br>         <b>Slutdato:</b> 1870-04-30<br>         <b>Lat.:</b> 55.9690323315522<br>         <b>Long.:</b> 9.3942662841341<br>         <b>Højde over havet:</b> 113 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_61abfbfb40acf47264f21aeda6c2ca63.setContent(html_d654d764623efa02a8293b11b2cc837d);
+        
+
+        marker_6e01b08a191121959d71cb2a01ca4a90.bindPopup(popup_61abfbfb40acf47264f21aeda6c2ca63)
+        ;
+
+        
+    
+    
+            var marker_f7b5a95f6dde454bca3022bca8a448a7 = L.marker(
+                [55.9690606837969, 9.3852947266384],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_83cde6c7db43427435f379ee358814c3 = L.popup({"maxWidth": 400});
+
+        
+            var html_9c8fd9c3630a6140589bafd48dea7761 = $(`<div id="html_9c8fd9c3630a6140589bafd48dea7761" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1996-01-01<br>         <b>Slutdato:</b> 1996-08-30<br>         <b>Lat.:</b> 55.9690606837969<br>         <b>Long.:</b> 9.3852947266384<br>         <b>Højde over havet:</b> 96 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_83cde6c7db43427435f379ee358814c3.setContent(html_9c8fd9c3630a6140589bafd48dea7761);
+        
+
+        marker_f7b5a95f6dde454bca3022bca8a448a7.bindPopup(popup_83cde6c7db43427435f379ee358814c3)
+        ;
+
+        
+    
+    
+            var marker_8a2bb1ebc272dbfafc9ae8f95f18b328 = L.marker(
+                [55.97415413269, 9.3941581152162],
+                {}
+            ).addTo(map_f986229e9597c200b9be904af2ae8f58);
+        
+    
+        var popup_6801ddcce73d3f310d7442e1f0f86994 = L.popup({"maxWidth": 400});
+
+        
+            var html_167a8d88a9ee5cd6b02d18e176198271 = $(`<div id="html_167a8d88a9ee5cd6b02d18e176198271" style="width: 100.0%; height: 100.0%;">         <b>StationsID:</b> 23050<br>         <b>Navn:</b> Nørre Snede<br>         <b>Startdato:</b> 1996-08-31<br>         <b>Slutdato:</b> 2001-06-01<br>         <b>Lat.:</b> 55.97415413269<br>         <b>Long.:</b> 9.3941581152162<br>         <b>Højde over havet:</b> 85 m<br>         <b>Stationstype:</b> precip_man<br>         <hr>         </div>`)[0];
+            popup_6801ddcce73d3f310d7442e1f0f86994.setContent(html_167a8d88a9ee5cd6b02d18e176198271);
+        
+
+        marker_8a2bb1ebc272dbfafc9ae8f95f18b328.bindPopup(popup_6801ddcce73d3f310d7442e1f0f86994)
+        ;
+
+        
+    
+</script>
+</html>
